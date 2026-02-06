@@ -14,10 +14,7 @@ A simple Gemini capsule that mirrors the content of [coredump.ch](https://www.co
 ### 1. Generate Content
 To update the mirrored content:
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements-gen.txt
-python generate.py
+uv run generate.py
 ```
 
 ### 2. Run with Docker
