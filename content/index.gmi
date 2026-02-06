@@ -1,0 +1,78 @@
+# Coredump – Hacker- und Makerspace in Rapperswil-Jona
+
+Als erster kombinierter Hackerspace und Makerspace am Obersee bieten wir Computer-, Technik- und Handwerkbegeisterten seit August 2013 die Infrastruktur und das Know-How, um nichtkommerzielle Projekte alleine oder in Kollaboration zu realisieren. Es geht dabei beim “Hacken” nicht um das bösartige Eindringen in Computernetze, wie es in den Medien häufig dargestellt wird, sondern gemäss der ursprünglichen Definition eines Hackers um den kreativen Umgang mit Technik und Wissen.
+
+=> https://hackerspaces.org/ Hackerspace
+=> https://www.makerspaces.com/what-is-a-makerspace/ Makerspace
+=> https://de.wikipedia.org/wiki/Hacker ursprünglichen Definition eines Hackers
+## Unsere Ziele
+* Wir möchten die Infrastruktur bieten um nichtkommerzielle Projekte im Technik- und Handwerkbereich zu realisieren.
+* Wir möchten eine Community aufbauen, wo man Ideen verwirklichen und Neues lernen kann!
+* Wir möchten den Austausch von Wissen fördern, bei regelmässigen Treffen sowie an Vorträgen oder Workshops.
+## Was wir bieten
+Unser Vereinsraum ist 120m² gross und unterteilt in die Bereiche “Hackerspace” und “Makerspace”. Für Mitglieder sind die Räumlichkeiten jederzeit zugänglich.
+
+In unserem Hackerspace bieten wir:
+
+* Eine Elektronik-Werkstatt mit Lötstationen, Entlötstation, SMD-Rework-Station, Reflow-Ofen, Labornetzteilen, Messgeräten (Multimeter, Oszilloskop, Strom-Messgeräte), Digitalmikroskop, Platinen-Ätzgerät, etc.
+=> https://interna.coredump.ch/inventory/?category=electronics_lab Elektronik-Werkstatt
+=> https://www.coredump.ch/2018/01/03/neu-im-hackerspace-digital-mikroskop/ Digitalmikroskop
+* Mehrere 3D-Drucker (Ultimaker 2+, Prusa I3, Elegoo Mars) mit diversen Druckmaterialien sowie je eine Kinect 1/2 zum 3D-Scannen von Objekten
+=> https://interna.coredump.ch/inventory/?category=manufacturing 3D-Drucker
+* Laptop-Arbeitsplätze sowie diverse Computer und Drucker
+=> https://interna.coredump.ch/inventory/?category=computers_network diverse Computer und Drucker
+* Beamer, damit man auch Vorträge halten kann
+* Eine Näh-Ecke mit Nähmaschine sowie ein Schneidplotter, welcher auch Stoff schneiden kann
+=> https://www.coredump.ch/2019/10/19/neue-nah-ecke/ Näh-Ecke mit Nähmaschine
+* Eine Sofa-Sitzecke mit Kühlschrank, Mikrowelle, Beamer und Leinwand
+* Soundsystem mit MPD
+=> https://www.musicpd.org/ MPD
+In unserem Makerspace bieten wir:
+
+* Einen 80W CO2-Lasercutter
+* Eine CNC-Fräse
+* Zwei Drehbänke zur Metallbearbeitung
+* Diverses Handwerkzeug
+* Maschinen zur Holzbearbeitung: Bohrmaschinen, Exzenterschleifer, Bandschleifmaschine, Handkreissäge, Tischkreissäge, Bandsäge, Stichsäge, Dekupiersäge
+* Eine Graviermaschine (Gravograph)
+* Einen grossen Arbeitstisch
+* …und vieles mehr
+## Was wir tun
+Wir treffen uns jede Woche am Montagabend im Hackerspace zur “Weekly Hacknight”. Meistens sind 8-10 Personen anwesend, die an ihren Projekten arbeiten, gemeinsam ein Bier oder eine Mate trinken, oder spannende Themen diskutieren.
+
+Jeden Herbst führen wir für die Schulkinder von Rapperswil-Jona 1-2 Ferienpass-Kurse durch. Meistens geht es dabei ums Löten oder Programmieren. Wir möchten mit unseren Angeboten die Kinder für Technik begeistern und ihnen zeigen, wie man damit kreativ sein kann.
+
+=> https://www.coredump.ch/tag/ferienpass/ 1-2 Ferienpass-Kurse durch
+Ab und zu gibt’s natürlich auch andere Vereins-Events, z.B. das Eröffnungsfest, eine LAN-Party für Nostalgiker oder ein Besuch in den Adventure Rooms des Technorama. Einige unserer Mitglieder organisieren auch Meetups, welche manchmal im Coredump stattfinden.
+
+=> https://www.coredump.ch/2018/09/17/ruckblick-eroffnungsfest/ das Eröffnungsfest
+=> https://www.coredump.ch/2019/10/14/age-of-empires-ii-lan/ LAN-Party für Nostalgiker
+=> https://www.coredump.ch/event/escape-room-technorama/ Besuch in den Adventure Rooms des Technorama
+=> https://www.meetup.com/Rust-Zurich/ Meetups
+All unsere Anlässe findest du im Eventkalender. Regelmässige News gibt’s im Blog.
+
+=> https://www.coredump.ch/events/ im Eventkalender
+=> https://www.coredump.ch/blog/ im Blog
+## Galerie
+* 
+* 
+* 
+* 
+* 
+* 
+## Wo wir sind
+Unsere Räumlichkeiten befinden sich an der Eichwiesstrasse 4 in Jona. Der Raum befindet sich im UG und ist durch die Garage erreichbar.
+
+Weitere Informationen (Anreise, Parkmöglichkeiten, etc) findest du auf unserer Kontakt-Seite.
+
+=> https://www.coredump.ch/kontakt/ auf unserer Kontakt-Seite
+## Besuch & Mitgliedschaft
+Selbstverständlich sind Besucher jederzeit willkommen. Am besten kommst du am Montagabend ab 20:30 Uhr vorbei. Den Öffnungsstatus siehst du auf dieser Website (am Computer oben rechts, in der mobilen Ansicht ganz unten).
+
+Wenn du schon einmal im Space warst und dir dieser gefällt, darfst du sehr gerne auch Vereinsmitglied werden. Alle Informationen dazu findest du auf unserer Mitgliedschafts-Seite.
+
+=> https://www.coredump.ch/der-verein/mitgliedschaft/ Mitgliedschafts-Seite
+## Gönnerschaft & Sponsoring
+Falls du uns passiv unterstützen möchtest, freuen wir uns auch über private Gönner! Ebenso gibt es die Möglichkeit für Firmen, Sponsor unseres Vereins zu werden. Infos zu Gönnerschaften und Sponsorings gibt es auf dieser Unterseite.
+
+=> https://www.coredump.ch/der-verein/gonner-und-sponsoren/ auf dieser Unterseite
