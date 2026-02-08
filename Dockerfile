@@ -9,6 +9,7 @@ WORKDIR /app
 COPY content/ ./content/
 # Create a directory for certificates
 RUN mkdir certs
+VOLUME ["/app/certs"]
 
 # Expose Gemini port
 EXPOSE 1965
