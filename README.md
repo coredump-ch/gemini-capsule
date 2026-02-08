@@ -21,7 +21,14 @@ uv run generate.py
 Build and run the Gemini server:
 ```bash
 docker build -t gemini-capsule .
-docker run -p 1965:1965 gemini-capsule
+docker run -p 1965:1965 -v gemini_certs:/app/certs gemini-capsule
+```
+
+### 3. Run with Docker Compose (Recommended)
+You can also use Docker Compose to run the server and persist certificates automatically:
+
+```bash
+docker-compose up -d
 ```
 
 The server will be available at `gemini://localhost/`. Note that it uses self-signed certificates generated on the fly.

@@ -1,0 +1,10 @@
+services:
+  gemini:
+    build: .
+    ports:
+      - "1965:1965"
+    volumes:
+      - certs_data:/app/certs
+
+volumes:
+  certs_data:
