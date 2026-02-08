@@ -14,7 +14,6 @@ VOLUME ["/app/certs"]
 # Expose Gemini port
 EXPOSE 1965
 
-# Start agate. 
-# --hostname should be set at runtime or defaulted.
-# For simplicity, we'll use localhost but in production this should be the real hostname.
-CMD ["agate", "--content", "content/", "--certs", "certs/", "--hostname", "localhost"]
+# Start agate using the entrypoint script
+COPY entrypoint.sh /app/entrypoint.sh
+ENTRYPOINT ["/app/entrypoint.sh"]

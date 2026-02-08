@@ -5,6 +5,8 @@ services:
       - "1965:1965"
     volumes:
       - certs_data:/app/certs
+    environment:
+      - GEMINI_HOSTNAME=localhost
 
 volumes:
   certs_data:
