@@ -31,4 +31,19 @@ You can also use Docker Compose to run the server and persist certificates autom
 docker-compose up -d
 ```
 
+## Configuration
+
+You can configure the hostname using the `GEMINI_HOSTNAME` environment variable.
+
+With Docker:
+```bash
+docker run -p 1965:1965 -v gemini_certs:/app/certs -e GEMINI_HOSTNAME=example.com gemini-capsule
+```
+
+With Docker Compose:
+Modify the `docker-compose.yml` file or set the variable in your shell:
+```bash
+GEMINI_HOSTNAME=example.com docker-compose up -d
+```
+
 The server will be available at `gemini://localhost/`. Note that it uses self-signed certificates generated on the fly.
