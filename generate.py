@@ -48,10 +48,16 @@ def convert_to_gemini(url, target_filename, pages_map):
             elif element.name == "h3":
                 gmi_lines.append(f"### {clean_text(element.get_text())}")
             elif element.name == "p":
-                text = clean_text(element.get_text())
-                if text:
-                    gmi_lines.append(text)
-                    gmi_lines.append("")
+                # Handle <br> tags within paragraphs
+                for br in element.find_all("br"):
+                    br.replace_with("\n")
+                # Clean each line individually to preserve line breaks
+                lines = element.get_text().split("\n")
+                for line in lines:
+                    cleaned = clean_text(line)
+                    if cleaned:
+                        gmi_lines.append(cleaned)
+                gmi_lines.append("")
             elif element.name == "li":
                 text = clean_text(element.get_text())
                 if text:
