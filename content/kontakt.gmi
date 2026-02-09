@@ -1,0 +1,37 @@
+# Kontakt – Coredump
+
+### Online
+* Email: vorstand@coredump.ch
+=> mailto:vorstand@coredump.ch vorstand@coredump.ch
+* Mastodon: https://chaos.social/@coredump/
+=> https://chaos.social/@coredump/ https://chaos.social/@coredump/
+* Unter https://chat.coredump.ch/ betreiben wir eine Mattermost-Instanz als Vereins-Chat. Die Registration steht auch Nichtmitgliedern offen.
+=> https://chat.coredump.ch/ https://chat.coredump.ch/
+* IRC: Unser Channel ist #coredump auf libera.chat. Der Chat ist allerdings nicht sehr aktiv. Es besteht eine Bridge auf Mattermost.
+=> https://libera.chat/ libera.chat
+* Unter https://forum.coredump.ch/ findest du unser Diskussionsforum.
+=> https://forum.coredump.ch/ https://forum.coredump.ch/
+### Location
+Unser Raum befindet sich an folgender Adresse:
+
+Eichwiesstrasse 48645 Jona
+
+Space-Telefon: 055 508 14 13
+
+Unser Vereinsraum ist durch den Haupteingang an der Eichwiesstrasse 2/4 erreichbar. Danach durch das Treppenhaus ins UG und durch zwei weitere Türen in die Garage.
+
+Normalerweise sollte die Haupteingangs-Türe geöffnet sein. Falls sie doch mal abgeschlossen ist, kannst du um das Gebäude herumgehen und via Tiefgarage zu unserem Vereinsraum gelangen. Oder einfach die Nummer 055 508 14 13 anrufen, dann macht dir jemand auf (falls jemand anwesend ist).
+
+### Anreise: ÖV
+Das Gelände befindet sich nur 5-10 Minuten zu Fuss vom Bahnhof Jona, wo alle 15 Minuten ein Zug von/nach Zürich und Rapperswil fährt. Von Uznach her kommend, kann der Raum auch in 5-10 Minuten ab Bahnhof Blumenau erreicht werden.
+
+### Anreise: Auto
+Wir haben keine eigenen Parkplätze, bitte beim Bahnhof Jona (kostenpflichtig) parkieren.
+
+### Postadresse
+Bitte Post nicht an die Eichwiesstrasse senden, sondern an:
+
+Verein CoredumpLenzikon 32B8732 Neuhaus
+
+### Bankverbindung
+IBAN: CH77 0873 1545 3295 0200 1Empfänger: Verein Coredump, 8640 RapperswilBank: Bank Linth, 8640 Rapperswil

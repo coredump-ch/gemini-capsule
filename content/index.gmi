@@ -65,14 +65,14 @@ Unsere Räumlichkeiten befinden sich an der Eichwiesstrasse 4 in Jona. Der Raum 
 
 Weitere Informationen (Anreise, Parkmöglichkeiten, etc) findest du auf unserer Kontakt-Seite.
 
-=> https://www.coredump.ch/kontakt/ auf unserer Kontakt-Seite
+=> kontakt.gmi auf unserer Kontakt-Seite
 ## Besuch & Mitgliedschaft
 Selbstverständlich sind Besucher jederzeit willkommen. Am besten kommst du am Montagabend ab 20:30 Uhr vorbei. Den Öffnungsstatus siehst du auf dieser Website (am Computer oben rechts, in der mobilen Ansicht ganz unten).
 
 Wenn du schon einmal im Space warst und dir dieser gefällt, darfst du sehr gerne auch Vereinsmitglied werden. Alle Informationen dazu findest du auf unserer Mitgliedschafts-Seite.
 
-=> https://www.coredump.ch/der-verein/mitgliedschaft/ Mitgliedschafts-Seite
+=> der-verein/mitgliedschaft.gmi Mitgliedschafts-Seite
 ## Gönnerschaft & Sponsoring
 Falls du uns passiv unterstützen möchtest, freuen wir uns auch über private Gönner! Ebenso gibt es die Möglichkeit für Firmen, Sponsor unseres Vereins zu werden. Infos zu Gönnerschaften und Sponsorings gibt es auf dieser Unterseite.
 
-=> https://www.coredump.ch/der-verein/gonner-und-sponsoren/ auf dieser Unterseite
+=> der-verein/gonner-und-sponsoren.gmi auf dieser Unterseite
