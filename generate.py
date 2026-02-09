@@ -38,10 +38,17 @@ def convert_to_gemini(url):
                     gmi_lines.append(text)
                     gmi_lines.append("")
             elif element.name == "li":
-                gmi_lines.append(f"* {clean_text(element.get_text())}")
+                text = clean_text(element.get_text())
+                if text:
+                    gmi_lines.append(f"* {text}")
             elif element.name == "a":
                 href = element.get("href")
                 text = clean_text(element.get_text())
+                if not text:
+                    img = element.find("img")
+                    if img:
+                        text = img.get("alt") or os.path.basename(img.get("src", ""))
+
                 if href and text:
                     if href.startswith("/"):
                         href = "https://www.coredump.ch" + href
