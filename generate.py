@@ -46,12 +46,16 @@ def convert_to_gemini(url, target_filename, pages_map):
     gmi_lines.append(f"# {title}")
     gmi_lines.append("")
 
-    # Main content - focusing on the entry-content or similar
-    content = soup.find("div", class_="entry-content")
+    # Main content - focusing on the main or entry-content
+    content = soup.find("main")
     if not content:
-        content = soup.find("main")
+        content = soup.find("div", class_="entry-content")
 
     if content:
+        # Remove opening status widget
+        for widget in content.find_all(class_="widget_space_api_widget"):
+            widget.decompose()
+
         for element in content.find_all(["h1", "h2", "h3", "p", "ul", "li", "a"]):
             if element.name in ("h1", "h2", "h3"):
                 level = int(element.name[1])
@@ -131,6 +135,7 @@ def main():
     pages = {
         "https://www.coredump.ch/": "index.gmi",
         "https://www.coredump.ch/kontakt/": "kontakt.gmi",
+        "https://www.coredump.ch/blog/": "blog.gmi",
         "https://www.coredump.ch/der-verein/mitgliedschaft/": "der-verein/mitgliedschaft.gmi",
         "https://www.coredump.ch/der-verein/gonner-und-sponsoren/": (
             "der-verein/gonner-und-sponsoren.gmi"
