@@ -38,21 +38,6 @@ def download_image(url, target_dir="content/images"):
         return url  # Return original URL as fallback
 
 
-def get_relative_path(from_path, to_path):
-    """
-    Calculate relative path from one file to another.
-    Example: from_path='der-verein/mitgliedschaft.gmi', to_path='index.gmi'
-             returns '../index.gmi'
-    """
-    from_dir = os.path.dirname(from_path)
-    if not from_dir:
-        return to_path
-
-    # Simple relative path calculation for the current use case
-    levels = from_dir.count("/") + 1
-    return "../" * levels + to_path
-
-
 def convert_to_gemini(url, target_filename, pages_map):
     response = requests.get(url)
     response.raise_for_status()
