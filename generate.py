@@ -53,12 +53,9 @@ def convert_to_gemini(url, target_filename, pages_map):
 
     if content:
         for element in content.find_all(["h1", "h2", "h3", "p", "ul", "li", "a"]):
-            if element.name == "h1":
-                gmi_lines.append(f"# {clean_text(element.get_text())}")
-            elif element.name == "h2":
-                gmi_lines.append(f"## {clean_text(element.get_text())}")
-            elif element.name == "h3":
-                gmi_lines.append(f"### {clean_text(element.get_text())}")
+            if element.name in ("h1", "h2", "h3"):
+                level = int(element.name[1])
+                gmi_lines.append(f"{'#' * level} {clean_text(element.get_text())}")
             elif element.name == "p":
                 # Handle <br> tags within paragraphs
                 for br in element.find_all("br"):
