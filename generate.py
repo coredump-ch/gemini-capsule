@@ -1,6 +1,7 @@
+import os
+
 import requests
 from bs4 import BeautifulSoup
-import os
 
 
 def clean_text(text):
@@ -102,9 +103,7 @@ def convert_to_gemini(url, target_filename, pages_map):
 
     # Fallback if no specific content found
     if len(gmi_lines) <= 2:
-        gmi_lines.append(
-            "Could not extract main content. Please visit the website directly."
-        )
+        gmi_lines.append("Could not extract main content. Please visit the website directly.")
         gmi_lines.append(f"=> {url} Coredump Website")
 
     return "\n".join(gmi_lines)
@@ -115,7 +114,9 @@ def main():
         "https://www.coredump.ch/": "index.gmi",
         "https://www.coredump.ch/kontakt/": "kontakt.gmi",
         "https://www.coredump.ch/der-verein/mitgliedschaft/": "der-verein/mitgliedschaft.gmi",
-        "https://www.coredump.ch/der-verein/gonner-und-sponsoren/": "der-verein/gonner-und-sponsoren.gmi",
+        "https://www.coredump.ch/der-verein/gonner-und-sponsoren/": (
+            "der-verein/gonner-und-sponsoren.gmi"
+        ),
     }
 
     os.makedirs("content", exist_ok=True)
