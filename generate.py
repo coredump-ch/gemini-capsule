@@ -1,4 +1,5 @@
 import os
+import urllib.parse
 
 import requests
 from bs4 import BeautifulSoup
@@ -6,6 +7,35 @@ from bs4 import BeautifulSoup
 
 def clean_text(text):
     return " ".join(text.split())
+
+
+def download_image(url, target_dir="content/images"):
+    """Download an image and return the local path"""
+    try:
+        os.makedirs(target_dir, exist_ok=True)
+
+        # Extract filename from URL
+        parsed_url = urllib.parse.urlparse(url)
+        filename = os.path.basename(parsed_url.path)
+
+        # If no filename or it's just a directory, generate one
+        if not filename or "." not in filename:
+            filename = f"image_{hash(url) % 100000}.jpg"
+
+        local_path = os.path.join(target_dir, filename)
+
+        # Download if not already exists
+        if not os.path.exists(local_path):
+            response = requests.get(url)
+            response.raise_for_status()
+            with open(local_path, "wb") as f:
+                f.write(response.content)
+            print(f"Downloaded image: {filename}")
+
+        return local_path
+    except Exception as e:
+        print(f"Failed to download image {url}: {e}")
+        return url  # Return original URL as fallback
 
 
 def get_relative_path(from_path, to_path):
@@ -69,37 +99,56 @@ def convert_to_gemini(url, target_filename, pages_map):
                 if not text:
                     img = element.find("img")
                     if img:
-                        text = img.get("alt") or os.path.basename(img.get("src", ""))
+                        text = img.get("alt") or os.path.basename(str(img.get("src", "")))
 
                 if href and text:
-                    # Link rewriting
-                    # Normalize href for matching
-                    normalized_href = href
-                    if normalized_href.startswith("/"):
-                        normalized_href = "https://www.coredump.ch" + normalized_href
-                    if not normalized_href.endswith("/"):
-                        normalized_href += "/"
+                    href_str = str(href)
 
-                    link_rewritten = False
-                    for page_url, page_filename in pages_map.items():
-                        # Normalize page_url for matching
-                        norm_page_url = page_url
-                        if not norm_page_url.endswith("/"):
-                            norm_page_url += "/"
+                    # Check if this is an image link
+                    if any(
+                        href_str.lower().endswith(ext)
+                        for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]
+                    ):
+                        # Download the image and link to local version
+                        if href_str.startswith("/"):
+                            img_url = "https://www.coredump.ch" + href_str
+                        else:
+                            img_url = href_str
 
-                        if normalized_href == norm_page_url:
-                            # Calculate relative path
-                            relative_href = os.path.relpath(
-                                page_filename, os.path.dirname(target_filename)
-                            )
-                            gmi_lines.append(f"=> {relative_href} {text}")
-                            link_rewritten = True
-                            break
+                        local_path = download_image(img_url)
+                        relative_path = os.path.relpath(
+                            local_path,
+                            os.path.join("content", os.path.dirname(target_filename)),
+                        )
+                        gmi_lines.append(f"=> {relative_path} {text}")
+                    else:
+                        # Link rewriting for regular links
+                        normalized_href = href_str
+                        if normalized_href.startswith("/"):
+                            normalized_href = "https://www.coredump.ch" + normalized_href
+                        if not normalized_href.endswith("/"):
+                            normalized_href += "/"
 
-                    if not link_rewritten:
-                        if href.startswith("/"):
-                            href = "https://www.coredump.ch" + href
-                        gmi_lines.append(f"=> {href} {text}")
+                        link_rewritten = False
+                        for page_url, page_filename in pages_map.items():
+                            # Normalize page_url for matching
+                            norm_page_url = page_url
+                            if not norm_page_url.endswith("/"):
+                                norm_page_url += "/"
+
+                            if normalized_href == norm_page_url:
+                                # Calculate relative path
+                                relative_href = os.path.relpath(
+                                    page_filename, os.path.dirname(target_filename)
+                                )
+                                gmi_lines.append(f"=> {relative_href} {text}")
+                                link_rewritten = True
+                                break
+
+                        if not link_rewritten:
+                            if href_str.startswith("/"):
+                                href_str = "https://www.coredump.ch" + href_str
+                            gmi_lines.append(f"=> {href_str} {text}")
 
     # Fallback if no specific content found
     if len(gmi_lines) <= 2:
