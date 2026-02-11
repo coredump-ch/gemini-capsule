@@ -100,33 +100,24 @@ def convert_to_gemini(url, target_filename, pages_map):
                         )
                         gmi_lines.append(f"=> {relative_path} {text}")
                     else:
-                        # Link rewriting for regular links
-                        normalized_href = href_str
-                        if normalized_href.startswith("/"):
-                            normalized_href = "https://www.coredump.ch" + normalized_href
-                        if not normalized_href.endswith("/"):
-                            normalized_href += "/"
+                        # Normalize the link
+                        full_url = href_str
+                        if full_url.startswith("/"):
+                            full_url = "https://www.coredump.ch" + full_url
 
-                        link_rewritten = False
+                        # Try to match with internal pages
+                        norm_href = full_url if full_url.endswith("/") else full_url + "/"
+                        link_target = full_url
+
                         for page_url, page_filename in pages_map.items():
-                            # Normalize page_url for matching
-                            norm_page_url = page_url
-                            if not norm_page_url.endswith("/"):
-                                norm_page_url += "/"
-
-                            if normalized_href == norm_page_url:
-                                # Calculate relative path
-                                relative_href = os.path.relpath(
+                            norm_page_url = page_url if page_url.endswith("/") else page_url + "/"
+                            if norm_href == norm_page_url:
+                                link_target = os.path.relpath(
                                     page_filename, os.path.dirname(target_filename)
                                 )
-                                gmi_lines.append(f"=> {relative_href} {text}")
-                                link_rewritten = True
                                 break
 
-                        if not link_rewritten:
-                            if href_str.startswith("/"):
-                                href_str = "https://www.coredump.ch" + href_str
-                            gmi_lines.append(f"=> {href_str} {text}")
+                        gmi_lines.append(f"=> {link_target} {text}")
 
     # Fallback if no specific content found
     if len(gmi_lines) <= 2:
