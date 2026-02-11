@@ -14,28 +14,24 @@ def download_image(url, target_dir="content/images"):
     try:
         os.makedirs(target_dir, exist_ok=True)
 
-        # Extract filename from URL
-        parsed_url = urllib.parse.urlparse(url)
-        filename = os.path.basename(parsed_url.path)
-
-        # If no filename or it's just a directory, generate one
+        # Extract filename or generate one
+        filename = os.path.basename(urllib.parse.urlparse(url).path)
         if not filename or "." not in filename:
             filename = f"image_{hash(url) % 100000}.jpg"
 
         local_path = os.path.join(target_dir, filename)
 
-        # Download if not already exists
         if not os.path.exists(local_path):
-            response = requests.get(url)
-            response.raise_for_status()
+            resp = requests.get(url)
+            resp.raise_for_status()
             with open(local_path, "wb") as f:
-                f.write(response.content)
+                f.write(resp.content)
             print(f"Downloaded image: {filename}")
 
         return local_path
     except Exception as e:
         print(f"Failed to download image {url}: {e}")
-        return url  # Return original URL as fallback
+        return url
 
 
 def convert_to_gemini(url, target_filename, pages_map):
