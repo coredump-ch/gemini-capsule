@@ -54,12 +54,12 @@ All unsere Anlässe findest du im Eventkalender. Regelmässige News gibt’s im 
 => https://www.coredump.ch/events/ im Eventkalender
 => https://www.coredump.ch/blog/ im Blog
 ## Galerie
-=> https://www.coredump.ch/wp-content/uploads/2022/01/DSCF3080.small_-675x380.jpg DSCF3080.small_-150x150.jpg
-=> https://www.coredump.ch/wp-content/uploads/2022/01/DSCF3079.small_-675x380.jpg DSCF3079.small_-150x150.jpg
-=> https://www.coredump.ch/wp-content/uploads/2022/01/DSCF3081.small_-675x380.jpg DSCF3081.small_-150x150.jpg
-=> https://www.coredump.ch/wp-content/uploads/2022/01/header-675x270.jpg header-150x150.jpg
-=> https://www.coredump.ch/wp-content/uploads/2022/01/DSCF3075.small_-675x380.jpg DSCF3075.small_-150x150.jpg
-=> https://www.coredump.ch/wp-content/uploads/2022/01/DSCF3077.small_-675x380.jpg DSCF3077.small_-150x150.jpg
+=> images/DSCF3080.small_-675x380.jpg DSCF3080.small_-150x150.jpg
+=> images/DSCF3079.small_-675x380.jpg DSCF3079.small_-150x150.jpg
+=> images/DSCF3081.small_-675x380.jpg DSCF3081.small_-150x150.jpg
+=> images/header-675x270.jpg header-150x150.jpg
+=> images/DSCF3075.small_-675x380.jpg DSCF3075.small_-150x150.jpg
+=> images/DSCF3077.small_-675x380.jpg DSCF3077.small_-150x150.jpg
 ## Wo wir sind
 Unsere Räumlichkeiten befinden sich an der Eichwiesstrasse 4 in Jona. Der Raum befindet sich im UG und ist durch die Garage erreichbar.
 

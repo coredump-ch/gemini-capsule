@@ -1,4 +1,5 @@
 import os
+import urllib.parse
 
 import requests
 from bs4 import BeautifulSoup
@@ -8,19 +9,29 @@ def clean_text(text):
     return " ".join(text.split())
 
 
-def get_relative_path(from_path, to_path):
-    """
-    Calculate relative path from one file to another.
-    Example: from_path='der-verein/mitgliedschaft.gmi', to_path='index.gmi'
-             returns '../index.gmi'
-    """
-    from_dir = os.path.dirname(from_path)
-    if not from_dir:
-        return to_path
+def download_image(url, target_dir="content/images"):
+    """Download an image and return the local path"""
+    try:
+        os.makedirs(target_dir, exist_ok=True)
 
-    # Simple relative path calculation for the current use case
-    levels = from_dir.count("/") + 1
-    return "../" * levels + to_path
+        # Extract filename or generate one
+        filename = os.path.basename(urllib.parse.urlparse(url).path)
+        if not filename or "." not in filename:
+            filename = f"image_{hash(url) % 100000}.jpg"
+
+        local_path = os.path.join(target_dir, filename)
+
+        if not os.path.exists(local_path):
+            resp = requests.get(url)
+            resp.raise_for_status()
+            with open(local_path, "wb") as f:
+                f.write(resp.content)
+            print(f"Downloaded image: {filename}")
+
+        return local_path
+    except Exception as e:
+        print(f"Failed to download image {url}: {e}")
+        return url
 
 
 def convert_to_gemini(url, target_filename, pages_map):
@@ -42,12 +53,9 @@ def convert_to_gemini(url, target_filename, pages_map):
 
     if content:
         for element in content.find_all(["h1", "h2", "h3", "p", "ul", "li", "a"]):
-            if element.name == "h1":
-                gmi_lines.append(f"# {clean_text(element.get_text())}")
-            elif element.name == "h2":
-                gmi_lines.append(f"## {clean_text(element.get_text())}")
-            elif element.name == "h3":
-                gmi_lines.append(f"### {clean_text(element.get_text())}")
+            if element.name in ("h1", "h2", "h3"):
+                level = int(element.name[1])
+                gmi_lines.append(f"{'#' * level} {clean_text(element.get_text())}")
             elif element.name == "p":
                 # Handle <br> tags within paragraphs
                 for br in element.find_all("br"):
@@ -69,37 +77,47 @@ def convert_to_gemini(url, target_filename, pages_map):
                 if not text:
                     img = element.find("img")
                     if img:
-                        text = img.get("alt") or os.path.basename(img.get("src", ""))
+                        text = img.get("alt") or os.path.basename(str(img.get("src", "")))
 
                 if href and text:
-                    # Link rewriting
-                    # Normalize href for matching
-                    normalized_href = href
-                    if normalized_href.startswith("/"):
-                        normalized_href = "https://www.coredump.ch" + normalized_href
-                    if not normalized_href.endswith("/"):
-                        normalized_href += "/"
+                    href_str = str(href)
 
-                    link_rewritten = False
-                    for page_url, page_filename in pages_map.items():
-                        # Normalize page_url for matching
-                        norm_page_url = page_url
-                        if not norm_page_url.endswith("/"):
-                            norm_page_url += "/"
+                    # Check if this is an image link
+                    if any(
+                        href_str.lower().endswith(ext)
+                        for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]
+                    ):
+                        # Download the image and link to local version
+                        if href_str.startswith("/"):
+                            img_url = "https://www.coredump.ch" + href_str
+                        else:
+                            img_url = href_str
 
-                        if normalized_href == norm_page_url:
-                            # Calculate relative path
-                            relative_href = os.path.relpath(
-                                page_filename, os.path.dirname(target_filename)
-                            )
-                            gmi_lines.append(f"=> {relative_href} {text}")
-                            link_rewritten = True
-                            break
+                        local_path = download_image(img_url)
+                        relative_path = os.path.relpath(
+                            local_path,
+                            os.path.join("content", os.path.dirname(target_filename)),
+                        )
+                        gmi_lines.append(f"=> {relative_path} {text}")
+                    else:
+                        # Normalize the link
+                        full_url = href_str
+                        if full_url.startswith("/"):
+                            full_url = "https://www.coredump.ch" + full_url
 
-                    if not link_rewritten:
-                        if href.startswith("/"):
-                            href = "https://www.coredump.ch" + href
-                        gmi_lines.append(f"=> {href} {text}")
+                        # Try to match with internal pages
+                        norm_href = full_url if full_url.endswith("/") else full_url + "/"
+                        link_target = full_url
+
+                        for page_url, page_filename in pages_map.items():
+                            norm_page_url = page_url if page_url.endswith("/") else page_url + "/"
+                            if norm_href == norm_page_url:
+                                link_target = os.path.relpath(
+                                    page_filename, os.path.dirname(target_filename)
+                                )
+                                break
+
+                        gmi_lines.append(f"=> {link_target} {text}")
 
     # Fallback if no specific content found
     if len(gmi_lines) <= 2:
