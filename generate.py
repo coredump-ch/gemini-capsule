@@ -45,6 +45,15 @@ def convert_to_gemini(url, target_filename, pages_map):
     title = soup.title.string if soup.title else "Coredump"
     gmi_lines.append(f"# {title}")
     gmi_lines.append("")
+    if target_filename == "index.gmi":
+        gmi_lines.append("```")
+        gmi_lines.append(r"""
+  ___ ___  _ __ ___  __| |_   _ _ __ ___  _ __
+ / __/ _ \| `__/ _ \/ _' | | | | `_ ‘ _ \| '_ \
+| (_| (_) | | |  __/ (_| | |_| | | | | | | |_) |
+ \___\___/|_|  \___|\__,_|\__,_|_| |_| |_| .__/
+                                         |_|""")
+        gmi_lines.append("```")
 
     # Main content - focusing on the main or entry-content
     content = soup.find("main")
