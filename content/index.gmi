@@ -1,5 +1,13 @@
 # Coredump – Hacker- und Makerspace in Rapperswil-Jona
 
+```
+
+  ___ ___  _ __ ___  __| |_   _ _ __ ___  _ __
+ / __/ _ \| `__/ _ \/ _' | | | | `_ ‘ _ \| '_ \
+| (_| (_) | | |  __/ (_| | |_| | | | | | | |_) |
+ \___\___/|_|  \___|\__,_|\__,_|_| |_| |_| .__/
+                                         |_|
+```
 Als erster kombinierter Hackerspace und Makerspace am Obersee bieten wir Computer-, Technik- und Handwerkbegeisterten seit August 2013 die Infrastruktur und das Know-How, um nichtkommerzielle Projekte alleine oder in Kollaboration zu realisieren. Es geht dabei beim “Hacken” nicht um das bösartige Eindringen in Computernetze, wie es in den Medien häufig dargestellt wird, sondern gemäss der ursprünglichen Definition eines Hackers um den kreativen Umgang mit Technik und Wissen.
 
 => https://hackerspaces.org/ Hackerspace
