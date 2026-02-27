@@ -195,6 +195,6 @@ While writing this article I noticed that tokio changed its behavior and the fut
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2017/07/05/understanding-the-tokio-reactor-core/ Auf coredump.ch lesen

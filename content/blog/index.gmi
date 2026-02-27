@@ -76,5 +76,5 @@ Dieser Gemlog kann von Gemini-Clients wie Lagrange abonniert werden.
 => 2013/10/der-hackerspace.gmi 2013-10-12 - Der Hackerspace
 => 2013/10/ein-hackerspace-fuer-rapperswil.gmi 2013-10-11 - Ein Hackerspace für Rapperswil!
 
-=> ../index.gmi Zuruck zur Startseite
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/blog/ Blog auf coredump.ch

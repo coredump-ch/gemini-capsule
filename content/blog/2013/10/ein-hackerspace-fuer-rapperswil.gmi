@@ -19,6 +19,6 @@ Seit dem 11. Oktober haben wir nun einen eigenen Raum an der Spinnereistrasse 2 
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2013/10/11/ein-hackerspace-fuer-rapperswil/ Auf coredump.ch lesen

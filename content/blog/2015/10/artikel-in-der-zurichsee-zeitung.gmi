@@ -9,6 +9,6 @@ Heute erschien in der Zürichsee-Zeitung ein Artikel über uns. Der gesamte Arti
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2015/10/21/artikel-in-der-zurichsee-zeitung/ Auf coredump.ch lesen

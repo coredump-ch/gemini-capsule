@@ -19,6 +19,6 @@ Und wens genauer interessiert: Der Text im Hintergrund ist ein Hexdump eines Tei
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2013/11/08/coredump-wallpapers/ Auf coredump.ch lesen

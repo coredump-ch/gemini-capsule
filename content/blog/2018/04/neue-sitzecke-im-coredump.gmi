@@ -9,33 +9,33 @@ Nach dem Einzug in unseren neuen Hackerspace war die Sitzecke noch etwas leer. D
 => ../../../images/bild1.jpg Planung der Sitzecke im 3D-Programm
 Zuerst verteilten wir Paletten, um die gewünschte Höhe zu erreichen. Danach wurden diese mit Verlegeplatten zugedeckt und verschraubt. So wurde der gewünschte Effekt des Zusammenhalts der Paletten erzielt und man konnte das Laminat sauber darauf verlegen.
 
-=> ../../../images/IMG_20180127_181500-e1524487012673.jpg IMG_20180127_181500-150x150.jpg
-=> ../../../images/IMG_20180317_171545-e1524487024385.jpg IMG_20180317_171545-150x150.jpg
-=> ../../../images/IMG_20180319_133254-e1524487032180.jpg IMG_20180319_133254-150x150.jpg
-=> ../../../images/IMG_20180319_135706-e1524487041234.jpg IMG_20180319_135706-150x150.jpg
-=> ../../../images/IMG_20180319_135714-e1524487776753.jpg IMG_20180319_135714-150x150.jpg
-=> ../../../images/IMG_20180319_143729-e1524487783178.jpg IMG_20180319_143729-150x150.jpg
-=> ../../../images/IMG_20180319_153409-e1524487788444.jpg IMG_20180319_153409-150x150.jpg
+=> ../../../images/IMG_20180127_181500.jpg IMG_20180127_181500-150x150.jpg
+=> ../../../images/IMG_20180317_171545.jpg IMG_20180317_171545-150x150.jpg
+=> ../../../images/IMG_20180319_133254.jpg IMG_20180319_133254-150x150.jpg
+=> ../../../images/IMG_20180319_135706.jpg IMG_20180319_135706-150x150.jpg
+=> ../../../images/IMG_20180319_135714.jpg IMG_20180319_135714-150x150.jpg
+=> ../../../images/IMG_20180319_143729.jpg IMG_20180319_143729-150x150.jpg
+=> ../../../images/IMG_20180319_153409.jpg IMG_20180319_153409-150x150.jpg
 => ../../../images/photo5870637660299701327.jpg photo5870637660299701327-150x150.jpg
-=> ../../../images/IMG_20180319_172739-e1524487764726.jpg IMG_20180319_172739-150x150.jpg
+=> ../../../images/IMG_20180319_172739.jpg IMG_20180319_172739-150x150.jpg
 Auf die Verlegeplatten haben wir in einer etwas chaotischen Aktion noch eine dünne Dämm-Folie verlegt, um Unebenheiten der darunter liegenden Holzplatten auszugleichen.
 
 => ../../../images/photo5965528159476624915.jpg photo5965528159476624915-150x150.jpg
 => ../../../images/photo5965528159476624922.jpg photo5965528159476624922-150x150.jpg
 Das Laminat – ein Geschenk vom Ruum42 – hatten wir im März mitten in einem Schneesturm von St. Gallen nach Jona transportiert. Nach etwas Einarbeitungszeit konnten wir das Laminat zügig verlegen. Den seitlichen Rahmen um das Podest herum haben wir ebenfalls aus den Verlegeplatten angefertigt.
 
-=> ../../../images/IMG_20180320_210213-e1524487679850.jpg IMG_20180320_210213-150x150.jpg
-=> ../../../images/IMG_20180419_224030-e1524487596455.jpg IMG_20180419_224030-150x150.jpg
-=> ../../../images/IMG_20180421_094639-e1524487602701.jpg IMG_20180421_094639-150x150.jpg
-=> ../../../images/IMG_20180421_102359-e1524487689632.jpg IMG_20180421_102359-150x150.jpg
-=> ../../../images/IMG_20180421_113835-e1524487724597.jpg IMG_20180421_113835-150x150.jpg
-=> ../../../images/IMG_20180421_132200-e1524487729130.jpg IMG_20180421_132200-150x150.jpg
+=> ../../../images/IMG_20180320_210213.jpg IMG_20180320_210213-150x150.jpg
+=> ../../../images/IMG_20180419_224030.jpg IMG_20180419_224030-150x150.jpg
+=> ../../../images/IMG_20180421_094639.jpg IMG_20180421_094639-150x150.jpg
+=> ../../../images/IMG_20180421_102359.jpg IMG_20180421_102359-150x150.jpg
+=> ../../../images/IMG_20180421_113835.jpg IMG_20180421_113835-150x150.jpg
+=> ../../../images/IMG_20180421_132200.jpg IMG_20180421_132200-150x150.jpg
 So hebt sich die Sitzecke noch ein wenig mehr vom Rest des Raumes ab und lädt zum Verweilen ein.
 
 => ../../../images/IMG_20180421_134926.jpg IMG_20180421_134926-675x380.jpg
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2018/04/25/neue-sitzecke-im-coredump/ Auf coredump.ch lesen

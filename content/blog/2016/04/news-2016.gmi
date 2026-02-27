@@ -15,6 +15,6 @@ Auch auf diesem Blog möchten wir etwas präsenter sein. Wir hoffen, in Zukunft 
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/04/07/news-2016/ Auf coredump.ch lesen

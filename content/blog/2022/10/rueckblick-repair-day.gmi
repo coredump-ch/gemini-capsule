@@ -21,6 +21,6 @@ Der Tag hat Spass gemacht und das Feedback der Besucher war äusserst positiv! S
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2022/10/15/rueckblick-repair-day/ Auf coredump.ch lesen

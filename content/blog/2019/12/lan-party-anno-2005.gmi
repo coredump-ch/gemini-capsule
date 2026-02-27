@@ -26,6 +26,6 @@ Einlass ist am Freitag ab 17:00 im Coredump. Der Eintritt ist frei. Schluss ist 
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2019/12/22/lan-party-anno-2005/ Auf coredump.ch lesen

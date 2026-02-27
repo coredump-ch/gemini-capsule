@@ -11,6 +11,6 @@ Besonders lobend hervorzuheben ist, dass alle Teilnehmer RJ45-fähige Geräte da
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2020/01/12/lan-party-ruckblick/ Auf coredump.ch lesen

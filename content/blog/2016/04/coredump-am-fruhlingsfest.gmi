@@ -13,6 +13,6 @@ Falls du also ein eigenes 3D-Modell ausdrucken willst (max. 1h Druckzeit), ein g
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/04/27/coredump-am-fruhlingsfest/ Auf coredump.ch lesen

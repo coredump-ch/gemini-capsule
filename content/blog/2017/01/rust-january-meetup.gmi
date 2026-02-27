@@ -13,6 +13,6 @@ Damit wir den benötigten Platz gut einschätzen können, registriere dich für 
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2017/01/22/rust-january-meetup/ Auf coredump.ch lesen

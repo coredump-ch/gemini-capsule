@@ -13,6 +13,6 @@ Falls du noch nicht nähen kannst, es aber gerne lernen möchtest, stehe ich ger
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2019/10/19/neue-nah-ecke/ Auf coredump.ch lesen

@@ -85,6 +85,6 @@ If you have any questions, you can ping dbrgn on the TTN-CH Slack channel, start
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2017/05/18/our-ttn-gateway-in-rapperswil-is-live/ Auf coredump.ch lesen

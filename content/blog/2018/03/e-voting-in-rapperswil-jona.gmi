@@ -15,6 +15,6 @@ Weitere Informationen finden sich in der oben verlinkten Stellungnahme.
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2018/03/02/e-voting-in-rapperswil-jona/ Auf coredump.ch lesen

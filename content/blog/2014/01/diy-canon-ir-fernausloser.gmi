@@ -98,14 +98,14 @@ Der Schaltplan ist ziemlich einfach. Durch das Betätigen des Tasters wird der M
 ### Resultat
 Nach mehreren Stunden Entwicklung und Debugging hat es endlich geklappt. Hier die fertig zusammengebaute Fernbedienung:
 
-=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2505_small/ IMG_2505_small-150x150.jpg
-=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2502_small/ IMG_2502_small-150x150.jpg
-=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2498_small/ IMG_2498_small-150x150.jpg
-=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2477_small/ IMG_2477_small-150x150.jpg
-=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2528_small/ IMG_2528_small-150x150.jpg
-=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2523_small/ IMG_2523_small-150x150.jpg
-=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2529_small/ IMG_2529_small-150x150.jpg
-=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2532_small/ IMG_2532_small-150x150.jpg
+=> ../../../images/IMG_2505_small.jpg IMG_2505_small-150x150.jpg
+=> ../../../images/IMG_2502_small.jpg IMG_2502_small-150x150.jpg
+=> ../../../images/IMG_2498_small.jpg IMG_2498_small-150x150.jpg
+=> ../../../images/IMG_2477_small.jpg IMG_2477_small-150x150.jpg
+=> ../../../images/IMG_2528_small.jpg IMG_2528_small-150x150.jpg
+=> ../../../images/IMG_2523_small.jpg IMG_2523_small-150x150.jpg
+=> ../../../images/IMG_2529_small.jpg IMG_2529_small-150x150.jpg
+=> ../../../images/IMG_2532_small.jpg IMG_2532_small-150x150.jpg
 Leider gibt es noch einige Probleme. Die Reichweite der Fernbedienung ist viel zu klein, ca. 1 Meter. Die LED würde von der Leistung her wohl viel weiter kommen. Vermutlich liegt es an einem einfachen Problem im Schaltplan, vielleicht müsste man einen Transistor verwenden anstatt den Strom über drei Pins am ATtiny zu ziehen. Aber ich bin Softwareentwickler, kein Elektroingenieur, zudem war das mein erstes Mikrokontroller-Projekt ohne Anfänger-Tools wie dem Arduino 🙂 Wenn jemand Verbesserungsvorschläge hat, bitte kommentieren.
 
 Alle Resourcen zu diesem Projekt befinden sich auf Github: https://github.com/coredump-ch/canon-ir-remote
@@ -113,6 +113,6 @@ Alle Resourcen zu diesem Projekt befinden sich auf Github: https://github.com/co
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/ Auf coredump.ch lesen

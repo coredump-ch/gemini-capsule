@@ -16,6 +16,6 @@ Wo: Bei uns im Hackerspace
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2022/10/25/red-bull-wololo-legacy-2022-finals/ Auf coredump.ch lesen

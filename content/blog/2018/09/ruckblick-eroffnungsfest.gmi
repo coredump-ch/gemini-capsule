@@ -23,8 +23,8 @@ Wie auch schon am Stadtfest Rapperswil-Jona und am Seenachtfest boten wir wieder
 Nach einer kurzen Einführung zur Sicherheit im Umgang mit Flüssigstickstoff wurden sogleich Glaces mit allerlei Geschmacksvarianten hergestellt.
 
 ### Lötkurs
-=> https://www.coredump.ch/2018/09/17/ruckblick-eroffnungsfest/img_9982/ Eróffnungsfest Lötworkshop
-=> https://www.coredump.ch/2018/09/17/ruckblick-eroffnungsfest/img_9990/ Eróffnungsfest Lötworkshop
+=> ../../../images/IMG_9982.jpg Eróffnungsfest Lötworkshop
+=> ../../../images/IMG_9990.jpg Eróffnungsfest Lötworkshop
 Wie auch schon mehrmals am Ferienpass boten wir einen Lötworkshop an. Diese wurden vor allem von Kindern rege besucht.
 
 ### Retro-Games
@@ -54,6 +54,6 @@ Das Eröffnungsfest hat allen Beteiligten viel Spass bereitet, auch wenn die Vor
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2018/09/17/ruckblick-eroffnungsfest/ Auf coredump.ch lesen

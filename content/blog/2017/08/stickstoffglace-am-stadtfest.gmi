@@ -13,6 +13,6 @@ Wir sind am Samstag da solange die Stickstoff-Vorräte reichen! Wir freuen uns a
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2017/08/17/stickstoffglace-am-stadtfest/ Auf coredump.ch lesen

@@ -15,6 +15,6 @@ Wir danken dem VSHSR für die tolle Möglichkeit, uns vorzustellen!
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2015/10/01/untervereinsvorstellung-hsr/ Auf coredump.ch lesen

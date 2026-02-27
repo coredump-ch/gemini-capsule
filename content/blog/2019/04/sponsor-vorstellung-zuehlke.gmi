@@ -26,6 +26,6 @@ Das Unternehmen ist einigen von euch vermutlich bereits als IT-Consultant bekann
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2019/04/22/sponsor-vorstellung-zuehlke/ Auf coredump.ch lesen

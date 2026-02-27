@@ -42,6 +42,6 @@ Abschliessend kann man sagen, dass wir mit dem Ergebnis des ersten Versuches seh
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/12/12/erste-versuche-mit-reflow-ofen/ Auf coredump.ch lesen

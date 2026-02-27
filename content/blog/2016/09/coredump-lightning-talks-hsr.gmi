@@ -23,6 +23,6 @@ Hier findet ihr einige Fotos sowie die Präsentationsfolien.
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/09/26/coredump-lightning-talks-hsr/ Auf coredump.ch lesen

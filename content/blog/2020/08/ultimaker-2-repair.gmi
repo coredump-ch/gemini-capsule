@@ -6,29 +6,29 @@ Kategorien: 3D Druck, Hardware, Recycling / Reparaturen, repair, ultimaker
 
 After ~4600 printing hours and almost 3.5 km of filament, our trusty old Ultimaker 2+ 3D printer suddenly turned off while heating up for a print. After some initial debugging we removed and inspected the “Ultimainboard” controller PCB. The inspection with our USB microscope quickly revealed the following problem:
 
-=> ../../../images/u6-scaled.jpg Destroyed electronic component with a hole in the plastic package.
+=> ../../../images/u6.jpg Destroyed electronic component with a hole in the plastic package.
 The component at U6 literally blew up. And apparently our printer was not the only one affected by this. After checking against the schematics / BOM, we identified the chip as the Allegro A4403GEUTR-T 3A switching regulator (1.68$ on Digikey). Some further testing showed that the Schottky diode SSB44-E3/52T at D16 (0.40$ on Digikey) was also destroyed.
 
 => ../../../images/image.png image-675x185.png
 We also found a few bugs 😄
 
 
-=> ../../../images/EfFmE25WkAANseZ-scaled.jpg EfFmE25WkAANseZ-675x380.jpg
-=> ../../../images/EfFmF6QWAAEyRy9-scaled.jpg EfFmF6QWAAEyRy9-675x380.jpg
-=> ../../../images/EfFmHWTWoAAgo4z-scaled.jpg EfFmHWTWoAAgo4z-675x380.jpg
+=> ../../../images/EfFmE25WkAANseZ.jpg EfFmE25WkAANseZ-675x380.jpg
+=> ../../../images/EfFmF6QWAAEyRy9.jpg EfFmF6QWAAEyRy9-675x380.jpg
+=> ../../../images/EfFmHWTWoAAgo4z.jpg EfFmHWTWoAAgo4z-675x380.jpg
 Once the spare parts arrived from Digikey, we desoldered the two components using our hot-air rework station. Replacing them was a bit tricky, because the regulator is in a QFN package with a big thermal pad that must be well connected to the ground plane. But by using solder paste and some flux and carefully heating the region around the component with the hot air gun, we apparently managed to reflow it properly. Afterwards, only some small corrections with the soldering iron were required.
 
 
-=> ../../../images/threema-20200824-234916-ec65c2fe017eccee-675x380.jpg threema-20200824-234916-ec65c2fe017eccee-675x380.jpg
+=> ../../../images/threema-20200824-234916-ec65c2fe017eccee.jpg threema-20200824-234916-ec65c2fe017eccee-675x380.jpg
 => ../../../images/EfGBaSxXsAI_HMf.jpg EfGBaSxXsAI_HMf-675x380.jpg
 => ../../../images/EfGBat1XoAIriw-.jpg EfGBat1XoAIriw--675x380.jpg
-=> ../../../images/threema-20200824-234916-45525fbbfc7e1480-675x380.jpg threema-20200824-234916-45525fbbfc7e1480-675x380.jpg
+=> ../../../images/threema-20200824-234916-45525fbbfc7e1480.jpg threema-20200824-234916-45525fbbfc7e1480-675x380.jpg
 A quick test showed that – after replacing the two parts – the Ultimainboard works again! 🎉
 
 => ../../../images/EgNjOicXsAIfd7g.jpg EgNjOicXsAIfd7g-675x380.jpg
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2020/08/25/ultimaker-2-repair/ Auf coredump.ch lesen

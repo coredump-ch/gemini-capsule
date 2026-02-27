@@ -110,8 +110,8 @@ First, we notice that antennas that can be bent are probably optimized for strai
 
 A groundplane lowers the resonance frequency of an antenna and widens the bandwith. One of the examples where we can see this best, is antenna 8, which is a quarter wave monopole:
 
-=> https://www.coredump.ch/2017/04/30/lorawan-868mhz-antenna-test-part-2/digikey-2/ digikey-1-300x217.png
-=> https://www.coredump.ch/2017/04/30/lorawan-868mhz-antenna-test-part-2/digikey_gnd/ digikey_gnd-300x217.png
+=> ../../../images/digikey-1.png digikey-1-300x217.png
+=> ../../../images/digikey_gnd.png digikey_gnd-300x217.png
 We can see that our 20×20 cm groundplane moves the resonance frequency from around 960 MHz to around 760 MHz. Because our desired frequency of 868 MHz was off in both configurations, we only got VSWR values of 5.36 and 4.33. By using a smaller groundplane, we might have hit the ideal resonance, which according to the datasheet should have resulted in a VSWR of <2.0. And they’re right, the return loss at resonance seems to be around 23 dB, which would give us a VSW ratio of 1:1.15.
 
 Finally, a comment about antenna 10: Since this was a DIY antenna, we could optimize it perfectly for our desired frequency by cutting the wires to the perfect length. With the configuration we used, we hit the sweet spot. But that might change again once it’s attached to an enclosure 😉
@@ -126,6 +126,6 @@ Thanks again also to Urs, who brought me some additional antennas to test, and t
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2017/04/30/lorawan-868mhz-antenna-test-part-2/ Auf coredump.ch lesen

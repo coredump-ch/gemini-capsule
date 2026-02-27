@@ -11,6 +11,6 @@ Alle interessierten Studenten sind herzlich eingeladen, uns an einem Montag zu b
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/10/05/coredump-vorstellung-hsr/ Auf coredump.ch lesen

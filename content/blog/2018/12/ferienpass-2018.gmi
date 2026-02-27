@@ -28,6 +28,6 @@ Sowohl wir als Team wie auch die Besucher des Kurses hatten an dem Nachmittag vi
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2018/12/31/ferienpass-2018/ Auf coredump.ch lesen

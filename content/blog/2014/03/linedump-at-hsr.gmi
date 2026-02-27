@@ -91,6 +91,6 @@ Das Ziel – kreatives Chaos mit alter Technik – wurde also erreicht 🙂
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2014/03/31/linedump-at-hsr/ Auf coredump.ch lesen

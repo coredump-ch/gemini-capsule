@@ -50,6 +50,6 @@ Now that we have established the basis for comparing LoRaWAN antennas, we can go
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2017/04/13/lorawan-868mhz-antenna-test-part-1/ Auf coredump.ch lesen

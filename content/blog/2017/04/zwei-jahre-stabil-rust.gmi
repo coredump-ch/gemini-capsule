@@ -34,6 +34,6 @@ To plan this a little ahead, please RSVP early and let us know if you would like
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2017/04/25/zwei-jahre-stabil-rust/ Auf coredump.ch lesen

@@ -44,6 +44,6 @@ Teil 2: https://www.coredump.ch/2021/07/25/lasercutter-im-coredump-teil-2-bestel
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2021/07/15/lasercutter-im-coredump-teil-1-intro/ Auf coredump.ch lesen

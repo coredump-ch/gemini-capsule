@@ -21,6 +21,6 @@ http://www.webrepublic.ch/
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2013/10/20/unsere-sponsoren/ Auf coredump.ch lesen

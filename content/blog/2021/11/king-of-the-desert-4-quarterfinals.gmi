@@ -25,6 +25,6 @@ Anmeldung: https://nuudel.digitalcourage.de/Kp58N9Yil6PTxMwn
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2021/11/29/king-of-the-desert-4-quarterfinals/ Auf coredump.ch lesen

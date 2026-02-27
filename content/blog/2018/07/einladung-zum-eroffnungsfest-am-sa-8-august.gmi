@@ -50,6 +50,6 @@ Was wir vom Verein Coredump sonst noch so treiben? Am Eröffnungfest erfährst d
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2018/07/19/einladung-zum-eroffnungsfest-am-sa-8-august/ Auf coredump.ch lesen

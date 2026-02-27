@@ -13,19 +13,19 @@ Nach längerer Überlegung und Diskussionen mit verschiedenen Leuten in unserem 
 
 Da der Lasercutter schneller und exakter ist, als 3D-Druck oder Handarbeit, war das für mich die beste Option, um die Halterung herzustellen.
 
-=> ../../../images/2-scaled.jpg 2-675x380.jpg
-=> ../../../images/3-scaled.jpg 3-675x380.jpg
+=> ../../../images/2.jpg 2-675x380.jpg
+=> ../../../images/3.jpg 3-675x380.jpg
 Nun musste ich die drei Schichten noch zusammenkleben.
 
 In den Ecken bekam die untere Halterung noch vier Dübel verpasst. Die Obere bekam auf der Unterseite vergrösserte Löcher. So kann man die Obere auf die Untere stellen, um die Spulen platzsparend zu lagern.
 
 Und so macht Aufräumen auch wieder mehr Spass!
 
-=> ../../../images/5-scaled.jpg 5-675x380.jpg
-=> ../../../images/6-scaled.jpg 6-675x380.jpg
+=> ../../../images/5.jpg 5-675x380.jpg
+=> ../../../images/6.jpg 6-675x380.jpg
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2023/12/26/projekt-spulenaufbewahrung-unterfaeden/ Auf coredump.ch lesen

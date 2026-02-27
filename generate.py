@@ -13,6 +13,11 @@ def clean_text(text):
     return " ".join(text.split())
 
 
+def wp_full_size_url(url: str) -> str:
+    """Strip WordPress thumbnail size suffix (e.g. -150x150, -675x380) from a URL."""
+    return re.sub(r"-\d+x\d+(\.[a-zA-Z]+)$", r"\1", url)
+
+
 def download_image(url, target_dir="content/images"):
     """Download an image and return the local path"""
     try:
@@ -186,8 +191,8 @@ def convert_blog_post_to_gemini(post, pages_map):
     # Navigation links back
     depth = len(target_filename.split("/"))  # blog/YYYY/MM/slug.gmi -> 4 parts
     back_prefix = "../" * (depth - 1)
-    gmi_lines.append(f"=> {back_prefix}index.gmi Zuruck zum Blog")
-    gmi_lines.append(f"=> {back_prefix}../index.gmi Zuruck zur Startseite")
+    gmi_lines.append(f"=> /blog/index.gmi Zurück zum Blog")
+    gmi_lines.append(f"=> /index.gmi Zurück zur Startseite")
     gmi_lines.append(f"=> {url} Auf coredump.ch lesen")
 
     return "\n".join(gmi_lines)
@@ -276,6 +281,31 @@ def _convert_content_to_gmi(content, gmi_lines, target_filename, pages_map, post
                     if norm_href_check == norm_post:
                         continue
 
+                # If the <a> wraps an <img>, treat it as an image link regardless of href.
+                # WordPress galleries link to attachment pages (HTML), but the real image
+                # URL can be found in the nested <img> (prefer data-orig-file or data-large-file
+                # over the thumbnail src).
+                inner_img = element.find("img")
+                if inner_img:
+                    img_src = (
+                        inner_img.get("data-orig-file")
+                        or inner_img.get("data-large-file")
+                        or wp_full_size_url(inner_img.get("src", ""))
+                    )
+                    if img_src:
+                        if img_src.startswith("/"):
+                            img_url = "https://www.coredump.ch" + img_src
+                        else:
+                            img_url = img_src
+                        if img_url.startswith("http"):
+                            local_path = download_image(img_url)
+                            relative_path = os.path.relpath(
+                                local_path,
+                                os.path.join("content", os.path.dirname(target_filename)),
+                            )
+                            gmi_lines.append(f"=> {relative_path} {text}")
+                    continue
+
                 if any(
                     href_str.lower().endswith(ext)
                     for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]
@@ -353,7 +383,7 @@ def generate_gemlog_index(posts):
         gmi_lines.append(f"=> {rel_path} {date} - {title}")
 
     gmi_lines.append("")
-    gmi_lines.append("=> ../index.gmi Zuruck zur Startseite")
+    gmi_lines.append("=> /index.gmi Zurück zur Startseite")
     gmi_lines.append("=> https://www.coredump.ch/blog/ Blog auf coredump.ch")
 
     return "\n".join(gmi_lines)
@@ -364,7 +394,7 @@ def generate_blog_redirect(posts):
     gmi_lines = []
     gmi_lines.append("# Blog – Coredump")
     gmi_lines.append("")
-    gmi_lines.append("=> blog/index.gmi Zum Gemlog (abonnierbar)")
+    gmi_lines.append("=> /blog/index.gmi Zum Gemlog (abonnierbar)")
     gmi_lines.append("")
     gmi_lines.append("## Neueste Beitrage")
     gmi_lines.append("")
@@ -372,10 +402,10 @@ def generate_blog_redirect(posts):
     for post in posts[:5]:
         date = post["date"]
         title = post["title"]
-        gmi_lines.append(f"=> {post['gmi_path']} {date} - {title}")
+        gmi_lines.append(f"=> /{post['gmi_path']} {date} - {title}")
 
     gmi_lines.append("")
-    gmi_lines.append("=> blog/index.gmi Alle Beitrage anzeigen")
+    gmi_lines.append("=> /blog/index.gmi Alle Beiträge anzeigen")
 
     return "\n".join(gmi_lines)
 

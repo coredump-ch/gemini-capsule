@@ -15,6 +15,6 @@ Da wir am Freitag den Schlüssel zu unserem neuen Hackerspace erhalten haben, ma
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2013/10/12/der-hackerspace/ Auf coredump.ch lesen

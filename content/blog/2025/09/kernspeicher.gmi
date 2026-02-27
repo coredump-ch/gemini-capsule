@@ -29,6 +29,6 @@ Ein Core Dump ist mehr als nur ein Fehlerprotokoll. Er öffnet ein Fenster in da
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2025/09/29/kernspeicher/ Auf coredump.ch lesen

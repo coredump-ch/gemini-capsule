@@ -23,6 +23,6 @@ Im Keller haben wir unser Material-, Bier- und Mate-Lager.
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2015/05/25/der-hackerspace-2015/ Auf coredump.ch lesen

@@ -27,6 +27,6 @@ Da die Hochschule für Technik freundlicherweise die Raspberry Pi Modelle gespon
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2014/11/10/ferienpass-im-hackerspace/ Auf coredump.ch lesen

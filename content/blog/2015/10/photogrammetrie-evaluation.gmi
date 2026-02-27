@@ -32,6 +32,6 @@ Wir haben den gesamten Prozess der 3D-Rekonstruktion in einem technischen Berich
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2015/10/14/photogrammetrie-evaluation/ Auf coredump.ch lesen

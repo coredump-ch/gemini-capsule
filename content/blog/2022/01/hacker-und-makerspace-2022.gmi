@@ -21,6 +21,6 @@ Hier ein paar Fotos unseres Hacker- und Makerspaces an der Eichwiesstrasse.
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2022/01/31/hacker-und-makerspace-2022/ Auf coredump.ch lesen

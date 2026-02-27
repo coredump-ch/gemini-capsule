@@ -18,6 +18,6 @@ Wir laden euch also alle herzlich ein, uns am 28. Oktober im Coredump zu besuche
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2019/10/14/age-of-empires-ii-lan/ Auf coredump.ch lesen

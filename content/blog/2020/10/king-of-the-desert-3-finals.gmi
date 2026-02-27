@@ -25,6 +25,6 @@ Anmeldung: https://nuudel.digitalcourage.de/pmuz9iMmJLVfYklV
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2020/10/06/king-of-the-desert-3-finals/ Auf coredump.ch lesen

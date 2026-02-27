@@ -22,9 +22,9 @@ Vielen Dank an unsere drei Silber Sponsoren:
 
 
 * alike Sam Steiner
-=> http://alike.ch/ alike Sam Steiner
+=> ../../../images/logo-alike-trans.png alike Sam Steiner
 * nxf.ch westermann
-=> http://nxf.ch/ nxf.ch westermann
+=> ../../../images/Logo-nxf_large.png nxf.ch westermann
 * das-g
 Ein grosses Dankeschön gebührt auch folgenden Personen, welche den erfolgreichen Abschluss der Kampagne gemeinsam möglich gemacht haben:
 
@@ -52,6 +52,6 @@ Ein grosses Dankeschön gebührt auch folgenden Personen, welche den erfolgreich
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2015/02/28/3d-drucker-crowdfunding-geschafft/ Auf coredump.ch lesen

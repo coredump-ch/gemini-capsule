@@ -11,7 +11,7 @@ Um diese Ideen nicht nur immer vor uns herzuschieben, sondern auch mal umzusetze
 ### Brainstorming und Ideensammlung
 Wir trafen uns am Mittag zu sechst im Space und führten zuerst mal eine Brainstorming-Session durch: Die zwei Räume wurden in je 4 Quadranten aufgeteilt, und wir überlegten uns zu jeder Ecke, was man hier verbessern könnte. Die gesammelten Ideen notierten wir.
 
-=> ../../../images/image-scaled.jpeg image-675x380.jpeg
+=> ../../../images/image.jpeg image-675x380.jpeg
 Anschliessend ging’s an die Umsetzung! Jeder wählte aus der Liste etwas aus, und begann mit der Arbeit. Nachfolgend einige Dinge, die dabei verbessert wurden.
 
 ### Demontage Spraykabine
@@ -67,6 +67,6 @@ Der Raum ist aber natürlich noch lange nicht “fertig”, und wird es auch nie
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2023/08/02/verbesserungstag-2023/ Auf coredump.ch lesen

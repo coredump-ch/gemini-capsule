@@ -31,6 +31,6 @@ Das Coole an der alten Hardware: Das Motherboard ist auch ohne Gehäuse lauffäh
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2014/11/03/der-c64-nackt/ Auf coredump.ch lesen

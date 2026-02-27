@@ -12,6 +12,6 @@ Als Belohnung für eine Unterstützerin der Wemakeit-Aktion haben wir den Eiffel
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2015/03/21/der-eiffelturm-aus-dem-3d-drucker/ Auf coredump.ch lesen

@@ -29,6 +29,6 @@ All in all it was an awesome experience and I think everybody enjoyed it, while 
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/11/06/rust-servo-hackathon/ Auf coredump.ch lesen

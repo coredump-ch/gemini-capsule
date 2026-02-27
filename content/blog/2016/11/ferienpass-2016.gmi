@@ -9,13 +9,13 @@ Wie bereits in den Jahren 2014 und 2015 haben wir auch dieses Jahr im Coredump z
 ### Einstieg in die Elektronik mit RGB LEDs
 Im Elektronik-Kurs lernten die Kinder, wie bereits in den Jahren zuvor, grundlegende Löt- und Elektronikkenntnisse anhand einer Steuerung für einen RGB-LED-Streifen.
 
-=> ../../../images/photo233681680608634940_pixelized.jpg Löten
+=> ../../../images/photo233681680608634940_pixelized-e1478011541205.jpg Löten
 Während wir im 2014 und 2015 sehr einfache Platinen verwendet hatten, die den Strom komplett über drei Potis regeln, wechselten wir dieses Jahr zu einer mikrokontroller-gesteuerten Platine welche bis zu 5m LED-Streifen interaktiv und programmierbar ansteuern kann.
 
 => ../../../images/photo_v2.1_kit.jpg RGB-LED Kit
 Für das Löten der Bauteile rechneten wir eigentlich mit 1.5 bis 2h Zeitaufwand, die 6 Kinder lernten jedoch extrem schnell und waren bereits nach rund einer Stunde mit dem Löten fertig 🙂
 
-=> ../../../images/photo233681680608634933.jpg Konzentriert am Löten
+=> ../../../images/photo233681680608634933-e1478011753167.jpg Konzentriert am Löten
 => ../../../images/photo54578250125519627_pixelized-675x432.jpg photo54578250125519627_pixelized
 Anschliessend schauten wir mit den Teilnehmern die Funktionsweise der elektronischen Schaltungen an und fanden zum Schluss sogar noch etwas Zeit um die Arduino-Boards mit neuen Algorithmen zu programmieren. Die Kinder hatten viele kreative Ideen und entwickelten zum Beispiel ein Spiel bei welchem eine Kombination von Poti-Positionen erraten werden musste!
 
@@ -35,6 +35,6 @@ Uns haben die Kurse gefallen. Dank useren neuen Räumlichkeiten hatten wir viel 
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/11/01/ferienpass-2016/ Auf coredump.ch lesen

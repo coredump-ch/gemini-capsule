@@ -11,8 +11,8 @@ Erste Hacknight am neuen Ort! Heute sind wir noch mit Aufräumen und Einrichten 
 => ../../../images/PANO_20180122_212233_2.jpg PANO_20180122_212233_2-675x82.jpg
 Der Umzug verlief nach Plan, der alte Raum war schnell geleert und um 14:00 hatten wir unseren Laster bereits voll beladen.
 
-=> https://www.coredump.ch/2018/01/22/einzug-im-neuen-raum/photo_2018-01-22_22-00-26/ photo_2018-01-22_22-00-26-150x150.jpg
-=> https://www.coredump.ch/2018/01/22/einzug-im-neuen-raum/photo_2018-01-22_21-58-12_2/ photo_2018-01-22_21-58-12_2-150x150.jpg
+=> ../../../images/photo_2018-01-22_22-00-26.jpg photo_2018-01-22_22-00-26-150x150.jpg
+=> ../../../images/photo_2018-01-22_21-58-12_2.jpg photo_2018-01-22_21-58-12_2-150x150.jpg
 Dank tatkräftiger Hilfe unserer Mitglieder und vorgängiger Planung war der Raum ein paar Stunden später mehr oder weniger komplett eingerichtet
 
 => ../../../images/photo_2018-01-22_22-06-10.jpg photo_2018-01-22_22-06-10-300x166.jpg
@@ -24,6 +24,6 @@ Wir werden sicher in den nächsten Wochen noch mit Einrichten, Beschildern und V
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2018/01/22/einzug-im-neuen-raum/ Auf coredump.ch lesen

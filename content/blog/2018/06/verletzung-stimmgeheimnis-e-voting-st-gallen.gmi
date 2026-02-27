@@ -98,6 +98,6 @@ Kontakt: vorstand@lists.coredump.ch
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2018/06/17/verletzung-stimmgeheimnis-e-voting-st-gallen/ Auf coredump.ch lesen

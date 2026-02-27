@@ -7,12 +7,12 @@ Kategorien: Hackerspace, fotos, hackerspace, raum
 Da die letzten Fotos schon eine Weile her sind, hier wiedermal ein paar aktuelle Fotos aus unserem Hackerspace.
 
 
-=> ../../../images/IMG_20190706_142437-675x380.jpg IMG_20190706_142437-675x380.jpg
-=> ../../../images/IMG_20190706_142457-1-675x380.jpg IMG_20190706_142457-1-675x380.jpg
-=> ../../../images/IMG_20190706_142504-1-675x380.jpg IMG_20190706_142504-1-675x380.jpg
+=> ../../../images/IMG_20190706_142437.jpg IMG_20190706_142437-675x380.jpg
+=> ../../../images/IMG_20190706_142457-1.jpg IMG_20190706_142457-1-675x380.jpg
+=> ../../../images/IMG_20190706_142504-1.jpg IMG_20190706_142504-1-675x380.jpg
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2019/07/06/hackerspace-2019/ Auf coredump.ch lesen

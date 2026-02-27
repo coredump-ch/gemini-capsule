@@ -105,7 +105,7 @@ Anfangs Juli – vier Monate nach Bestellung – kam dann endlich die lang erwar
 
 
 => ../../../images/image-f24eca64-a874-4865-9695-119c7768c1f61-scaled.jpg image-f24eca64-a874-4865-9695-119c7768c1f61-scaled.jpg
-=> ../../../images/image-384bcaad-3934-4921-bdd8-4b59574d7692-1-scaled.jpg image-384bcaad-3934-4921-bdd8-4b59574d7692-1-675x380.jpg
+=> ../../../images/image-384bcaad-3934-4921-bdd8-4b59574d7692-1.jpg image-384bcaad-3934-4921-bdd8-4b59574d7692-1-675x380.jpg
 ### Gesamtkosten
 Hier die Aufschlüsselung der Gesamtkosten unserer Lasercutter-Anschaffung:
 
@@ -119,6 +119,6 @@ Das war’s zum Bestellprozess. Falls du selber überlegst, einen Lasercutter zu
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2021/07/25/lasercutter-im-coredump-teil-2-bestellung-und-liefer-odysee/ Auf coredump.ch lesen

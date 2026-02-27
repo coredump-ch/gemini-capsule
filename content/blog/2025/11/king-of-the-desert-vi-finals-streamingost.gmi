@@ -14,6 +14,6 @@ Wo: An der OST, Gebäude 1, Raum 1.262 (Lageplan)
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2025/11/29/king-of-the-desert-vi-finals-streamingost/ Auf coredump.ch lesen

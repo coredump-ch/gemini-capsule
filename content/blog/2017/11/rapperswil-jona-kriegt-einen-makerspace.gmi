@@ -48,6 +48,6 @@ Wir freuen uns auf die grössere Fläche (im Sonnenhof waren es “nur” 50m²)
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2017/11/05/rapperswil-jona-kriegt-einen-makerspace/ Auf coredump.ch lesen

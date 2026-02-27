@@ -15,6 +15,6 @@ Wer am 3D-Drucker interessiert ist und gerne eigene Ideen umsetzen möchte, kann
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/05/16/ruckblick-fruhlingsfest/ Auf coredump.ch lesen

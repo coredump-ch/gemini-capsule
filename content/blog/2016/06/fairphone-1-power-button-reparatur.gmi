@@ -8,15 +8,15 @@ Das Fairphone 1 eines unserer Mitglieder war kurz davor, das Zeitliche zu segnen
 
 Ein Hinweis in der Fairphone-Community brachte uns jedoch darauf, dass der Power-Button für das Galaxy Note GT-N7000 mit dem des Fairphone 1 identisch ist. Für 1.69€ konnten wir deshalb mit etwas Löt-Skills eines anderen Mitgliedes die Lebensdauer des Smartphones verlängern!
 
-=> https://www.coredump.ch/2016/06/27/fairphone-1-power-button-reparatur/2016-05-30-20-40-08/ 2016-05-30-20.40.08-150x150.jpg
-=> https://www.coredump.ch/2016/06/27/fairphone-1-power-button-reparatur/2016-05-30-20-43-20/ 2016-05-30-20.43.20-150x150.jpg
-=> https://www.coredump.ch/2016/06/27/fairphone-1-power-button-reparatur/2016-05-30-20-43-34/ 2016-05-30-20.43.34-150x150.jpg
-=> https://www.coredump.ch/2016/06/27/fairphone-1-power-button-reparatur/2016-05-30-20-54-02/ 2016-05-30-20.54.02-150x150.jpg
+=> ../../../images/2016-05-30-20.40.08.jpg 2016-05-30-20.40.08-150x150.jpg
+=> ../../../images/2016-05-30-20.43.20.jpg 2016-05-30-20.43.20-150x150.jpg
+=> ../../../images/2016-05-30-20.43.34.jpg 2016-05-30-20.43.34-150x150.jpg
+=> ../../../images/2016-05-30-20.54.02.jpg 2016-05-30-20.54.02-150x150.jpg
 Der neue Knopf funktioniert wieder einwandfrei. Recycling statt Wegwerfgesellschaft!
 
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/06/27/fairphone-1-power-button-reparatur/ Auf coredump.ch lesen

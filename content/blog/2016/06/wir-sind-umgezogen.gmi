@@ -19,6 +19,6 @@ Wir sind noch nicht ganz fertig eingerichtet, aber das geschieht nach und nach w
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2016/06/06/wir-sind-umgezogen/ Auf coredump.ch lesen

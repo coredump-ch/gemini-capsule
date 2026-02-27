@@ -11,9 +11,9 @@ Das Gerät ist ein Andonstar ADSM201 und hat auf AliExpress zum Zeitpunkt der Be
 => ../../../images/andonstar.jpg Das Mikroskop
 Das Mikroskop hat brauchbare Mechanik, gute Optik, einen integrierten kleinen Bildschirm und einen HDMI-Anschluss.
 
-=> https://www.coredump.ch/2018/01/03/neu-im-hackerspace-digital-mikroskop/microscope/ microscope-150x150.jpg
-=> https://www.coredump.ch/2018/01/03/neu-im-hackerspace-digital-mikroskop/miniscreen/ miniscreen-150x150.jpg
-=> https://www.coredump.ch/2018/01/03/neu-im-hackerspace-digital-mikroskop/parts2/ parts2-150x150.jpg
+=> ../../../images/microscope.jpg microscope-150x150.jpg
+=> ../../../images/miniscreen.jpg miniscreen-150x150.jpg
+=> ../../../images/parts2.jpg parts2-150x150.jpg
 Dank des integrierten Bildschirms kann man das Mikroskop relativ mobil verwenden, allerdings kommt die für den Preis wirklich sehr gute Bildqualität erst an einem grossen Bildschirm gut zur Geltung. Hier auf einem 24″-LCD:
 
 => ../../../images/parts1.jpg parts1-675x380.jpg
@@ -47,6 +47,6 @@ Wir haben auch schon ein paar Ideen zur Verbesserung gefunden, z.B. die Kopfübe
 
 ---
 
-=> ../../../index.gmi Zuruck zum Blog
-=> ../../../../index.gmi Zuruck zur Startseite
+=> /blog/index.gmi Zurück zum Blog
+=> /index.gmi Zurück zur Startseite
 => https://www.coredump.ch/2018/01/03/neu-im-hackerspace-digital-mikroskop/ Auf coredump.ch lesen
