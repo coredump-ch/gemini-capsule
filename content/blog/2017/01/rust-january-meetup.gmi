@@ -1,0 +1,18 @@
+# Rust January Meetup
+
+Datum: 2017-01-21
+Autor: Stefan Schindler
+Kategorien: Events, Hackerspace, meetup, rust
+
+Am Dienstag, 24. Januar 2017 ab 19 Uhr veranstalten wir im Coredump das nächste Rust Meetup.
+
+Das Meetup wird mit einer kurzen Einführung zu Rust beginnen. Danach werden wir an Rust-Projekten arbeiten. Das kann dein eigenes Projekt sein oder eines, welches etwas Hilfe brauchen könnte. Solltest du lieber an anderen Projekten arbeiten, hätten wir eine Liste mit einfachen Aufgaben bereit. Selbstverständlich sind wir auch da, um deine Fragen zu Rust zu beantworten.
+
+Damit wir den benötigten Platz gut einschätzen können, registriere dich für den Event doch bitte auf Meetup.com.
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2017/01/22/rust-january-meetup/ Auf coredump.ch lesen

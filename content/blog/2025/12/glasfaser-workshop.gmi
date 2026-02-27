@@ -1,0 +1,22 @@
+# Glasfaser-Workshop
+
+Datum: 2025-12-30
+Autor: Danilo
+Kategorien: Events, fiber, glasfaser, workshop
+
+Kurz vor Ende des Jahres gab’s im Coredump noch einen Glasfaser- und Splicing-Workshop.
+
+=> ../../../images/splicing.jpeg splicing-675x380.jpeg
+=> ../../../images/splicer.jpeg splicer-675x380.jpeg
+=> ../../../images/spliced2.jpeg spliced2-675x380.jpeg
+=> ../../../images/spliced.jpeg spliced-675x380.jpeg
+=> ../../../images/dreck-1-edited.jpeg dreck-1-edited-675x450.jpeg
+=> ../../../images/loop.jpeg loop-675x380.jpeg
+Präsentations-Slides: 2025-12-30-coredump-workshop.pdf
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2025/12/30/glasfaser-workshop/ Auf coredump.ch lesen

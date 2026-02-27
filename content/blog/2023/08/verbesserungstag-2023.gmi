@@ -1,0 +1,72 @@
+# Verbesserungstag 2023
+
+Datum: 2023-08-02
+Autor: Danilo
+Kategorien: Hackerspace, Lasercutter, Makerspace, einrichtung, verbesserungstag
+
+Immer wieder mal hörte man im Coredump Aussagen wie z.B. “hier sollte man mal aufräumen”, “es wäre cool, wenn wir das Werkzeug besser organisieren könnten”, “hier ist zu wenig Platz” oder “den Lasercutter sollte man besser nicht am Verlängerungskabel betreiben”.
+
+Um diese Ideen nicht nur immer vor uns herzuschieben, sondern auch mal umzusetzen, haben wir am 1. August spontan den ersten Coredump-Verbesserungstag durchgeführt.
+
+### Brainstorming und Ideensammlung
+Wir trafen uns am Mittag zu sechst im Space und führten zuerst mal eine Brainstorming-Session durch: Die zwei Räume wurden in je 4 Quadranten aufgeteilt, und wir überlegten uns zu jeder Ecke, was man hier verbessern könnte. Die gesammelten Ideen notierten wir.
+
+=> ../../../images/image-scaled.jpeg image-675x380.jpeg
+Anschliessend ging’s an die Umsetzung! Jeder wählte aus der Liste etwas aus, und begann mit der Arbeit. Nachfolgend einige Dinge, die dabei verbessert wurden.
+
+### Demontage Spraykabine
+Die ehemalige Spraykabine stand seit mehreren Monaten mitten im Makerspace und verbrauchte viel Platz. Nach kurzer Diskussion entschieden wir uns, sie zu demontieren und das Material anders zu verwerten.
+
+=> ../../../images/image-1-scaled.jpeg image-1-scaled.jpeg
+=> ../../../images/threema-20230802-221831914-scaled.jpg threema-20230802-221831914-scaled.jpg
+Nach der Demontage wirkt der Raum plötzlich wieder massiv grösser, und wir haben mehr Platz zum Arbeiten 🙂
+
+### Eigene Steckdose für Lasercutter
+Der Lasercutter war bisher an einem Verlängerungskabel, welches quer durch den Raum verlief, eingesteckt. Diese eigentlich provisorische Lösung war inzwischen zum “providurium” geworden und musste durch eine eigene Steckdose ersetzt werden.
+
+An unserer Unterverteilung war sogar noch eine Phase frei, und so machten wir uns an’s Verlegen des Kabels. Entlang der Holz-Kabine installierten wir noch zwei Abzweigdosen für zukünftige Erweiterungen.
+
+=> ../../../images/Untitled-scaled.jpg Untitled-scaled.jpg
+=> ../../../images/2-scaled.jpg 2-scaled.jpg
+=> ../../../images/image-3-scaled.jpeg image-3-scaled.jpeg
+=> ../../../images/threema-20230802-221830711-scaled.jpg threema-20230802-221830711-scaled.jpg
+=> ../../../images/threema-20230802-221830940-scaled.jpg threema-20230802-221830940-scaled.jpg
+=> ../../../images/threema-20230802-221831679-scaled.jpg threema-20230802-221831679-scaled.jpg
+Die Glaswolle der Deckenplatten hat zwar in der Haut viele unangenehm juckende Spuren hinterlassen, aber dafür ist nun endlich auch der Laser sauber verkabelt und wir brauchen das Verlängerungskabel nicht mehr! ⚡
+
+### Optimierung Metall-Ecke
+In der Metall-Ecke mit Drehbank und Fräse war noch zu wenig Platz für Werkzeuge. Wir schraubten eine der ehemaligen Spraykabinen-Wände hin und bauten einige Werkzeughalterungen für die Fräser. Zudem wurde die Arbeitsbeleuchtung an der Fräsmaschine montiert und angeschlossen.
+
+=> ../../../images/metall1-scaled.jpg metall1-scaled.jpg
+=> ../../../images/metall2-scaled.jpg metall2-scaled.jpg
+=> ../../../images/metall4-scaled.jpg metall4-scaled.jpg
+=> ../../../images/metall3-scaled.jpg metall3-scaled.jpg
+### Aufräumen Materiallager
+Das Materiallager war ziemlich unordentlich, vieles wurde bei unserem Einzug mal irgendwo eingeräumt und danach nie mehr berührt. Wir machten eine Inventur, ordneten den Inhalt der Regale neu an und entsorgten viele Dinge. Das Resultat sieht viel ordentlicher aus, und wir haben plötzlich auch wieder freien Platz im Regal!
+
+=> ../../../images/regal3-scaled.jpg regal3-scaled.jpg
+=> ../../../images/regal4-scaled.jpg regal4-scaled.jpg
+### Reparatur Holz-Kabinen-Türe
+Die Türe in den Holz-Raum klemmte schon seit langem. Nach einigen Optimierungen geht sie nun perfekt auf und zu! (Leider kein Foto.)
+
+### Montage Feuerlöscher
+Der Feuerlöscher hat nun einen festen Standort erhalten und wurde an der Wand montiert. (Leider ebenfalls kein Foto.)
+
+### Druckluftverteilung
+Wir haben mit der Installation der Druckluftverteilung begonnen. Sie ist zwar noch nicht fertig, sollte uns aber an mehreren Orten den Zugang zum Luftkompressor ermöglichen. Möglicherweise können wir auch den Air Assist des Lasercutters damit “belüften”.
+
+=> ../../../images/luft1-scaled.jpg luft1-scaled.jpg
+=> ../../../images/luft2-scaled.jpg luft2-scaled.jpg
+### Fazit
+Der erste Verbesserungstag war sehr erfolgreich! Wir konnten vieles verbessern, und haben beim Aufräumen des Lagers Sachen entdeckt, von denen wir nicht mal mehr wussten, dass wir sie besitzen 😄 Vielen Dank an alle, die dabei mitgeholfen haben.
+
+=> ../../../images/resultat1-scaled.jpg Ein Foto aus dem Coredump-Makerspace
+=> ../../../images/resultat2-scaled.jpg resultat2-scaled.jpg
+Der Raum ist aber natürlich noch lange nicht “fertig”, und wird es auch nie sein. Alle Mitglieder (oder Gäste!) dürfen sich gerne daran beteiligen, um unseren Vereinsraum immer cooler einzurichten.
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2023/08/02/verbesserungstag-2023/ Auf coredump.ch lesen

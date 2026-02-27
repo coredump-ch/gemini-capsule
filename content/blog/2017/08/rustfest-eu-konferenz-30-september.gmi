@@ -1,0 +1,28 @@
+# RustFest.eu Konferenz 30. September
+
+Datum: 2017-08-14
+Autor: Stefan Schindler
+Kategorien: Bildung, Events, Hackerspace
+
+Am 30. September und 1. Oktober trifft sich die Rust Community am RustFest für zwei Tage in Zürich. Der Coredump ist als Partner dabei!
+
+Am Samstag werden über 12 verschiedene Redner Vorträge zu den verschiedensten Themen halten. Das Programm vom letzten Herbst in Berlin und vom Frühling in Kiew gibt einen ersten Anhaltspunkt wie das Programm in Zürich aussehen wird.
+
+Am Sonntag werden voraussichtlich 6 Workshops parallel stattfinden. Die Themen werden noch bekannt gegeben.
+
+Aktuell können Support-Tickets gekauft werden. Diese Tickets kosten 200€. Die zusätzlichen 100€ gegenüber den regulären Tickets kommen dem Diversifizierungs-Topf zu. Dieser Topf erlaubt es, Bevölkerungsgruppen welche in der Technikwelt untervertreten sind zu unterstützen und einzuladen.
+
+### Rust Meetup
+Eine Community Konferenz wäre nichts ohne die Leute dahinter. In der Region Zürichsee organisieren wir mit der Verein Rust Zürichsee regelmässige Treffen.
+
+Das nächste Treffen findet am Montag 4. September hier im Coredump statt. Geplant ist ein Vortrag über die Programmiersprache Rust selbst.
+
+Disclaimer: Raphael und ich arbeiten im Team von RustFest.eu
+
+=> http://zurich.rustfest.eu/about/ Raphael und ich
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2017/08/14/rustfest-eu-konferenz-30-september/ Auf coredump.ch lesen

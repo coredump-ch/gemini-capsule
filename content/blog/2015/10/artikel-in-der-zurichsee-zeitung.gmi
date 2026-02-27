@@ -1,0 +1,14 @@
+# Artikel in der Zürichsee-Zeitung
+
+Datum: 2015-10-21
+Autor: Danilo
+Kategorien: 3D Druck, Hackerspace, Verein
+
+Heute erschien in der Zürichsee-Zeitung ein Artikel über uns. Der gesamte Artikel kann als PDF unter https://files.coredump.ch/20151021_zueriseezeitung.pdf gelesen werden.
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2015/10/21/artikel-in-der-zurichsee-zeitung/ Auf coredump.ch lesen

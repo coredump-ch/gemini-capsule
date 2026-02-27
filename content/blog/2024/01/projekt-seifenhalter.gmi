@@ -1,0 +1,28 @@
+# Projekt: Seifenhalter
+
+Datum: 2024-01-03
+Autor: Peter
+Kategorien: Lasercutter, Projekte
+
+Hier zeige ich ein Beispiel, wie die digitalen Fertigungstechniken von Coredump dazu genutzt werden können, Alltagsprobleme effizient zu lösen.
+
+Zu Weihnachten erhielt ich eine Seife als Geschenk. Das Problem war, dass die Schnur in der Seife die Verwendung eines herkömmlichen Seifenhalters erschwerte.
+
+Um das Problem zu lösen, habe ich mir einen Haken vorgestellt, an dem die Seife aufgehängt werden kann.
+
+Zuerst habe ich einen Halter aus Papier ausgeschnitten. Dann habe ich eine 1-zu-1-Zeichnung mit Bleistift und Papier gemacht. Diese Zeichnung habe ich dann abfotografiert und etwas mit GIMP nachbearbeitet. Anschliessend habe ich in Inkscape das Pixelbild mit einem Vektor nachgezeichnet. Diese .svg konnte ich dann auf dem Lasercutter in 4 mm Birkenholz ausschneiden.
+
+=> ../../../images/1-Problem.jpeg 1-Problem-675x506.jpeg
+=> ../../../images/2-PapierModell.jpeg 2-PapierModell-675x506.jpeg
+=> ../../../images/3-Zeichnung.jpeg 3-Zeichnung-675x506.jpeg
+=> ../../../images/4-FotoVonZeichnung-1.jpeg 4-FotoVonZeichnung-1-675x270.jpeg
+=> ../../../images/5-FertigesProdukt.jpeg 5-FertigesProdukt-675x506.jpeg
+=> ../../../images/6-PorduktCloseUp.jpeg 6-PorduktCloseUp-675x506.jpeg
+Von der Idee bis zum Endprodukt hatte ich rund 30 Minuten.
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2024/01/03/projekt-seifenhalter/ Auf coredump.ch lesen

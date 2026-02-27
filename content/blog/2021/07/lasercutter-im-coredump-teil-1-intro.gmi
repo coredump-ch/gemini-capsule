@@ -1,0 +1,49 @@
+# Lasercutter im Coredump, Teil 1: Intro
+
+Datum: 2021-07-15
+Autor: Danilo
+Kategorien: Lasercutter, Makerspace, hackerspace, inventar, lasercutter
+
+Schon lange war ein Lasercutter ein Wunsch von uns. In einen richtigen Makerspace gehört nun einmal ein Lasercutter. Ein solches Gerät ist extrem vielfältig: Man kann damit millimetergenau schneiden und gravieren, und das mit diversen Materialien wie Holz, Plexiglas, Papier, Karton, Stempelgummi, Textilien oder Kunststoffschaum.
+
+Wie funktioniert ein CO2-Lasercutter? Ein Laserstrahl wird dabei von einer CO2-Laserröhre generiert. Der – für Menschen unsichtbare – Laserstrahl wird anschliessend über drei Spiegel auf eine optische Linse gerichtet, wo der Strahl gebündelt und fokussiert wird. Der Fokus-Punkt wird dabei so eingestellt, dass er das Material genau auf der Oberfläche (zum Gravieren) oder leicht darunter (zum Schneiden) trifft. Die hohe Energie (dutzende bis hunderte Watt) wird vom Material absorbiert und kann dieses verbrennen oder schmelzen. Durch Bewegen des Laser-Kopfes können somit computergesteuert exakte Formen graviert oder ausgeschnitten werden.
+
+=> ../../../images/9a6afc5d12597d1f0c25dbbda38870ffec243862.jpeg https://forum.coredump.ch/uploads/default/original/1X/9a6afc5d12597d1f0c25dbbda38870ffec243862.jpeg
+Mit einer solchen Maschine können viele kreative Projekte umgesetzt werden, beispielsweise Beschriftungen, Brettspiele oder Kunst.
+
+=> ../../../images/sakura-1.jpg sakura-1.jpg
+=> ../../../images/catan.jpg catan-675x380.jpg
+=> https://www.kickstarter.com/projects/579430366/3d-laser-cut-resource-hex-set-for-settlers-of-cata Justin Gonyea
+=> ../../../images/kunst.jpg kunst-675x336.jpg
+=> https://www.martintomsky.com/ Martin Tomsky
+Ein Lasercutter ist aber leider auch teuer. Bei unserer letzten Evaluation im Jahr 2015 kamen wir zum Schluss, dass uns ein vernünftiger Lasercutter (z.B. der in Österreich entwickelte Lasersaur) mindestens 8’000-10’000 CHF kosten würde.
+
+In den letzten Jahren hat sich hier aber extrem viel getan. Billige China-Laser fanden immer grössere Verbreitung. In der Regel wurden diese Geräte über Ebay verkauft. Vor allem der sogenannte “K40” wurde sehr beliebt, ein Laser mit Arbeitsfläche so gross wie ein A4-Blatt und ca. 30W Leistung in der Laser-Röhre. Das ist zwar schwach und klein, aber eben ein richtiger CO2-Laser, und das zu einem unglaublichen Preis von unter 500$! Früher hat alleine die Laser-Röhre mehr als das gekostet. Kein Wunder hat dieses Modell ganz vielen Leuten den Einsteig in die Laser-Welt ermöglicht.
+
+=> ../../../images/25653406943_5d31662e32_k-1.jpg 25653406943_5d31662e32_k-1-675x506.jpg
+=> https://www.flickr.com/photos/mangtronix/ mangtronix
+=> ../../../images/29836953780_3202cafbda_k.jpg 29836953780_3202cafbda_k-675x506.jpg
+=> https://www.flickr.com/photos/mangtronix/ mangtronix
+=> ../../../images/26230161356_d61d801b94_k.jpg 26230161356_d61d801b94_k-675x506.jpg
+=> https://www.flickr.com/photos/mangtronix/ mangtronix
+Für Leute, denen diese Dimensionen nicht ausreichen, verbreiteten sich grössere Modelle, welche meistens nach dem Aussehen benannt wurden. Typische Modelle sind “Red-Black”, “Blue-White” oder “Black-Yellow”. Die Laser-Leistung bewegt sich dabei zwischen 40 und 100 Watt (wobei die effektive Leistung der Laser-Röhre meistens deutlich unter der angepriesenen Leistung liegt). Die Kosten betragen zwischen 800$ und knapp 2000$.
+
+=> ../../../images/blue-white.jpg blue-white-675x675.jpg
+=> ../../../images/red-black.jpg red-black-675x675.jpg
+=> ../../../images/yellow-black.jpg yellow-black-675x675.jpg
+Aber: Der K40, sowie viele der Ebay-Laser, sind nicht nur günstig in der Anschaffung, sondern eben auch billig gemacht. Viele Modelle benutzen z.B. eine Aquariumpumpe in einem Wasserkübel mit Eis als Kühlsystem. Das mag funktionieren, ist aber nicht sonderlich zuverlässig (und wenn die Laser-Röhre zu heiss wird, geht sie kaputt). Viele Modelle haben keinerlei Sicherheitsfunktionen, d.h. man kann den Deckel öffnen, ohne dass der Laser gestoppt wird. Das kann sehr gefährlich sein. Viele Geräte enthalten eingebaute Stromverteiler, die nicht angemessen abgesichert sind. Auch die Lüftung ist extrem wichtig: Beim Laserschneiden entstehen potentiell brennbare Gase. Man schiesst schliesslich mit starken Laserstrahlen auf brennbaren Kunststoff. Das schreit förmlich nach Feuer. Bei einem Laser mit unzulänglicher Luft-Absaugung ist die Gefahr von Feuer erhöht, der Laser muss (auch bei teureren Modellen) stets beaufsichtigt werden und ein Feuerlöscher sollte stets griffbereit stehen. Zuletzt ist auch die Gas-Absaugung essentiell. Die Gase, die beim Schneiden entstehen, sind häufig giftig oder zumindest gesundheitsschädlich und sollten nicht eingeatmet werden. Daher ist eine Lüftung, welche die Luft in mehreren Stufen filtert und anschliessend nach draussen befördert, sehr wichtig. Eine solche Lüftung ist oft nicht Teil des Lieferumfangs (und kostet – wenn richtig dimensioniert – nicht selten mehr als der Lasercutter selbst).
+
+Um einen billigen Lasercutter sicher einsatzfähig zu machen, ist also einiges an Arbeit und Zusatzkosten notwendig. Auf YouTube finden sich unzählige Anleitungen dafür, und auch das deutschsprachige MAKE-Magazin hat dem Thema mehrere Artikel gewidmet (z.b. den hier).
+
+Im Coredump haben wir mehrfach darüber nachgedacht, einen solchen Laser zu kaufen. Aber der hohe Folgeaufwand war etwas abschreckend (jeder von uns hat sowieso schon viel zu viele Nebenprojekte) und wir wollten ein solides Gerät, das man auch langfristig sicher betreiben kann.
+
+Inzwischen haben wir eine sehr zufriedenstellende Lösung gefunden, die zwar etwas mehr kostet, aber immer noch weit günstiger ist als die Lasercutter vor 6 Jahren. Mehr dazu bald im Teil 2 dieser Blogpost-Serie.
+
+Teil 2: https://www.coredump.ch/2021/07/25/lasercutter-im-coredump-teil-2-bestellung-und-liefer-odysee/
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2021/07/15/lasercutter-im-coredump-teil-1-intro/ Auf coredump.ch lesen

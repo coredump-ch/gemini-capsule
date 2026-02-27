@@ -1,0 +1,31 @@
+# Sponsor-Vorstellung: Zühlke
+
+Datum: 2019-04-22
+Autor: Raphael Das Gupta
+Kategorien: Verein, sponsoring
+
+Seit November 2017 unterstützt die Firma Zühlke den Verein Coredump finanziell mit einem Sponsoring. Mit diesem Engagement ermöglichte Zühlke dem Verein unter anderem:
+
+
+* Infrastruktur für unsere Ferienpass-Kurse bereitzustellen
+* Material, Werkzeuge und Einrichtung für unsere diversen Projekte anzuschaffen
+* die Miete des Raums, in dem wir unseren Hackerspace eingerichtet haben, nicht nur aus Mitgliederbeiträgen und den Getränke- und Shop-Einnahmen bestreiten zu müssen
+Letzteres kam uns insbesondere im vergangenen Jahr gelegen, als eine Zeit lang die Mieten für unseren “alten” Raum im Sonnenhof und für unsere aktuellen Räumlichkeiten auf dem Vinora-Areal parallel anfielen.
+
+Wir danken Zühlke herzlich für die Unterstützung!
+
+### Über Zühlke
+Auf der Firmenwebsite stellt sich Zühlke so vor:
+
+> Zühlke wurde 1968 in der Schweiz gegründet und ist heute im Besitz von Partnern. Die Gruppe kann auf Erfahrungen aus mehr als 10’000 Software- und Produktentwicklungsprojekten zurückgreifen. Zühlke betreut Kunden aus unterschiedlichen Branchen – vom Maschinen- & Anlagenbau über Medizintechnik bis hin zur Finanzbranche.
+
+> Zühlke setzt auf die Fähigkeiten und das Fachwissen der Mitarbeiterinnen und Mitarbeiter. Wir investieren daher einen erheblichen Teil des Umsatzes in Aus- und Weiterbildung. Auf diese Weise stellen wir sicher, dass die erfolgsrelevanten Fachkompetenzen in unseren interdisziplinären Teams gekonnt zusammenspielen.
+
+Das Unternehmen ist einigen von euch vermutlich bereits als IT-Consultant bekannt. Zühlke bietet aber auch an, Unternehmen bei der Umsetzung ihrer Vision zu unterstützen: “Von der cleveren Idee bis zum durchschlagenden Markterfolg”. Sie decken dabei nach eigenen Angaben alle Phasen des Business-Innovations-Prozesses ab. Auch mit Schulungen und Workshops hat sich Zühlke einen Namen gemacht.
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2019/04/22/sponsor-vorstellung-zuehlke/ Auf coredump.ch lesen

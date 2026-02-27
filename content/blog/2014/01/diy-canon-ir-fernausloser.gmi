@@ -1,0 +1,118 @@
+# DIY Canon IR Fernauslöser
+
+Datum: 2014-01-04
+Autor: Danilo
+Kategorien: 3D Druck, Projekte, atmel, canon, diy, elektronik, fernauslöser, hardware, infrarot, openscad, projekte, rc-1, remote
+
+Für Canon-Spiegelreflexkameras gibt es zwei Möglichkeiten um den Verschluss aus der Ferne auszulösen: Via Kabel, oder via Infrarot.
+
+Ein Kabel-Fernauslöser ist äusserst simpel umzusetzen, man muss nur ein Kabel mit einem 2.5″ Klinken-Stecker mit der Kamera verbinden und zwei der drei Kontakte überbrücken. Mehr Details gibt es auf blog.dbrgn.ch.
+
+Die andere Methode – auslösen via Infrarot – ist allerdings etwas herausfordernder. Es gibt Billig-Fernauslöser aus China ab 10$, aber eine Fernbedienung selbst zu bauen ist doch weitaus interessanter…
+
+Zuerst muss man herausfinden wie das Protokoll für den Fernauslöser funktioniert. Glücklicherweise gibt es auf doc-diy.net einen Post, der das RC-1 Protokoll detailliert beschreibt. Zusammengefasst: Man über eine Infrarot-LED kurz aufeinanderfolgend zwei Bursts mit je 16 Pulsen senden und dabei das Timing beachten.
+
+### Material
+Für die Umsetzung habe ich mich für einen Atmel ATtiny13a Mikrokontroller entschieden. Er verfügt zwar nur über 1KB Flash-Speicher und 64 Byte RAM, das ist für diese Anwendung jedoch völlig ausreichend. Alles in allem habe ich folgendes Material eingesetzt:
+
+
+* Atmel ATtiny13a Mikrokontroller
+* Osram SFH409 Infrarotdiode
+* Batteriehalterung CR1220
+* Mikro-Schiebeschalter
+* 15Ω Widerstand
+* CR1220 3V Knopfzelle
+* Drucktaster
+* Kabel
+* 3D-gedrucktes Gehäuse
+### Gehäuse
+Das Gehäuse wurde in OpenSCAD programmiert und kann auf einem 3D Drucker ausgedruckt werden. Es basiert auf dem Design von Ted Lin. Der Sourcecode für das Gehäuse befindet sich auf Github und Thingiverse.
+
+=> ../../../images/bottom_preview_featured.jpg IR-Remote Case Bottom (3D rendered image)
+=> ../../../images/button_preview_featured.jpg IR-Remote Case Button (3D rendered image)
+=> ../../../images/top_preview_featured.jpg IR-Remote Case Top (3D rendered image)
+### Software
+Der Atmel C Code für den ATtiny ist ziemlich simpel. In der main-Funktion wird zuerst der I/O eingerichtet:
+
+```
+// Set up I/O
+DDRB = _BV(PB1) | _BV(PB2) | _BV(PB4); // PB0 is input, PB1/2/4 are output
+PORTB = _BV(PB0); // Pull-up for input PB0
+```
+
+Dann werden unnötige Features des Mikrokontrollers deaktiviert um Energie zu sparen:
+
+```
+// Reduce power consumption
+ADCSRA &= ~_BV(ADEN); // Disable ADC
+ACSR &= ~_BV(ACD); // Disable the analog comparator
+```
+
+Es gibt eine einfache Funktion die den Burst auslöst:
+
+```
+#define HPERIOD 0.01524
+#define NPULSES 16
+#define LEDON 0b00010111
+#define LEDOFF 0b00000001
+
+void flash_led(void) {
+    for(uint8_t i=0; i<NPULSES; i++) {
+        PORTB = LEDON;
+        _delay_ms(HPERIOD);
+        PORTB = LEDOFF;
+        _delay_ms(HPERIOD);
+    }
+}
+```
+
+Diese Funktion wird zwei mal aufgerufen, mit unterschiedlichem Zeitabstand, jenachdem ob die Kamera sofort oder mit 2s Verzögerung auslösen soll (was mit dem Schiebeschalter umgestellt werden kann):
+
+```
+#define INSTANT 7.33
+#define DELAYED 5.36
+
+// Flash LED
+flash_led();
+if (PINB & _BV(PINB0)) {
+    _delay_ms(INSTANT);
+} else {
+    _delay_ms(DELAYED);
+}
+flash_led();
+```
+
+Zuletzt wird der Prozessor heruntergefahren.
+
+```
+// Power down
+set_sleep_mode(SLEEP_MODE_PWR_DOWN);
+sleep_mode();
+```
+
+Der gesamte Sourcecode findet sich – inklusive Makefile – auf Github.
+
+### Schaltplan
+Der Schaltplan ist ziemlich einfach. Durch das Betätigen des Tasters wird der Mikrokontroller eingeschaltet, sendet die Pulse und fährt sich wieder herunter.
+
+### Resultat
+Nach mehreren Stunden Entwicklung und Debugging hat es endlich geklappt. Hier die fertig zusammengebaute Fernbedienung:
+
+=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2505_small/ IMG_2505_small-150x150.jpg
+=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2502_small/ IMG_2502_small-150x150.jpg
+=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2498_small/ IMG_2498_small-150x150.jpg
+=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2477_small/ IMG_2477_small-150x150.jpg
+=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2528_small/ IMG_2528_small-150x150.jpg
+=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2523_small/ IMG_2523_small-150x150.jpg
+=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2529_small/ IMG_2529_small-150x150.jpg
+=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/img_2532_small/ IMG_2532_small-150x150.jpg
+Leider gibt es noch einige Probleme. Die Reichweite der Fernbedienung ist viel zu klein, ca. 1 Meter. Die LED würde von der Leistung her wohl viel weiter kommen. Vermutlich liegt es an einem einfachen Problem im Schaltplan, vielleicht müsste man einen Transistor verwenden anstatt den Strom über drei Pins am ATtiny zu ziehen. Aber ich bin Softwareentwickler, kein Elektroingenieur, zudem war das mein erstes Mikrokontroller-Projekt ohne Anfänger-Tools wie dem Arduino 🙂 Wenn jemand Verbesserungsvorschläge hat, bitte kommentieren.
+
+Alle Resourcen zu diesem Projekt befinden sich auf Github: https://github.com/coredump-ch/canon-ir-remote
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2014/01/04/diy-canon-ir-fernausloser/ Auf coredump.ch lesen

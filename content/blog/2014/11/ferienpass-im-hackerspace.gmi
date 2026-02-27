@@ -1,0 +1,32 @@
+# Ferienpass im Hackerspace
+
+Datum: 2014-11-10
+Autor: Josua Schmid
+Kategorien: Bildung, Projekte, bildung, elektronik, ferienpass, hackerspace, raspberry pi
+
+Jedes Jahr findet in Rapperswil, organisiert von vielen Freiwilligen, der Ferienpass statt. Dabei können Schüler der Volksschulen in den Herbstferien ein unterhaltsames und gleichzeitig lehrreiches Freizeitprogramm wählen. Unter den vielen Angeboten wie Gipsen, Backen oder Bodyflying haben wir uns mit einem Löt- und einem Programmierkurs eingereiht. Die Inhalte waren das selbständige Zusammenlöten einer RGB-LED Steuerung und das Programmieren von Minecraft mit Python auf einem Raspberry Pi. Das Echo war gewaltig. Auf die geplanten 16 Plätze insgesamt kamen etwa 70 zusätzliche Anmeldungen, welche wir leider nicht berücksichtigen konnten. Die insgesamt 4 Kurse für je 4 Kinder fanden unter der Woche von 13:30 bis 18:00 statt.
+
+### Farbige LED-Streifen löten
+Im Kurs für die jüngeren Teilnehmer (4.-6. Klasse) war Löten angesagt. Konkret ging es darum, eine von uns entworfene Schaltung zur Steuerung von LED-RGBs zu verstehen und zusammenzubauen. Es sollte am Schluss möglich sein, die Helligkeit jeder einzelnen RGB-Farbe über einen Drehwiderstand (Dreh-Poti) zu steuern.
+
+An Anfang stand ein wenig Theorie an. Es will ja verstanden sein, wie denn das mit dem Strom so etwa funktioniert, z.B. was denn ein Drehwiderstand überhaupt ist. Nach dieser Einleitung und ein bisschen ausprobieren mit dem Set des Kickstarters AgIC und einigen Lötversuchen mit LEDs (ja auch die können kaputt gehen 😉 ) machten sich die Jungs und Mädels an die Arbeit. Dabei brauchte es elektronische Bauteile, Lötzinn und vor allem viel Geduld und Geschick.
+
+Am Schluss der harten Arbeit konnten alle einen voll steuerbaren RGB-LED-Streifen mit nach Hause nehmen. Das Resultat besteht aus einer Platine mit drei Potis für jede Farbe, einer Batterie, einem LED-Streifen und einem Kippschalter.
+
+Zitat eines Kursleiters: ,,8 kaputti LEDs, verbrennti Finger und überall Heissliim 😉 Aber cool gsi!”
+
+### Minecraft programmieren auf dem Raspberry Pi
+Das zweite Kursangebot bestand darin, auf einem Raspberry Pi mithilfe der Programmiersprache Python und dem Computerspiel Minecraft die Grundsätze des Programmierens zu erlernen. Wir haben dafür das englischsprachige Tutorial der Raspberry Pi Foundation übersetzt, die deutsche Version ist nun auf http://minecraft.coredump.ch/ frei verfügbar.
+
+Schritt für Schritt tasteten wir uns während den viereinhalb Stunden von den Grundlagen einer Programmiersprache über Variablen, Schleifen und Funktionen bis an einfache Programme heran. Die Teilnehmer waren fasziniert davon, dass sie mit wenigen Befehlen die Welt in Minecraft verändern und kontrollieren konnten.
+
+In der Zeit konnten sie bereits einige interessante Dinge umsetzen. Ein Teilnehmer schrieb eine parametrisierbare Funktion um ein mehrstöckiges Gebäude zu generieren. Ein anderer Teilnehmer nutzte ein paar Zeilen Python um beim Laufen eine Spur aus Diamanten hinter sich her zu ziehen. Kreativ war auch der Code, der es einem weiteren Teilnehmer ermöglichte, beim Gehen die Blöcke um sich herum aufzulösen. So konnte er wie Moses das Wasser teilen und trockenen Fusses von Insel zu Insel spazieren 🙂
+
+Da die Hochschule für Technik freundlicherweise die Raspberry Pi Modelle gesponsert hat, durften die Kinder diese am Schluss des Kurses auch mit nach Hause nehmen. Wir freuen uns dass wir ihnen so die Möglichkeit geben können, Minecraft auch zu Hause weiter zu programmieren, und hoffen, dass sie diese Gelegenheit auch nutzen und dabei viel lernen können!
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2014/11/10/ferienpass-im-hackerspace/ Auf coredump.ch lesen

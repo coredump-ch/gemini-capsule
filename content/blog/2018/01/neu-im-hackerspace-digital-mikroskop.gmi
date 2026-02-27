@@ -1,0 +1,52 @@
+# Neu im Hackerspace: Digital-Mikroskop
+
+Datum: 2018-01-03
+Autor: Danilo
+Kategorien: Hackerspace, Hardware, andonstar, einrichtung, electronics, material, microscope, mikroskop, smd, soldering
+
+Da unsere Mitglieder immer wieder mal SMD-Lötarbeiten durchführen (z.B. für unsere LoRaWAN-Backplane) und man dafür öfter Bauteile, PCBs oder Lötstellen optisch inspizieren muss, haben wir uns intern ein Mikroskop gecrowdfunded.
+
+Das Gerät ist ein Andonstar ADSM201 und hat auf AliExpress zum Zeitpunkt der Bestellung 159$ gekostet.
+
+=> ../../../images/andonstar.jpg Das Mikroskop
+Das Mikroskop hat brauchbare Mechanik, gute Optik, einen integrierten kleinen Bildschirm und einen HDMI-Anschluss.
+
+=> https://www.coredump.ch/2018/01/03/neu-im-hackerspace-digital-mikroskop/microscope/ microscope-150x150.jpg
+=> https://www.coredump.ch/2018/01/03/neu-im-hackerspace-digital-mikroskop/miniscreen/ miniscreen-150x150.jpg
+=> https://www.coredump.ch/2018/01/03/neu-im-hackerspace-digital-mikroskop/parts2/ parts2-150x150.jpg
+Dank des integrierten Bildschirms kann man das Mikroskop relativ mobil verwenden, allerdings kommt die für den Preis wirklich sehr gute Bildqualität erst an einem grossen Bildschirm gut zur Geltung. Hier auf einem 24″-LCD:
+
+=> ../../../images/parts1.jpg parts1-675x380.jpg
+…und auf einem 55″-TV:
+
+=> ../../../images/bigscreen.jpg bigscreen-675x380.jpg
+Wenn man eine SD-Karte verwendet, kann man über die seitlichen Tasten am Screen auch direkt Bilder und Videos aufnehmen. Das haben wir bisher aber nicht getestet.
+
+Der Hersteller gibt einen Zoom-Faktor (bei Verwendung eines 22″-Screens) von bis zu 300× an. Hier eine SMD-LED auf der grössten Zoomstufe:
+
+=> ../../../images/image-18535.jpg image-18535-675x380.jpg
+Bei so einer Zoomstufe fällt natürlich jedes kleinste Stück Dreck auf. Und Dreck versteckt sich überall. Hier zum Beispiel der Lötkolben-Reinigungs-Schwamm unter dem Mikroskop:
+
+=> ../../../images/image-18530.jpg image-18530-675x380.jpg
+Auch gut sichtbar ist natürlich ein Fingerabdruck:
+
+=> ../../../images/image-18534.jpg image-18534-675x380.jpg
+…oder die Schichten eines 3D-gedruckten Objektes:
+
+=> ../../../images/image-18533.jpg image-18533-675x380.jpg
+Wer sich schonmal mit dem Thema der Tracking Dots befasst hat, wird diese gelben Punkte auf dem Papier kennen:
+
+=> ../../../images/image-18531.jpg image-18531-675x380.jpg
+Als Letztes noch eine Nahaufnahme eines Ausdruckes von einem älteren Schwarzweiss-Laserdrucker von HP:
+
+=> ../../../images/image-18529.jpg image-18529-675x380.jpg
+Wir hatten schon sehr viel Spass mit dem Mikroskop und sind begeistert von der Bildqualität. Eine Demo des Herstellers kann man sich hier ansehen. Hier gibt’s noch ein Review.
+
+Wir haben auch schon ein paar Ideen zur Verbesserung gefunden, z.B. die Kopfüber-Montage der Halterung. Auch die Polarisationsfilter haben wir uns bereits bestellt.
+
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2018/01/03/neu-im-hackerspace-digital-mikroskop/ Auf coredump.ch lesen

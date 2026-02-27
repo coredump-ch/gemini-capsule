@@ -1,0 +1,24 @@
+# Ein Hackerspace für Rapperswil!
+
+Datum: 2013-10-11
+Autor: Danilo
+Kategorien: Verein, hacker, hackerspace, verein
+
+Am 26. August 2013 wurde der Verein coredump von fünf Studenten in Rapperswil gegründet. Das primäre Ziel des Vereins ist das Bereitstellen eines Hackerspaces.
+
+Ein Hackerspace ist ein Raum oder Gebäude, in dem sich an Wissenschaft, Technologie oder digitaler Kunst (und vielen anderen Bereichen) Interessierte treffen und austauschen sowie an gemeinsamen Projekten arbeiten können. Oder etwas einfacher ausgedrückt: Ein Hackerspace ist ein Bastelraum und Treffpunkt für Technikbegeisterte.
+
+Der Begriff Hacker wird von uns allgemein gemäss der ursprünglichen Deﬁnition verwendet: er bezeichnet nicht etwa Kriminelle, welche in fremde Computernetze eindringen, sondern Technikenthusiasten, welche sich kreativ und intensiv mit Technologie auseinandersetzen.
+
+Seit dem 11. Oktober haben wir nun einen eigenen Raum an der Spinnereistrasse 2 gemietet. Wenn du mal vorbeischauen möchtest, oder gleich an einer Mitgliedschaft interessiert bist, dann komm doch einfach mal vorbei!
+
+(Image: Soldering a Circuit by cbeas, CC BY-NC-SA 2.0)
+
+=> https://secure.flickr.com/photos/cbeas/8770539676/ Soldering a Circuit
+=> https://secure.flickr.com/photos/cbeas/ cbeas
+
+---
+
+=> ../../../index.gmi Zuruck zum Blog
+=> ../../../../index.gmi Zuruck zur Startseite
+=> https://www.coredump.ch/2013/10/11/ein-hackerspace-fuer-rapperswil/ Auf coredump.ch lesen

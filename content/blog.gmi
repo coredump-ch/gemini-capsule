@@ -1,94 +1,13 @@
 # Blog – Coredump
 
-## Glasfaser-Workshop
-=> https://www.coredump.ch/2025/12/30/glasfaser-workshop/ Glasfaser-Workshop
-=> https://www.coredump.ch/author/danilo/ Danilo
-=> https://www.coredump.ch/category/events/ Events
-=> https://www.coredump.ch/2025/12/30/glasfaser-workshop/ Glasfaser-Workshop
-Kurz vor Ende des Jahres gab’s im Coredump noch einen Glasfaser- und Splicing-Workshop.
+=> blog/index.gmi Zum Gemlog (abonnierbar)
 
-## King of the Desert VI Finals Streaming@OST
-=> https://www.coredump.ch/2025/11/29/king-of-the-desert-vi-finals-streamingost/ King of the Desert VI Finals Streaming@OST
-=> https://www.coredump.ch/author/raphael/ Raphael Nestler
-=> https://www.coredump.ch/category/events/ Events
-=> https://www.coredump.ch/category/events/gaming/ Gaming
-=> https://www.coredump.ch/2025/11/29/king-of-the-desert-vi-finals-streamingost/ King of the Desert VI Finals Streaming@OST
-Die sechste Edition des legendären King of the Desert Turniers ist im Gange. Aus diesem Anlass organisieren wir wieder ein Streaming des Finals. Die OST wird Pizza zur Verfügung stellen. … Read More
+## Neueste Beitrage
 
-=> https://www.coredump.ch/2025/11/29/king-of-the-desert-vi-finals-streamingost/ Read More
-## 3D-Drucker bei der Kulturnacht 2025
-=> https://www.coredump.ch/2025/11/01/3d-drucker-bei-der-kulturnacht-2025/ 3D-Drucker bei der Kulturnacht 2025
-=> https://www.coredump.ch/author/peter/ Peter
-=> https://www.coredump.ch/category/3d-druck/ 3D Druck
-=> https://www.coredump.ch/category/bildung/ Bildung
-=> https://www.coredump.ch/category/events/ Events
-=> https://www.coredump.ch/2025/11/01/3d-drucker-bei-der-kulturnacht-2025/ 3D-Drucker bei der Kulturnacht 2025
-War der Abend schön! Der Coredump war anlässlich der diesjährigen Kulturnacht vor Ort in der Stadtbibliothek, um unseren 3D-Drucker vorzustellen. Diese Aktion hat grosse Begeisterung bei Klein und Gross ausgelöst. … Read More
+=> blog/2025/12/glasfaser-workshop.gmi 2025-12-30 - Glasfaser-Workshop
+=> blog/2025/11/king-of-the-desert-vi-finals-streamingost.gmi 2025-11-29 - King of the Desert VI Finals Streaming@OST
+=> blog/2025/11/3d-drucker-bei-der-kulturnacht-2025.gmi 2025-11-01 - 3D-Drucker bei der Kulturnacht 2025
+=> blog/2025/09/kernspeicher.gmi 2025-09-29 - Kernspeicher
+=> blog/2024/02/rueckblick-1-repair-cafe-rapperswil-jona.gmi 2024-02-26 - Rückblick 1. Repair Café Rapperswil-Jona
 
-=> https://www.coredump.ch/2025/11/01/3d-drucker-bei-der-kulturnacht-2025/ Read More
-## Kernspeicher
-=> https://www.coredump.ch/2025/09/29/kernspeicher/ Kernspeicher
-=> https://www.coredump.ch/author/peter/ Peter
-=> https://www.coredump.ch/category/bildung/ Bildung
-=> https://www.coredump.ch/2025/09/29/kernspeicher/ Kernspeicher
-Seit diesem Sommer hängt bei uns im Coredump ein richtiger Kernspeicher an der Wand. Eine Technologie, die indirekt für unseren Vereinsnamen verantwortlich ist. (Herzlichen Dank Markus für das geschätzte Geschenk!) … Read More
-
-=> https://www.coredump.ch/2025/09/29/kernspeicher/ Read More
-## Rückblick 1. Repair Café Rapperswil-Jona
-=> https://www.coredump.ch/2024/02/26/rueckblick-1-repair-cafe-rapperswil-jona/ Rückblick 1. Repair Café Rapperswil-Jona
-=> https://www.coredump.ch/author/danilo/ Danilo
-=> https://www.coredump.ch/category/events/ Events
-=> https://www.coredump.ch/category/recycling/ Recycling / Reparaturen
-=> https://www.coredump.ch/2024/02/26/rueckblick-1-repair-cafe-rapperswil-jona/ Rückblick 1. Repair Café Rapperswil-Jona
-Vor knapp eineinhab Jahren fand bei uns der Coredump Repair Day statt, damals noch als Coredump-Event. Am letzten Samstag war nun die erste Durchführung des offiziellen Repair Café Rapperswil-Jona, organisiert … Read More
-
-=> https://www.coredump.ch/2024/02/26/rueckblick-1-repair-cafe-rapperswil-jona/ Read More
-## Projekt: Seifenhalter
-=> https://www.coredump.ch/2024/01/03/projekt-seifenhalter/ Projekt: Seifenhalter
-=> https://www.coredump.ch/author/peter/ Peter
-=> https://www.coredump.ch/category/lasercutter/ Lasercutter
-=> https://www.coredump.ch/category/projekte/ Projekte
-=> https://www.coredump.ch/2024/01/03/projekt-seifenhalter/ Projekt: Seifenhalter
-Hier zeige ich ein Beispiel, wie die digitalen Fertigungstechniken von Coredump dazu genutzt werden können, Alltagsprobleme effizient zu lösen.
-
-## Projekt: Spulenaufbewahrung Unterfäden
-=> https://www.coredump.ch/2023/12/26/projekt-spulenaufbewahrung-unterfaeden/ Projekt: Spulenaufbewahrung Unterfäden
-=> https://www.coredump.ch/author/jessy/ Jessica
-=> https://www.coredump.ch/category/lasercutter/ Lasercutter
-=> https://www.coredump.ch/category/projekte/ Projekte
-=> https://www.coredump.ch/2023/12/26/projekt-spulenaufbewahrung-unterfaeden/ Projekt: Spulenaufbewahrung Unterfäden
-Seit längerem bin ich (Jessy) auf der Suche nach einer guten Aufbewahrung für meine Nähmaschinen-Unterfäden im Nähtreff, bei dem ich mithelfe. Vorher war es ein ziemliches Chaos, bei dem man … Read More
-
-=> https://www.coredump.ch/2023/12/26/projekt-spulenaufbewahrung-unterfaeden/ Read More
-## Verbesserungstag 2023
-=> https://www.coredump.ch/2023/08/02/verbesserungstag-2023/ Verbesserungstag 2023
-=> https://www.coredump.ch/author/danilo/ Danilo
-=> https://www.coredump.ch/category/hackerspace-2/ Hackerspace
-=> https://www.coredump.ch/category/lasercutter/ Lasercutter
-=> https://www.coredump.ch/category/makerspace/ Makerspace
-=> https://www.coredump.ch/2023/08/02/verbesserungstag-2023/ Verbesserungstag 2023
-Immer wieder mal hörte man im Coredump Aussagen wie z.B. “hier sollte man mal aufräumen”, “es wäre cool, wenn wir das Werkzeug besser organisieren könnten”, “hier ist zu wenig Platz” … Read More
-
-=> https://www.coredump.ch/2023/08/02/verbesserungstag-2023/ Read More
-## Red Bull Wololo: Legacy 2022 Finals
-=> https://www.coredump.ch/2022/10/25/red-bull-wololo-legacy-2022-finals/ Red Bull Wololo: Legacy 2022 Finals
-=> https://www.coredump.ch/author/raphael/ Raphael Nestler
-=> https://www.coredump.ch/category/events/ Events
-=> https://www.coredump.ch/category/events/gaming/ Gaming
-=> https://www.coredump.ch/2022/10/25/red-bull-wololo-legacy-2022-finals/ Red Bull Wololo: Legacy 2022 Finals
-Die sechste Edition des legendären Wololo Age of Empires Turniers kommt in die Finalrunden! Wie schon in der Vergangenheit werden wir uns wieder im Coredump treffen, um die Spiele zu … Read More
-
-=> https://www.coredump.ch/2022/10/25/red-bull-wololo-legacy-2022-finals/ Read More
-## Rückblick Repair Day
-=> https://www.coredump.ch/2022/10/15/rueckblick-repair-day/ Rückblick Repair Day
-=> https://www.coredump.ch/author/danilo/ Danilo
-=> https://www.coredump.ch/category/events/ Events
-=> https://www.coredump.ch/category/recycling/ Recycling / Reparaturen
-=> https://www.coredump.ch/2022/10/15/rueckblick-repair-day/ Rückblick Repair Day
-Das erste Repair Café im Coredump war ein voller Erfolg! Insgesamt vierzehn Gegenstände wurden zur Reparatur zu uns gebracht: Zwei Rasiergeräte, eine Jacke, ein Tablet, ein Drucker, eine Taschenlampe, zwei … Read More
-
-=> https://www.coredump.ch/2022/10/15/rueckblick-repair-day/ Read More
-=> https://www.coredump.ch/blog/page/2/ 2
-=> https://www.coredump.ch/blog/page/3/ 3
-=> https://www.coredump.ch/blog/page/2/ ›
-=> https://www.coredump.ch/blog/page/8/ »
+=> blog/index.gmi Alle Beitrage anzeigen
