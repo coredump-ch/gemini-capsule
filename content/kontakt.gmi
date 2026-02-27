@@ -4,13 +4,13 @@
 * Email: vorstand@coredump.ch
 => mailto:vorstand@coredump.ch vorstand@coredump.ch
 * Mastodon: https://chaos.social/@coredump/
-=> https://chaos.social/@coredump/ https://chaos.social/@coredump/
+=> https://chaos.social/@coredump/
 * Unter https://chat.coredump.ch/ betreiben wir eine Mattermost-Instanz als Vereins-Chat. Die Registration steht auch Nichtmitgliedern offen.
-=> https://chat.coredump.ch/ https://chat.coredump.ch/
+=> https://chat.coredump.ch/
 * IRC: Unser Channel ist #coredump auf libera.chat. Der Chat ist allerdings nicht sehr aktiv. Es besteht eine Bridge auf Mattermost.
 => https://libera.chat/ libera.chat
 * Unter https://forum.coredump.ch/ findest du unser Diskussionsforum.
-=> https://forum.coredump.ch/ https://forum.coredump.ch/
+=> https://forum.coredump.ch/
 ### Location
 Unser Raum befindet sich an folgender Adresse:
 
