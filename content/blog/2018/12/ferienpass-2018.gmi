@@ -9,11 +9,11 @@ Auch dieses Jahr (wie schon in den Jahren 2016, 2015 und 2014) fanden zwei Ferie
 ### Einstieg in die Elektronik mit Löt-Kits
 Im ersten Kurs war Löten angesagt! Von 13:30 bis 17 Uhr lernten die 8 Teilnehmerinnen und Teilnehmer, wie man mit dem Lötkolben umgeht und worauf man achten muss, damit die gelöteten Kits am Ende auch funktionieren. Wir haben zwei Kits zusammengelötet: Ein LED-Lauflicht und einen Linien-Folge-Roboter, welcher mittels IR-Dioden und Fototransistoren einer schwarzen Linie entlang fahren kann.
 
-=> ../../../images/IMG_20181013_112138.jpg Fertig zusammengebauter Linienfolger und LED Lauflicht
-=> ../../../images/IMG_20181013_143406.jpg Kontrolle der Lötstellen mit Mikroskop
+=> /images/IMG_20181013_112138.jpg Fertig zusammengebauter Linienfolger und LED Lauflicht
+=> /images/IMG_20181013_143406.jpg Kontrolle der Lötstellen mit Mikroskop
 Am Schluss hatten alle ein funktionsfähiges Fahrzeug, welches autonom einer schwarzen Linie auf einem Blatt folgen kann!
 
-=> ../../../images/IMG_20181013_170312.jpg Test des Linienfolgers
+=> /images/IMG_20181013_170312.jpg Test des Linienfolgers
 ### Einstieg in die Programmierung mit BOB3
 Im zweiten Kurs lag der Fokus auf dem Programmieren eines “Roboters”. Dafür verwendeten wir das Kit “BOB3” von Nicai Systems. Der BOB3 wird bereits erfolgreich an vielen Schulen eingesetzt und wird begleitet von einer interaktiven, webbasierten Programmierumgebung. (Ein Vortrag zu Digitaler Bildung in der Schule mit dem BOB3 findet sich hier.)
 

@@ -17,12 +17,12 @@ An antenna has a single goal: To radiate energy into space. It converts electric
 
 Many antenna metrics are done in reference to a so-called “ideal isotropic antenna”. That is a theoretical antenna which radiates 100% of its energy uniformly in every direction. Such an antenna does not exist physically, but we can take it as a reference.
 
-=> ../../../images/isotropic2.png The radiation pattern of an isotropic antenna
+=> /images/isotropic2.png The radiation pattern of an isotropic antenna
 By focussing the electromagnetic energy beam into a certain direction, the range in that direction can be extended compared to the isotropic reference antenna. The amplification in that direction compared to the isotropic antenna is called the “gain” and it’s expressed in dBi (the “i” stands for “isotropic”). Note that the total energy is always the same, so focussing the energy in one direction means losing range in another direction. You can think of it like focussing a flashlight – the center of the beam becomes brighter but the radius of the illuminated area decreases. Or think of it like a balloon – you can make it longer by squishing it together between your hands, but then it also gets thinner.
 
 Most typical antennas used for LoRaWAN are omnidirectional, meaning that they have more or less the same range in every horizontal direction. The radiation pattern is donut-shaped in that case.
 
-=> ../../../images/omnidirectional3.png A donut-shaped radiation pattern
+=> /images/omnidirectional3.png A donut-shaped radiation pattern
 Note that we’re loosing range in the vertical direction, but gain range in the horizontal direction (if the antenna is oriented vertically in the middle of that donut shape). An antenna gain of 3 dBi would mean that we would get about twice the transmit power in horizontal direction compared to the isotropic antenna.
 
 ### Resonance, VSWR

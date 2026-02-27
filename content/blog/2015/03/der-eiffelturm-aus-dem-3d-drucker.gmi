@@ -6,9 +6,9 @@ Kategorien: 3D Druck, 3d printing, ultimaker
 
 Als Belohnung für eine Unterstützerin der Wemakeit-Aktion haben wir den Eiffelturm in 24cm Höhe (CC BY-SA LeFabShop) gedruckt. Der Turm wird in mehreren Einzelteilen gedruckt und dann zusammengeklebt. Das Resultat sieht grossartig aus:
 
-=> ../../../images/eiffel_outside.jpg eiffel_outside-150x150.jpg
-=> ../../../images/eiffel_window.jpg eiffel_window-150x150.jpg
-=> ../../../images/eiffel_stone.jpg eiffel_stone-150x150.jpg
+=> /images/eiffel_outside.jpg
+=> /images/eiffel_window.jpg
+=> /images/eiffel_stone.jpg
 
 ---
 

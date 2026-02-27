@@ -8,13 +8,13 @@ In our previous blogpost, we talked about ways to measure and compare antennas. 
 
 Today, we’ll take a look at the results we got from antenna measurements. Since I already had a few LoRa antennas from various sources, I wanted to know how they compare. The best way to do that is with an antenna test chamber. Luckily, the people at the Institute for Communication Systems (ICOM) at HSR built themselves such a test chamber from an old SBB freight container.
 
-=> ../../../images/photo5773639766699518245-2.jpg Photo of the ICOM RF test chamber
+=> /images/photo5773639766699518245-2.jpg Photo of the ICOM RF test chamber
 Even more luckily, we were allowed to use the test chamber to do the measurements required to compare various LoRa antennas (thanks Selina!).
 
 ### The Antennas
 These are the antennas that we measured:
 
-=> ../../../images/photo6014560124603049996_01-labeled.jpg 11 different antennas labelled with numbers lined up on a table
+=> /images/photo6014560124603049996_01-labeled.jpg 11 different antennas labelled with numbers lined up on a table
 Description of the various antennas:
 
 
@@ -32,12 +32,12 @@ Description of the various antennas:
 ### How We Measured
 The gain measurement was conducted in the test chamber. The transmitting antenna was directed straigth at the test antenna. The test antenna was positioned vertically (unless noted otherwise) on a counterpoise / groundplane of about 20x20cm.
 
-=> ../../../images/photo6023834737111574485.jpg The antenna in the test chamber
+=> /images/photo6023834737111574485.jpg The antenna in the test chamber
 The test antenna could be rotated along the Z-axis. Every few degrees, a measurement was conducted at 868 MHz, which allows us to draw nice plots of the results.
 
 To measure the VSWR we used calibrated testing equipment from Rohde & Schwarz. Measurements were done while holding the antenna cable in our hands. Most measurements were done without a counterpoise / groundplane, unless noted otherwise. Antennas that can be bent were measured straight, unless noted otherwise.
 
-=> ../../../images/photo6023834737111574483.jpg VSWR Measurement
+=> /images/photo6023834737111574483.jpg VSWR Measurement
 ### Results: Antenna Gain
 Here are the gain measurement results for the various antennas.
 
@@ -46,19 +46,19 @@ Notes:
 
 * For antenna 7 we had two samples of the same product, so we measured both (7A and 7B).
 * The DIY dipole antenna without balun (10) was measured twice, once in vertical orientation and once in horizontal orientation.
-=> ../../../images/U1.png U1-300x275.png
-=> ../../../images/U2.png U2-300x275.png
-=> ../../../images/U3.png U3-300x275.png
-=> ../../../images/U4.png U4-300x275.png
-=> ../../../images/U5.png U5-300x275.png
-=> ../../../images/imst.png imst-300x275.png
-=> ../../../images/aliexpress2.png aliexpress2-300x275.png
-=> ../../../images/aliexpress3.png aliexpress3-300x275.png
-=> ../../../images/digikey.png digikey-300x275.png
-=> ../../../images/spiral.png spiral-300x275.png
-=> ../../../images/diy_vertikal.png diy_vertikal-300x275.png
-=> ../../../images/diy_horizontal.png diy_horizontal-300x275.png
-=> ../../../images/diy_nicola_vertikal.png diy_nicola_vertikal-300x275.png
+=> /images/U1.png
+=> /images/U2.png
+=> /images/U3.png
+=> /images/U4.png
+=> /images/U5.png
+=> /images/imst.png
+=> /images/aliexpress2.png
+=> /images/aliexpress3.png
+=> /images/digikey.png
+=> /images/spiral.png
+=> /images/diy_vertikal.png
+=> /images/diy_horizontal.png
+=> /images/diy_nicola_vertikal.png
 As we can see, the results were varying quite a lot. Of the first 5 antennas, only one (4) had a barely positive dBi gain. The impressive-looking long antenna (5) which was sold as a high-gain 9 dBi gain antenna by the Chinese seller even averaged at around -7 dBi.
 
 The next two results (6-7) were better. We measured the IMST antenna (6) gain at around 2 dBi, which matches their specification. For the Ali Express antenna, we measured two samples (7A and 7B), both of which were a bit above 2 dBi. This does not match their specification of 5 dBi, but hey – the antenna just costs 4$ and the gain is still slightly above the one by IMST (which is also still cheap at 7.70€).
@@ -82,22 +82,22 @@ Notes:
 * Unfortunately it seems we forgot to save the VSWR measurement for antenna 9. Too bad, would have been interesting.
 * The equipment was set to measure the range from 600 MHz to 1 GHz. A division is a step of 40 MHz.
 * The measurement point M1 was set to 868 MHz.
-=> ../../../images/u1.png u1-300x217.png
-=> ../../../images/u2.png u2-300x217.png
-=> ../../../images/u3_straight.png u3_straight-300x217.png
-=> ../../../images/u3_angled.png u3_angled-300x217.png
-=> ../../../images/u4.png u4-300x217.png
-=> ../../../images/u4_gndplane.png u4_gndplane-300x217.png
-=> ../../../images/u5.png u5-300x217.png
-=> ../../../images/imst-1.png imst-1-300x217.png
-=> ../../../images/imst_gnd.png imst_gnd-300x217.png
-=> ../../../images/ali2.png ali2-300x217.png
-=> ../../../images/ali2_gnd.png ali2_gnd-300x217.png
-=> ../../../images/ali3.png ali3-300x217.png
-=> ../../../images/ali3_gnd.png ali3_gnd-300x217.png
-=> ../../../images/digikey-1.png digikey-1-300x217.png
-=> ../../../images/digikey_gnd.png digikey_gnd-300x217.png
-=> ../../../images/IOT_DIY.png IOT_DIY-300x217.png
+=> /images/u1.png
+=> /images/u2.png
+=> /images/u3_straight.png
+=> /images/u3_angled.png
+=> /images/u4.png
+=> /images/u4_gndplane.png
+=> /images/u5.png
+=> /images/imst-1.png
+=> /images/imst_gnd.png
+=> /images/ali2.png
+=> /images/ali2_gnd.png
+=> /images/ali3.png
+=> /images/ali3_gnd.png
+=> /images/digikey-1.png
+=> /images/digikey_gnd.png
+=> /images/IOT_DIY.png
 First, we need to be able to interpret these results. What we can read from these charts is the return loss in dB. For example, in the first chart, we can see that the point M1 is at -14.2 dB. To calculate the VSWR from that, we use the following formula (which I found here):
 
 If we put in the return loss (RL) of 14.2 dB into the formula above, we end up with a VSWR of 1:1.48. Here’s the table with the calculated VSWR values:
@@ -110,8 +110,8 @@ First, we notice that antennas that can be bent are probably optimized for strai
 
 A groundplane lowers the resonance frequency of an antenna and widens the bandwith. One of the examples where we can see this best, is antenna 8, which is a quarter wave monopole:
 
-=> ../../../images/digikey-1.png digikey-1-300x217.png
-=> ../../../images/digikey_gnd.png digikey_gnd-300x217.png
+=> /images/digikey-1.png
+=> /images/digikey_gnd.png
 We can see that our 20×20 cm groundplane moves the resonance frequency from around 960 MHz to around 760 MHz. Because our desired frequency of 868 MHz was off in both configurations, we only got VSWR values of 5.36 and 4.33. By using a smaller groundplane, we might have hit the ideal resonance, which according to the datasheet should have resulted in a VSWR of <2.0. And they’re right, the return loss at resonance seems to be around 23 dB, which would give us a VSW ratio of 1:1.15.
 
 Finally, a comment about antenna 10: Since this was a DIY antenna, we could optimize it perfectly for our desired frequency by cutting the wires to the perfect length. With the configuration we used, we hit the sweet spot. But that might change again once it’s attached to an enclosure 😉

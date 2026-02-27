@@ -9,14 +9,14 @@ Wie bereits in den Jahren 2014 und 2015 haben wir auch dieses Jahr im Coredump z
 ### Einstieg in die Elektronik mit RGB LEDs
 Im Elektronik-Kurs lernten die Kinder, wie bereits in den Jahren zuvor, grundlegende Löt- und Elektronikkenntnisse anhand einer Steuerung für einen RGB-LED-Streifen.
 
-=> ../../../images/photo233681680608634940_pixelized-e1478011541205.jpg Löten
+=> /images/photo233681680608634940_pixelized-e1478011541205.jpg Löten
 Während wir im 2014 und 2015 sehr einfache Platinen verwendet hatten, die den Strom komplett über drei Potis regeln, wechselten wir dieses Jahr zu einer mikrokontroller-gesteuerten Platine welche bis zu 5m LED-Streifen interaktiv und programmierbar ansteuern kann.
 
-=> ../../../images/photo_v2.1_kit.jpg RGB-LED Kit
+=> /images/photo_v2.1_kit.jpg RGB-LED Kit
 Für das Löten der Bauteile rechneten wir eigentlich mit 1.5 bis 2h Zeitaufwand, die 6 Kinder lernten jedoch extrem schnell und waren bereits nach rund einer Stunde mit dem Löten fertig 🙂
 
-=> ../../../images/photo233681680608634933-e1478011753167.jpg Konzentriert am Löten
-=> ../../../images/photo54578250125519627_pixelized-675x432.jpg photo54578250125519627_pixelized
+=> /images/photo233681680608634933-e1478011753167.jpg Konzentriert am Löten
+=> /images/photo54578250125519627_pixelized-675x432.jpg photo54578250125519627_pixelized
 Anschliessend schauten wir mit den Teilnehmern die Funktionsweise der elektronischen Schaltungen an und fanden zum Schluss sogar noch etwas Zeit um die Arduino-Boards mit neuen Algorithmen zu programmieren. Die Kinder hatten viele kreative Ideen und entwickelten zum Beispiel ein Spiel bei welchem eine Kombination von Poti-Positionen erraten werden musste!
 
 Dank vielen Helfern war der Kurs kurzweilig und stressfrei. Wir hoffen, dass die Kinder eben so viel Spass daran hatten wie wir 🙂
@@ -26,10 +26,10 @@ Dank vielen Helfern war der Kurs kurzweilig und stressfrei. Wir hoffen, dass die
 ### 3D-Druck Kennenlernen
 Im zweiten Kurs – eine Woche später – konnten sich 8 Kinder mit unserem 3D-Drucker vertraut machen. Wir erklärten die Funktionsweise des FDM-Druckers und wie man ein 3D-Modell für den Druck erstellen kann.
 
-=> ../../../images/photo54578250125519636.jpg Gestalten eigener 3D-Designs
+=> /images/photo54578250125519636.jpg Gestalten eigener 3D-Designs
 Mit Tinkercad konnten die Teilnehmer direkt im Webbrowser eigene Ideen in 3D umsetzen. Unter den Designs gab es Namensschilder, Uhrenblätter, Gehäuse für die RGB-LED-Steuerung, Handy-Hüllen und sogar ein komplettes Modell eines DJ-Pultes!
 
-=> ../../../images/photo54578250125519638.jpg Modellieren eines DJ-Pultes
+=> /images/photo54578250125519638.jpg Modellieren eines DJ-Pultes
 Uns haben die Kurse gefallen. Dank useren neuen Räumlichkeiten hatten wir viel mehr Platz als in den Jahren davor, was die Organisation vereinfachte. Wir freuen uns darauf, auch nächses Jahr beim Ferienpass dabei zu sein!
 
 

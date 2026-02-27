@@ -75,12 +75,12 @@ Als Server für die Webapp und für die Drucker-Ansteuerung nutzten wir ein Rasp
 ### Gallerie
 Und so hat das Ganze ausgesehen:
 
-=> ../../../images/2014-02-20-18.47.13.jpg 2014-02-20-18.47.13-150x150.jpg
-=> ../../../images/2014-02-20-21.26.04.jpg 2014-02-20-21.26.04-150x150.jpg
-=> ../../../images/2014-02-20-22.40.47.jpg 2014-02-20-22.40.47-150x150.jpg
-=> ../../../images/2014-02-20-21.04.45.jpg 2014-02-20-21.04.45-150x150.jpg
-=> ../../../images/2014-02-20-20.06.58.jpg 2014-02-20-20.06.58-150x150.jpg
-=> ../../../images/2014-02-20-21.04.41.jpg 2014-02-20-21.04.41-150x150.jpg
+=> /images/2014-02-20-18.47.13.jpg
+=> /images/2014-02-20-21.26.04.jpg
+=> /images/2014-02-20-22.40.47.jpg
+=> /images/2014-02-20-21.04.45.jpg
+=> /images/2014-02-20-20.06.58.jpg
+=> /images/2014-02-20-21.04.41.jpg
 ### Fazit
 Der Drucker erfreute sich recht grosser Beliebtheit. Es dauerte nicht lange bis neben Testkommentaren und Grüssen von der Toilette auch ASCII Art ausgedruckt wurde (allerdings nicht immer ganz jugendfrei). Auch ein Prüfungsreglement der Landschaftsarchitekten hats auf das Papier geschafft…
 

@@ -6,8 +6,8 @@ Kategorien: Events, Verein, hsr, promotion, vshsr
 
 Am Mittwoch waren wir über Mittag an der HSR und haben an der Untervereins-Vorstellung des VSHSR etwas Werbung für uns gemacht 🙂 Wir sind zwar rechtlich gesehen kein Unterverein des VSHSR, durften aber freundlicherweise trotzdem unsere Angebote an einem Stand vorstellen.
 
-=> ../../../images/2015-09-30-11.56.54.jpg 2015-09-30-11.56.54-150x150.jpg
-=> ../../../images/2015-09-30-13.14.01-2_01.jpg Stand an der VSHSR Untervereinsvorstellung im Herbst 2015. Auf dem Tisch steht ein 3D-Drucker, die 7-Segment LED-Anzeige und ein paar farbige LEDs.
+=> /images/2015-09-30-11.56.54.jpg
+=> /images/2015-09-30-13.14.01-2_01.jpg Stand an der VSHSR Untervereinsvorstellung im Herbst 2015. Auf dem Tisch steht ein 3D-Drucker, die 7-Segment LED-Anzeige und ein paar farbige LEDs.
 Mit dabei war natürlich unser 3D-Drucker, die grosse 7-Segment Anzeige und ein paar farbige LED-Streifen. Besonders der Ultimaker hat einige Studenten angelockt, die fasziniert den Druckvorgang beobachtet haben.
 
 Wir danken dem VSHSR für die tolle Möglichkeit, uns vorzustellen!

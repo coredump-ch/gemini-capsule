@@ -6,25 +6,25 @@ Kategorien: Events, Hackerspace, Verein, eröffnungsfest, event, feier
 
 Mittlerweile ist es rund einen Monat her, seit wir unser Eröffnungsfest hatten. Es ist also höchste Zeit für einen Rückblick! Wir hatten über den Tag hinweg ungefähr 80 Gäste, wobei zur Spitzenzeit 50 Personen anwesend waren. Da der neue Raum mehr als 100 m² Platz bietet und sich die Leute auch nach draussen verteilten, war es trotz der vielen Besucher nie eng.
 
-=> ../../../images/IMG_9991-Pano-pixelized-fixed.jpg Eróffnungsfest
+=> /images/IMG_9991-Pano-pixelized-fixed.jpg Eróffnungsfest
 Die grössten Highlights waren:
 
 ### Das Buffet
 Einige Mitglieder des Coredump haben sich heftig ins Zeug gelegt und ein wunderbares Buffet mit Bezug zu nerdigen Themen erschaffen. 🙂
 
-=> ../../../images/IMG_9970.jpg Eróffnungsfest Buffet
-=> ../../../images/IMG_9972.jpg Eróffnungsfest Buffet Pinguine
-=> ../../../images/IMG_9973.jpg Eróffnungsfest Buffet Pilze
+=> /images/IMG_9970.jpg Eróffnungsfest Buffet
+=> /images/IMG_9972.jpg Eróffnungsfest Buffet Pinguine
+=> /images/IMG_9973.jpg Eróffnungsfest Buffet Pilze
 ### Flüssigstickstoff-Glace
 Wie auch schon am Stadtfest Rapperswil-Jona und am Seenachtfest boten wir wieder an, Glace mit Flüssigstickstoff selber zu mischen.
 
-=> ../../../images/IMG_9995.jpg Eróffnungsfest Glace
-=> ../../../images/IMG_9997.jpg Eróffnungsfest Glace
+=> /images/IMG_9995.jpg Eróffnungsfest Glace
+=> /images/IMG_9997.jpg Eróffnungsfest Glace
 Nach einer kurzen Einführung zur Sicherheit im Umgang mit Flüssigstickstoff wurden sogleich Glaces mit allerlei Geschmacksvarianten hergestellt.
 
 ### Lötkurs
-=> ../../../images/IMG_9982.jpg Eróffnungsfest Lötworkshop
-=> ../../../images/IMG_9990.jpg Eróffnungsfest Lötworkshop
+=> /images/IMG_9982.jpg Eróffnungsfest Lötworkshop
+=> /images/IMG_9990.jpg Eróffnungsfest Lötworkshop
 Wie auch schon mehrmals am Ferienpass boten wir einen Lötworkshop an. Diese wurden vor allem von Kindern rege besucht.
 
 ### Retro-Games
@@ -32,17 +32,17 @@ Neben unserem C64, auf dem eine Variante von Flappy Bird und Pacman zum Spielen 
 
 Im Verlauf des Abends wurden regelmässig neue Highscores erreicht und mittels lautem Rufen verkündet 😉 Auch der Counter, welcher nur aus einem Taster und einem Display besteht, wurde rege verwendet!
 
-=> ../../../images/snake.jpg Snake: 223
-=> ../../../images/flappy.jpg Flappy Bird: 54
-=> ../../../images/counter.jpg Counter 17634
+=> /images/snake.jpg Snake: 223
+=> /images/flappy.jpg Flappy Bird: 54
+=> /images/counter.jpg Counter 17634
 ### Vortrag
 Zwischendurch erklärte Raphael den interessierten Gästen, was eigentlich genau ein Hackerspace ist und woher der Begriff “Hacker” ursprünglich kommt.
 
-=> ../../../images/IMG_9977.jpg Eróffnungsfest Vortrag
+=> /images/IMG_9977.jpg Eróffnungsfest Vortrag
 ### Projektvorstellungen
 An unserer Plakatwand wurden einige der zahlreichen Coredump-Projekte vorgestellt.
 
-=> ../../../images/IMG_20180910_224353.jpg Plakatwand
+=> /images/IMG_20180910_224353.jpg Plakatwand
 Da die meisten der Leute, welche an den jeweiligen Projekten arbeiten, auch anwesend waren, bot sich eine prima Gelegenheit, um ins Gespräch zu kommen und Details zu den Projekten zu erfahren.
 
 ### Zeitungsartikel

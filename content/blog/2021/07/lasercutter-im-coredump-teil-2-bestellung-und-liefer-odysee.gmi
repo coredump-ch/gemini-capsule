@@ -27,7 +27,7 @@ Für die Auswahl des Lasers hatten wir folgende Anforderungen:
 * Lüfter, Kühler, Luftkompressor
 Von Gweike erhielten wir folgende Offerten:
 
-=> ../../../images/2021-02-23-001106_1452x189_scrot.png Tabellarische Auflistung der Offerte für vier verschiedene Laser-Modelle: Storm600, LG6040N, LC6090 und LG900N.
+=> /images/2021-02-23-001106_1452x189_scrot.png Tabellarische Auflistung der Offerte für vier verschiedene Laser-Modelle: Storm600, LG6040N, LC6090 und LG900N.
 Schlussendlich haben wir uns für das Modell LC6090 mit einer 80W-Laserröhre entschieden. Der Laser bietet folgendes:
 
 
@@ -53,59 +53,18 @@ Von uns hatte übrigens noch niemand Erfahrung mit Import von Gütern oder mit d
 
 In Qingdao wurde die Kiste mit dem Laser in das Containerschiff CMA CGM Vela geladen. Gespannt verfolgten wir die über 40 Tage dauernde Fahrt durch den Indischen Ozean, durch den Suezkanal (phu!) und dann endlich durch’s Mittelmeer! Als Ziel-Hafen war Koper in Slowenien vorgesehen.
 
-=> ../../../images/screenshot-20210516-181840.png Screenshot einer Schiffs-Tracking-Website, wo man den Schiffsverkehr durch das Mittelmeer sieht.
+=> /images/screenshot-20210516-181840.png Screenshot einer Schiffs-Tracking-Website, wo man den Schiffsverkehr durch das Mittelmeer sieht.
 Doch als das Schiff im Mittelmeer angekommen war, änderte sich plötzlich der Ziel-Hafen. Das Schiff steuerte zuerst Malta an, und nahm danach Kurs auf Spanien. Was war geschehen? Aufgrund des logistisch sehr komplizierten Kanal-Zwischenfalls und daraus resultierenden Verzögerungen mussten die Pläne einiger Schiffe geändert werden. Vermutlich wurde wichtige Fracht priorisiert, während weniger wichtigere Fracht (wie unser Laser) auf andere Schiffe umgeladen wurde. Nach Erhalt dieser Information gingen wir also davon aus, dass unser Laser nun in Malta stand und darauf wartete, mit einem anderen Schiff nach Slowenien zu fahren.
 
-=> ../../../images/image-675x263.png Screenshot einer E-Mail mit folgendem Inhalt:
-
-Dear Valued Customer,  
- 
-Please be informed that we are currently facing lack of capacity as a consequence of the Suez Canal 
-incident, which has led to several void sailings, delays and port congestions. Shipment under B/L 
-XXXXXX has been exceptionally rerouted on alternative services via Singapore and Malta, where 
-it will be connected on first available vessel to Koper. 
- 
-Situation remains exceptional, we are doing out utmost to deliver your cargo in shortest time. 
- 
-We apology for inconveniences caused. 
-
-Thank you for your understanding and looking forward to our further cooperation.
+=> /images/image-675x263.png Screenshot einer E-Mail mit folgendem Inhalt: Dear Valued Customer, Please be informed that we are currently facing lack of capacity as a consequence of the Suez Canal incident, which has led to several void sailings, delays and port congestions. Shipment under B/L XXXXXX has been exceptionally rerouted on alternative services via Singapore and Malta, where it will be connected on first available vessel to Koper. Situation remains exceptional, we are doing out utmost to deliver your cargo in shortest time. We apology for inconveniences caused. Thank you for your understanding and looking forward to our further cooperation.
 Zwei Wochen später hatten wir jedoch noch immer nichts von unserer Lieferung gehört. Langsam wurde mir unwohl, ist unsere Fracht verloren gegangen, oder waren wir gar Opfer eines Betrugsfalls? Ich sandte eine E-Mail an unsere Kontaktperson bei Gweike, die versprach, sofort Abklärungen zu treffen. Am nächsten Tag kam dann die Auflösung: Die Kiste wurde nicht erst in Malta, sondern bereits in Singapur ausgeladen. Dort wurde sie in ein anderes Containerschiff geladen. Dieses erlitt jedoch kurz später einen Motorenschaden und musste an Land gezogen werden. Die ganze Fracht musste in ein drittes Containerschiff umgeladen werden, was erhebliche Verzögerungen mit sich brachte. 🤦
 
-=> ../../../images/2021-06-02-143937_830x708_scrot-675x576.png Screenshot einer E-Mail mit folgendem Inhalt:
-
-Subject:  SERVICE PHOENICIAN / TRADE ASIA/ADRIATIC / CMA CGM RABELAIS – Main 
-Engine damage - Tug boat assistance required  
-   
-To our Valued Customers, 
-
-We regret to inform you that on 29th of May 2021, whilst CMA CGM RABELAIS was sailing 
-280 miles from Hong Kong roads between Shekou and Singapore, her main engine suffered a 
-sudden stoppage.  
- 
-The cargo is safe, and no pollution or injuries were reported by the owners of the vessel.  
- 
-Unfortunately, the inspection revealed that the vessel is unable to continue with her voyage to 
-destination and owners decided to hire a tug to bring her to Hong Kong for repairs. 
- 
-Tug is now on the way to the vessel, ETA tonight (31/05/2021) 20:00 Hrs LT and the 
-estimated towage time is 2.5 days. 
- 
-CMA CGM is making sure your cargo is fully protected and will advise you as matter 
-develops.   
- 
-CMA CGM apologize for this event, which is beyond its control, and will concentrate all efforts 
-for serving our customers at best and limit the arrival time at destination at maximum. 
- 
-Sincerely, 
- 
- 
-MED NAF Lines Management 
+=> /images/2021-06-02-143937_830x708_scrot-675x576.png Screenshot einer E-Mail mit folgendem Inhalt: Subject: SERVICE PHOENICIAN / TRADE ASIA/ADRIATIC / CMA CGM RABELAIS – Main Engine damage - Tug boat assistance required To our Valued Customers, We regret to inform you that on 29th of May 2021, whilst CMA CGM RABELAIS was sailing 280 miles from Hong Kong roads between Shekou and Singapore, her main engine suffered a sudden stoppage. The cargo is safe, and no pollution or injuries were reported by the owners of the vessel. Unfortunately, the inspection revealed that the vessel is unable to continue with her voyage to destination and owners decided to hire a tug to bring her to Hong Kong for repairs. Tug is now on the way to the vessel, ETA tonight (31/05/2021) 20:00 Hrs LT and the estimated towage time is 2.5 days. CMA CGM is making sure your cargo is fully protected and will advise you as matter develops. CMA CGM apologize for this event, which is beyond its control, and will concentrate all efforts for serving our customers at best and limit the arrival time at destination at maximum. Sincerely, MED NAF Lines Management
 Anfangs Juli – vier Monate nach Bestellung – kam dann endlich die lang erwartete E-Mail des Brokers: Die Lieferung sollte bald in Zürich eintreffen! Doch zuerst mussten noch einige Rechnungen beglichen werden: Hafengebühren, Entladegebühren, Lagergebühren, Dokumentationsgebühren, Vorlageprovision, Posttaxen, Zollabfertigung, Übermittlungsgebühren, Mehrwertssteuer, Zoll, Handlinggebühren, Umschlagskosten, Lieferkosten… Die Rechnungen fielen höher aus als erwartet/befürchtet, wir mussten dem Hafen in Koper 544 CHF und dem Broker für Einfuhr, Verzollung und Lieferung zu uns 855 CHF bezahlen. Nach Begleichung dieser Rechnungen wurde der Laser dann endlich am 14. Juli von einem freundlichen Lastwagenchauffeur in unseren Makerspace gebracht.
 
 
-=> ../../../images/image-f24eca64-a874-4865-9695-119c7768c1f61-scaled.jpg image-f24eca64-a874-4865-9695-119c7768c1f61-scaled.jpg
-=> ../../../images/image-384bcaad-3934-4921-bdd8-4b59574d7692-1.jpg image-384bcaad-3934-4921-bdd8-4b59574d7692-1-675x380.jpg
+=> /images/image-f24eca64-a874-4865-9695-119c7768c1f61-scaled.jpg
+=> /images/image-384bcaad-3934-4921-bdd8-4b59574d7692-1.jpg
 ### Gesamtkosten
 Hier die Aufschlüsselung der Gesamtkosten unserer Lasercutter-Anschaffung:
 

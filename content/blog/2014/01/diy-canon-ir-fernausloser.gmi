@@ -28,9 +28,9 @@ Für die Umsetzung habe ich mich für einen Atmel ATtiny13a Mikrokontroller ents
 ### Gehäuse
 Das Gehäuse wurde in OpenSCAD programmiert und kann auf einem 3D Drucker ausgedruckt werden. Es basiert auf dem Design von Ted Lin. Der Sourcecode für das Gehäuse befindet sich auf Github und Thingiverse.
 
-=> ../../../images/bottom_preview_featured.jpg IR-Remote Case Bottom (3D rendered image)
-=> ../../../images/button_preview_featured.jpg IR-Remote Case Button (3D rendered image)
-=> ../../../images/top_preview_featured.jpg IR-Remote Case Top (3D rendered image)
+=> /images/bottom_preview_featured.jpg IR-Remote Case Bottom (3D rendered image)
+=> /images/button_preview_featured.jpg IR-Remote Case Button (3D rendered image)
+=> /images/top_preview_featured.jpg IR-Remote Case Top (3D rendered image)
 ### Software
 Der Atmel C Code für den ATtiny ist ziemlich simpel. In der main-Funktion wird zuerst der I/O eingerichtet:
 
@@ -98,14 +98,14 @@ Der Schaltplan ist ziemlich einfach. Durch das Betätigen des Tasters wird der M
 ### Resultat
 Nach mehreren Stunden Entwicklung und Debugging hat es endlich geklappt. Hier die fertig zusammengebaute Fernbedienung:
 
-=> ../../../images/IMG_2505_small.jpg IMG_2505_small-150x150.jpg
-=> ../../../images/IMG_2502_small.jpg IMG_2502_small-150x150.jpg
-=> ../../../images/IMG_2498_small.jpg IMG_2498_small-150x150.jpg
-=> ../../../images/IMG_2477_small.jpg IMG_2477_small-150x150.jpg
-=> ../../../images/IMG_2528_small.jpg IMG_2528_small-150x150.jpg
-=> ../../../images/IMG_2523_small.jpg IMG_2523_small-150x150.jpg
-=> ../../../images/IMG_2529_small.jpg IMG_2529_small-150x150.jpg
-=> ../../../images/IMG_2532_small.jpg IMG_2532_small-150x150.jpg
+=> /images/IMG_2505_small.jpg
+=> /images/IMG_2502_small.jpg
+=> /images/IMG_2498_small.jpg
+=> /images/IMG_2477_small.jpg
+=> /images/IMG_2528_small.jpg
+=> /images/IMG_2523_small.jpg
+=> /images/IMG_2529_small.jpg
+=> /images/IMG_2532_small.jpg
 Leider gibt es noch einige Probleme. Die Reichweite der Fernbedienung ist viel zu klein, ca. 1 Meter. Die LED würde von der Leistung her wohl viel weiter kommen. Vermutlich liegt es an einem einfachen Problem im Schaltplan, vielleicht müsste man einen Transistor verwenden anstatt den Strom über drei Pins am ATtiny zu ziehen. Aber ich bin Softwareentwickler, kein Elektroingenieur, zudem war das mein erstes Mikrokontroller-Projekt ohne Anfänger-Tools wie dem Arduino 🙂 Wenn jemand Verbesserungsvorschläge hat, bitte kommentieren.
 
 Alle Resourcen zu diesem Projekt befinden sich auf Github: https://github.com/coredump-ch/canon-ir-remote

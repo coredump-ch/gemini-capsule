@@ -11,14 +11,14 @@ Die Haupt-Location war nicht bei uns, sondern auf dem Zeughaus-Areal, aber wir s
 
 Von 9 bis 15 Uhr konnten wir im Coredump 23 Reparaturversuche durchführen. Davon waren 5 erfolgreich, 6 teilweise erfolgreich und 12 nicht erfolgreich. (Bei der Komplexität und dem teilweise reparaturfeindlichem Design heutiger elektronischer Produkte ist diese Quote recht gut.) Reparieren konnten wir beispielsweise einen Bamix-Stabmixer (Kabel neu anlöten), einen Laptop (Lüfter ersetzen), einen Tintenstrahl-Drucker (Tinten-Ersatz und 15x Reinigungsprogramm durchführen um verstopfte Düsen zu reinigen), einen Staubsauger (Akku ersetzen) und eine Weihnachts-Kerzen-Beleuchtung (demontieren, gründlich reinigen, wieder zusammenschrauben).
 
-=> ../../../images/threema-20240224-190032930.jpg threema-20240224-190032930-675x380.jpg
-=> ../../../images/threema-20240224-190033204.jpg threema-20240224-190033204-675x380.jpg
-=> ../../../images/threema-20240224-190033419.jpg threema-20240224-190033419-675x380.jpg
-=> ../../../images/threema-20240224-190033647.jpg threema-20240224-190033647-675x380.jpg
-=> ../../../images/threema-20240224-190033858.jpg threema-20240224-190033858-675x380.jpg
-=> ../../../images/threema-20240224-190034091.jpg threema-20240224-190034091-675x380.jpg
-=> ../../../images/threema-20240224-190034300.jpg threema-20240224-190034300-675x380.jpg
-=> ../../../images/threema-20240224-190034537.jpg threema-20240224-190034537-675x380.jpg
+=> /images/threema-20240224-190032930.jpg
+=> /images/threema-20240224-190033204.jpg
+=> /images/threema-20240224-190033419.jpg
+=> /images/threema-20240224-190033647.jpg
+=> /images/threema-20240224-190033858.jpg
+=> /images/threema-20240224-190034091.jpg
+=> /images/threema-20240224-190034300.jpg
+=> /images/threema-20240224-190034537.jpg
 Aber nicht nur bei uns, auch im Zeughaus-Areal halfen Coredump-Mitglieder zusammen mit vielen anderen Freiwilligen bei Reparaturen mit, und reparierten beispielsweise Rucksack-Reissverschlüsse, CD-Player, Mixer oder ferngesteuerte Modell-Bagger.
 
 Der Tag war ziemlich intensiv, weil es einen riesigen Ansturm gab. Zeitenweise mussten an der Anmeldung sogar Personen abgewiesen werden, weil wir keine Reparatur-Kapazitäten mehr frei hatten. Zudem waren unsere Abläufe und die Organisation bei dieser ersten Durchführung noch nicht so eingespielt. Bei der nächsten Durchführung wird es bestimmt schon besser funktionieren.

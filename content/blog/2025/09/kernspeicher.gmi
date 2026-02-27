@@ -6,14 +6,14 @@ Kategorien: Bildung
 
 Seit diesem Sommer hängt bei uns im Coredump ein richtiger Kernspeicher an der Wand. Eine Technologie, die indirekt für unseren Vereinsnamen verantwortlich ist. (Herzlichen Dank Markus für das geschätzte Geschenk!)
 
-=> ../../../images/image.png image.png
+=> /images/image.png
 Der Kernspeicher ist eine unglaublich unintuitive Technologie, um ein wenig Information zu speichern, aber er ist um Welten besser als Papier-Lochkarten oder Kathodenstrahlröhren. Um nicht-destruktiv zu lesen, muss man raten, schreiben, zuhören, schreiben, zuhören (oder einfach nur schreiben und zuhören, falls man korrekt geraten hatte).
 
 Kernspeicher wurde zwischen 1955 und 1975 eingesetzt, bis die Halbleiterindustrie endlich RAM und nochmals 10 Jahre später Flash-EEPROM herstellen konnte.
 
 Mit der Kernspeicher-Technologie hat es die NASA auf den Mond geschafft, und schau an, wo wir heute sind. Hier ist eine moderne microSD-Karte, die 3665038933-Mal mehr Informationen halten kann als der Kernspeicher…
 
-=> ../../../images/sandisk-1-edited.webp sandisk-1-edited.webp
+=> /images/sandisk-1-edited.webp
 …und trotzdem eiern heute ein paar Mondsonden beim Landen herum, wie tote Fliegen im Vakuum. Sogar der QR-Code, den wir neben dem Kernspeicher aufgehängt haben, enthält mehr Daten als auf dem ganzen Kernspeicher zu speichern sind. Vielleicht ist Fortschritt anders zu messen als nur mit einer grossen Zahl.
 
 Jeder Ferritkern kann ein einziges Bit speichern. Hier lade ich dich ein, alle Kerne in diesem Speicher zu zählen. Das Problem, dass man die gespeicherte Information nicht mit blossem Auge lesen kann, konnte durch den Kernspeicher und alle neumodischen Speichertechnologien nicht mehr gelöst werden.
@@ -25,7 +25,7 @@ Ein Core Dump ist mehr als nur ein Fehlerprotokoll. Er öffnet ein Fenster in da
 
 (Headerbild: CC BY-SA Bubba73 (Jud McCranie))
 
-=> ../../../../https:/commons.wikimedia.org/wiki/File:Magnetic-core_memory_close-up.JPG CC BY-SA Bubba73 (Jud McCranie)
+=> /https://commons.wikimedia.org/wiki/File:Magnetic-core_memory_close-up.JPG CC BY-SA Bubba73 (Jud McCranie)
 
 ---
 

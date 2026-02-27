@@ -9,13 +9,13 @@ Ganz ohne Sponsoren ist ein Projekt wie der coredump nicht möglich. Deshalb dan
 ### Play-Zone GmbH
 Die Play-Zone GmbH aus Cham betreibt einen Webshop für Elektronik- und Bastelbedarf. Sie ist offizieller CH-Distributor von Adafruit Industries, Arduino, Excamera (Gameduino), IKALogic, JYE Tech, LinkSprite, pcDuino, Snootlab, SecretLabs (Netduino), Saleae und SparkFun.
 
-=> ../../../images/play_zone_logo.jpg play-zone.ch Logo
+=> /images/play_zone_logo.jpg play-zone.ch Logo
 http://www.play-zone.ch/
 
 ### Webrepublic AG
 Die Webrepublic AG ist eine Agentur für Online Marketing und Digitale Strategie aus Zürich. Neben dem Account Management beschäftigen sie auch einige Softwareentwickler, um Prozesse im Alltag zu automatisieren und neue Tools zu entwickeln.
 
-=> ../../../images/webrepublic-logo.png Webrepublic AG Logo
+=> /images/webrepublic-logo.png Webrepublic AG Logo
 http://www.webrepublic.ch/
 
 

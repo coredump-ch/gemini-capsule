@@ -6,26 +6,26 @@ Kategorien: Hardware, c64, commodore, photos, vintage computers
 
 Falls du dich schonmal gefragt hast wie ein C64 von innen aussieht, können wir Abhilfe schaffen: Wir haben nämlich ein paar Fotos davon gemacht.
 
-=> ../../../images/2014-10-25-21.14.04.jpg Der C64
+=> /images/2014-10-25-21.14.04.jpg Der C64
 Durch das Lösen von drei Schrauben kann man die Gehäuseabdeckung entfernen.
 
-=> ../../../images/2014-10-25-21.14.11.jpg C64 ohne Gehäuseabdeckung
+=> /images/2014-10-25-21.14.11.jpg C64 ohne Gehäuseabdeckung
 Die Tastatur kann auch sehr einfach entfernt werden.
 
-=> ../../../images/2014-10-25-21.15.09.jpg Tastatur entfernt
+=> /images/2014-10-25-21.15.09.jpg Tastatur entfernt
 Nun kann die Kartonabdeckung entfernt werden, wodurch der Blick auf das Motherboard freigelegt wird.
 
-=> ../../../images/2014-10-25-21.15.52.jpg Das Motherboard
+=> /images/2014-10-25-21.15.52.jpg Das Motherboard
 Ein paar Nahaufnahmen der Platine:
 
-=> ../../../images/2014-10-25-21.15.57.jpg Bestückung Links
-=> ../../../images/2014-10-25-21.16.01.jpg Bestückung Rechts
+=> /images/2014-10-25-21.15.57.jpg Bestückung Links
+=> /images/2014-10-25-21.16.01.jpg Bestückung Rechts
 Hier sieht man noch den Berühmten SID-Chip (MOS 8580R5 SID) zur Audiogenerierung:
 
-=> ../../../images/2014-10-25-21.22.47.jpg MOS 8580R5 SID Chip
+=> /images/2014-10-25-21.22.47.jpg MOS 8580R5 SID Chip
 Und zu guter Letzt noch die Rückseite:
 
-=> ../../../images/2014-10-25-21.24.59.jpg Die Rückseite des Motherboard
+=> /images/2014-10-25-21.24.59.jpg Die Rückseite des Motherboard
 Das Coole an der alten Hardware: Das Motherboard ist auch ohne Gehäuse lauffähig. Und durch die Herstellung (alles through-hole gelötet) wäre es auch trivial, defekte Bauteile zu ersetzen.
 
 

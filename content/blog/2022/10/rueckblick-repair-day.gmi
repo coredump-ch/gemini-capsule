@@ -9,15 +9,15 @@ Das erste Repair Café im Coredump war ein voller Erfolg! Insgesamt vierzehn Geg
 Der Tag hat Spass gemacht und das Feedback der Besucher war äusserst positiv! So freuen wir uns darauf, nächstes Jahr am Reparaturtag voraussichtlich erneut ein Repair Café durchzuführen.
 
 
-=> ../../../images/DSCF9206-scaled.jpg DSCF9206-scaled.jpg
-=> ../../../images/DSCF9211-scaled.jpg DSCF9211-scaled.jpg
-=> ../../../images/DSCF9219-scaled.jpg DSCF9219-scaled.jpg
-=> ../../../images/DSCF9216-scaled.jpg DSCF9216-scaled.jpg
-=> ../../../images/PXL_20221015_084604804-scaled.jpg PXL_20221015_084604804-scaled.jpg
-=> ../../../images/threema-20221015-183526191-scaled.jpg threema-20221015-183526191-scaled.jpg
-=> ../../../images/threema-20221015-183526676-scaled.jpg threema-20221015-183526676-scaled.jpg
-=> ../../../images/threema-20221015-183524567-scaled.jpg threema-20221015-183524567-scaled.jpg
-=> ../../../images/threema-20221015-183525653-1-scaled.jpg threema-20221015-183525653-1-scaled.jpg
+=> /images/DSCF9206-scaled.jpg
+=> /images/DSCF9211-scaled.jpg
+=> /images/DSCF9219-scaled.jpg
+=> /images/DSCF9216-scaled.jpg
+=> /images/PXL_20221015_084604804-scaled.jpg
+=> /images/threema-20221015-183526191-scaled.jpg
+=> /images/threema-20221015-183526676-scaled.jpg
+=> /images/threema-20221015-183524567-scaled.jpg
+=> /images/threema-20221015-183525653-1-scaled.jpg
 
 ---
 

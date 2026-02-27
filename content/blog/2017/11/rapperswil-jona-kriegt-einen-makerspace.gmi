@@ -11,31 +11,31 @@ Anfangs 2017 wurde die traditionsreiche Joner Verpackungs-Firma Petroplast Vinor
 
 Das Gelände befindet sich an der Holzwiesstrasse 50, etwa 800m entfernt vom Bahnhof Jona.
 
-=> ../../../images/osm.png Strassenkarte von Rapperswil und Jona
+=> /images/osm.png Strassenkarte von Rapperswil und Jona
 ### Die Räumlichkeiten
 Im ehemaligen Fabrikgebäude konnten wir uns 100m² Fläche sichern. Hier wird ab Februar der neue Hackerspace entstehen.
 
-=> ../../../images/hackerspace.png Der zukünftige Hackerspace
+=> /images/hackerspace.png Der zukünftige Hackerspace
 Das coole daran: Gleich gegenüber entsteht auf weiteren 100m² bereits jetzt schon ein Makerspace mit voll ausgerüsteter Werkstatt – der einzige im Umkreis von ca. 30km!
 
-=> ../../../images/IMG_8697_small.jpg Der zukünftige Makerspace
+=> /images/IMG_8697_small.jpg Der zukünftige Makerspace
 Ein paar unserer Mitglieder haben letzte Woche tatkräftig mitgeholfen, die erste Wand einzubauen um den Raum so etwas abzutrennen.
 
 => https://files.coredump.ch/videos/20171026-makerspace-timelapse.mp4 https://files.coredump.ch/videos/20171026-makerspace-timelapse.mp4
 Hier ein paar weitere Impressionen vom Umbau:
 
-=> ../../../images/IMG_8638.jpg IMG_8638-150x150.jpg
-=> ../../../images/IMG_8643.jpg IMG_8643-150x150.jpg
-=> ../../../images/IMG_8645.jpg IMG_8645-150x150.jpg
-=> ../../../images/IMG_8661.jpg IMG_8661-150x150.jpg
-=> ../../../images/IMG_8664.jpg IMG_8664-150x150.jpg
-=> ../../../images/IMG_8683.jpg IMG_8683-150x150.jpg
-=> ../../../images/IMG_8691.jpg IMG_8691-150x150.jpg
-=> ../../../images/IMG_8696.jpg IMG_8696-150x150.jpg
-=> ../../../images/IMG_8703.jpg IMG_8703-150x150.jpg
-=> ../../../images/IMG_8709.jpg IMG_8709-150x150.jpg
-=> ../../../images/IMG_8714.jpg IMG_8714-150x150.jpg
-=> ../../../images/IMG_8717.jpg IMG_8717-150x150.jpg
+=> /images/IMG_8638.jpg
+=> /images/IMG_8643.jpg
+=> /images/IMG_8645.jpg
+=> /images/IMG_8661.jpg
+=> /images/IMG_8664.jpg
+=> /images/IMG_8683.jpg
+=> /images/IMG_8691.jpg
+=> /images/IMG_8696.jpg
+=> /images/IMG_8703.jpg
+=> /images/IMG_8709.jpg
+=> /images/IMG_8714.jpg
+=> /images/IMG_8717.jpg
 (Übrigens, für sportbegeisterte: Gleich über uns wurde gestern eine Boulder-Halle eröffnet!)
 
 ### Vereinsstruktur / Angebote

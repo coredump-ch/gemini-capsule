@@ -7,9 +7,9 @@ Kategorien: Hackerspace, fotos, hackerspace, raum
 Da die letzten Fotos schon eine Weile her sind, hier wiedermal ein paar aktuelle Fotos aus unserem Hackerspace.
 
 
-=> ../../../images/IMG_20190706_142437.jpg IMG_20190706_142437-675x380.jpg
-=> ../../../images/IMG_20190706_142457-1.jpg IMG_20190706_142457-1-675x380.jpg
-=> ../../../images/IMG_20190706_142504-1.jpg IMG_20190706_142504-1-675x380.jpg
+=> /images/IMG_20190706_142437.jpg
+=> /images/IMG_20190706_142457-1.jpg
+=> /images/IMG_20190706_142504-1.jpg
 
 ---
 

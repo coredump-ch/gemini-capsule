@@ -6,12 +6,12 @@ Kategorien: Hackerspace, einrichtung, hackerspace, hardware, möbel, raum
 
 Da wir am Freitag den Schlüssel zu unserem neuen Hackerspace erhalten haben, machten wir uns heute zu dritt daran, den Raum etwas einzurichten. Da der ETH Bastli einiges an Material übrig hatte (danke!), haben wir nun bereits WLAN, mehrere PCs, einen Laserdrucker, einen Nadeldrucker, ein Oszilloskop, einen Funktionsgenerator, einen Commodore 64 und mehr. Nach dem Besuch einiger Brockenstuben sind wir zudem auch um ein paar Tische, Stühle und Gestelle reicher geworden.
 
-=> ../../../images/2013-10-12-17.06.17.jpg 2013-10-12-17.06.17-150x150.jpg
-=> ../../../images/2013-10-12-17.05.54.jpg 2013-10-12-17.05.54-150x150.jpg
-=> ../../../images/2013-10-12-17.06.03.jpg 2013-10-12-17.06.03-150x150.jpg
-=> ../../../images/IMG-20131012-WA0010.jpg IMG-20131012-WA0010-150x150.jpg
-=> ../../../images/2013-10-12-13.24.17.jpg 2013-10-12-13.24.17-150x150.jpg
-=> ../../../images/2013-10-12-13.24.10.jpg 2013-10-12-13.24.10-150x150.jpg
+=> /images/2013-10-12-17.06.17.jpg
+=> /images/2013-10-12-17.05.54.jpg
+=> /images/2013-10-12-17.06.03.jpg
+=> /images/IMG-20131012-WA0010.jpg
+=> /images/2013-10-12-13.24.17.jpg
+=> /images/2013-10-12-13.24.10.jpg
 
 ---
 

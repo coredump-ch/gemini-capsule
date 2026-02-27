@@ -9,15 +9,15 @@ Vor einer Woche haben wir im neuen Hackerspace eine Trennwand gebaut. Hier das T
 => https://files.coredump.ch/videos/20180113-hackerspace-timelapse.mp4 https://files.coredump.ch/videos/20180113-hackerspace-timelapse.mp4
 Gallerie:
 
-=> ../../../images/IMG_8887.jpg IMG_8887-150x150.jpg
-=> ../../../images/IMG_8847.jpg IMG_8847-150x150.jpg
-=> ../../../images/IMG_8899.jpg IMG_8899-150x150.jpg
-=> ../../../images/IMG_8916.jpg IMG_8916-150x150.jpg
-=> ../../../images/IMG_8929.jpg IMG_8929-150x150.jpg
-=> ../../../images/IMG_8936.jpg IMG_8936-150x150.jpg
-=> ../../../images/IMG_8941.jpg IMG_8941-150x150.jpg
-=> ../../../images/IMG_8954.jpg IMG_8954-150x150.jpg
-=> ../../../images/IMG_9022.jpg IMG_9022-150x150.jpg
+=> /images/IMG_8887.jpg
+=> /images/IMG_8847.jpg
+=> /images/IMG_8899.jpg
+=> /images/IMG_8916.jpg
+=> /images/IMG_8929.jpg
+=> /images/IMG_8936.jpg
+=> /images/IMG_8941.jpg
+=> /images/IMG_8954.jpg
+=> /images/IMG_9022.jpg
 Und hier das fertige Resultat (noch ohne Tür):
 
 

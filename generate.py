@@ -266,85 +266,82 @@ def _convert_content_to_gmi(content, gmi_lines, target_filename, pages_map, post
             href = element.get("href")
             text = clean_text(element.get_text())
 
-            if not text:
-                img = element.find("img")
-                if img:
-                    text = img.get("alt") or os.path.basename(str(img.get("src", "")))
+            # For links wrapping an <img>, derive text from alt only (no filename fallback)
+            inner_img = element.find("img")
+            if not text and inner_img:
+                text = clean_text(inner_img.get("alt", ""))
 
-            if href and text:
-                href_str = str(href)
+            if not href:
+                continue
 
-                # Skip self-referencing links (e.g. WordPress title anchor permalink)
-                if post_url:
-                    norm_post = post_url if post_url.endswith("/") else post_url + "/"
-                    norm_href_check = href_str if href_str.endswith("/") else href_str + "/"
-                    if norm_href_check == norm_post:
-                        continue
+            href_str = str(href)
 
-                # If the <a> wraps an <img>, treat it as an image link regardless of href.
-                # WordPress galleries link to attachment pages (HTML), but the real image
-                # URL can be found in the nested <img> (prefer data-orig-file or data-large-file
-                # over the thumbnail src).
-                inner_img = element.find("img")
-                if inner_img:
-                    img_src = (
-                        inner_img.get("data-orig-file")
-                        or inner_img.get("data-large-file")
-                        or wp_full_size_url(inner_img.get("src", ""))
-                    )
-                    if img_src:
-                        if img_src.startswith("/"):
-                            img_url = "https://www.coredump.ch" + img_src
-                        else:
-                            img_url = img_src
-                        if img_url.startswith("http"):
-                            local_path = download_image(img_url)
-                            relative_path = os.path.relpath(
-                                local_path,
-                                os.path.join("content", os.path.dirname(target_filename)),
-                            )
-                            gmi_lines.append(f"=> {relative_path} {text}")
+            # Skip self-referencing links (e.g. WordPress title anchor permalink)
+            if post_url:
+                norm_post = post_url if post_url.endswith("/") else post_url + "/"
+                norm_href_check = href_str if href_str.endswith("/") else href_str + "/"
+                if norm_href_check == norm_post:
                     continue
 
-                if any(
-                    href_str.lower().endswith(ext)
-                    for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]
-                ):
-                    if href_str.startswith("/"):
-                        img_url = "https://www.coredump.ch" + href_str
+            # If the <a> wraps an <img>, treat it as an image link regardless of href.
+            # WordPress galleries link to attachment pages (HTML), but the real image
+            # URL can be found in the nested <img> (prefer data-orig-file or data-large-file
+            # over the thumbnail src).
+            if inner_img:
+                img_src = (
+                    inner_img.get("data-orig-file")
+                    or inner_img.get("data-large-file")
+                    or wp_full_size_url(inner_img.get("src", ""))
+                )
+                if img_src:
+                    if img_src.startswith("/"):
+                        img_url = "https://www.coredump.ch" + img_src
                     else:
-                        img_url = href_str
-                    local_path = download_image(img_url)
-                    relative_path = os.path.relpath(
-                        local_path,
-                        os.path.join("content", os.path.dirname(target_filename)),
-                    )
-                    gmi_lines.append(f"=> {relative_path} {text}")
+                        img_url = img_src
+                    if img_url.startswith("http"):
+                        local_path = download_image(img_url)
+                        abs_path = "/" + local_path.removeprefix("content/")
+                        line = f"=> {abs_path}"
+                        if text:
+                            line += f" {text}"
+                        gmi_lines.append(line)
+                continue
+
+            if not text:
+                continue
+
+            if any(
+                href_str.lower().endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp"]
+            ):
+                if href_str.startswith("/"):
+                    img_url = "https://www.coredump.ch" + href_str
                 else:
-                    full_url = href_str
-                    if full_url.startswith("/"):
-                        full_url = "https://www.coredump.ch" + full_url
+                    img_url = href_str
+                local_path = download_image(img_url)
+                abs_path = "/" + local_path.removeprefix("content/")
+                gmi_lines.append(f"=> {abs_path} {text}")
+            else:
+                full_url = href_str
+                if full_url.startswith("/"):
+                    full_url = "https://www.coredump.ch" + full_url
 
-                    norm_href = full_url if full_url.endswith("/") else full_url + "/"
-                    link_target = full_url
+                norm_href = full_url if full_url.endswith("/") else full_url + "/"
+                link_target = full_url
 
-                    for page_url, page_filename in pages_map.items():
-                        norm_page_url = page_url if page_url.endswith("/") else page_url + "/"
-                        if norm_href == norm_page_url:
-                            link_target = os.path.relpath(
-                                page_filename,
-                                os.path.dirname(target_filename),
-                            )
-                            break
+                for page_url, page_filename in pages_map.items():
+                    norm_page_url = page_url if page_url.endswith("/") else page_url + "/"
+                    if norm_href == norm_page_url:
+                        link_target = "/" + page_filename
+                        break
 
-                    gmi_lines.append(f"=> {link_target} {text}")
+                gmi_lines.append(f"=> {link_target} {text}")
 
         elif element.name == "img":
             # Standalone images (not inside <a>)
             if element.parent and element.parent.name == "a":
                 continue
             src = element.get("src", "")
-            alt = element.get("alt", "") or os.path.basename(src)
+            alt = clean_text(element.get("alt", ""))
             if src:
                 if src.startswith("/"):
                     img_url = "https://www.coredump.ch" + src
@@ -352,11 +349,11 @@ def _convert_content_to_gmi(content, gmi_lines, target_filename, pages_map, post
                     img_url = src
                 if img_url.startswith("http"):
                     local_path = download_image(img_url)
-                    relative_path = os.path.relpath(
-                        local_path,
-                        os.path.join("content", os.path.dirname(target_filename)),
-                    )
-                    gmi_lines.append(f"=> {relative_path} {alt}")
+                    abs_path = "/" + local_path.removeprefix("content/")
+                    line = f"=> {abs_path}"
+                    if alt:
+                        line += f" {alt}"
+                    gmi_lines.append(line)
 
         elif element.name == "figure":
             # Figures are handled via their img/a children above
@@ -466,9 +463,9 @@ def convert_to_gemini(url, target_filename, pages_map):
                 if not text:
                     img = element.find("img")
                     if img:
-                        text = img.get("alt") or os.path.basename(str(img.get("src", "")))
+                        text = clean_text(img.get("alt", ""))
 
-                if href and text:
+                if href:
                     href_str = str(href)
 
                     # Check if this is an image link
@@ -483,11 +480,11 @@ def convert_to_gemini(url, target_filename, pages_map):
                             img_url = href_str
 
                         local_path = download_image(img_url)
-                        relative_path = os.path.relpath(
-                            local_path,
-                            os.path.join("content", os.path.dirname(target_filename)),
-                        )
-                        gmi_lines.append(f"=> {relative_path} {text}")
+                        abs_path = "/" + local_path.removeprefix("content/")
+                        line = f"=> {abs_path}"
+                        if text:
+                            line += f" {text}"
+                        gmi_lines.append(line)
                     else:
                         # Normalize the link
                         full_url = href_str
@@ -501,12 +498,11 @@ def convert_to_gemini(url, target_filename, pages_map):
                         for page_url, page_filename in pages_map.items():
                             norm_page_url = page_url if page_url.endswith("/") else page_url + "/"
                             if norm_href == norm_page_url:
-                                link_target = os.path.relpath(
-                                    page_filename, os.path.dirname(target_filename)
-                                )
+                                link_target = "/" + page_filename
                                 break
 
-                        gmi_lines.append(f"=> {link_target} {text}")
+                        if text:
+                            gmi_lines.append(f"=> {link_target} {text}")
 
     # Fallback if no specific content found
     if len(gmi_lines) <= 2:

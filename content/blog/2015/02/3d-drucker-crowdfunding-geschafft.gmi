@@ -22,9 +22,9 @@ Vielen Dank an unsere drei Silber Sponsoren:
 
 
 * alike Sam Steiner
-=> ../../../images/logo-alike-trans.png alike Sam Steiner
+=> /images/logo-alike-trans.png alike Sam Steiner
 * nxf.ch westermann
-=> ../../../images/Logo-nxf_large.png nxf.ch westermann
+=> /images/Logo-nxf_large.png nxf.ch westermann
 * das-g
 Ein grosses Dankeschön gebührt auch folgenden Personen, welche den erfolgreichen Abschluss der Kampagne gemeinsam möglich gemacht haben:
 

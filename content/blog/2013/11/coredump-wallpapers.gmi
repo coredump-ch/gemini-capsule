@@ -6,12 +6,12 @@ Kategorien: Media, coredump, grafiken, hintergrundbilder, wallpapers
 
 Wenn man ein paar neue PCs einrichtet, stellt sich natürlich recht schnell die Frage nach der Gestaltung der Desktopumgebung. Da die Standard-Hintergrundbilder keine befriedigende Lösung darstellen, haben wir rasch ein paar eigene gebastelt.
 
-=> ../../../images/wallpaper-1-white.png wallpaper-1-white-150x150.png
-=> ../../../images/wallpaper-1-blue.png wallpaper-1-blue-150x150.png
-=> ../../../images/wallpaper-1-green.png wallpaper-1-green-150x150.png
-=> ../../../images/wallpaper-2-white.png wallpaper-2-white-150x150.png
-=> ../../../images/wallpaper-2-blue.png wallpaper-2-blue-150x150.png
-=> ../../../images/wallpaper-2-green.png wallpaper-2-green-150x150.png
+=> /images/wallpaper-1-white.png
+=> /images/wallpaper-1-blue.png
+=> /images/wallpaper-1-green.png
+=> /images/wallpaper-2-white.png
+=> /images/wallpaper-2-blue.png
+=> /images/wallpaper-2-green.png
 Die Bilder können in verschiedenen Auflösungen hier heruntergeladen werden. Sie stehen unter einer CC BY-NC-SA 3.0 Lizenz. (NC deshalb, weil die Schriftart nicht zur kommerziellen Verwendung freigegeben wurde.)
 
 Und wens genauer interessiert: Der Text im Hintergrund ist ein Hexdump eines Teils des Linux Kernels und kann mit xxd -c 65 linux-3.12/kernel/cgroup.c reproduziert werden 😉

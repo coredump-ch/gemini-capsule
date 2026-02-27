@@ -13,26 +13,26 @@ At Coredump, we also wanted to become a part of the community and provide covera
 ### First Prototype
 The first prototype was put together quickly in a late-night session in August last year using the great guide by TTN-ZH.
 
-=> ../../../images/gateway-1.jpg gateway-1-150x150.jpg
-=> ../../../images/gateway-2.jpg gateway-2-150x150.jpg
-=> ../../../images/gateway-3.jpg gateway-3-150x150.jpg
+=> /images/gateway-1.jpg
+=> /images/gateway-2.jpg
+=> /images/gateway-3.jpg
 Back then I lived in an appartment on the second floor, so I put the gateway on my balcony, connected to the internet via WiFi. I bought a cheap tupperware at Migros and designed a 3D printable mounting plate for the Raspi and the PCB.
 
-=> ../../../images/gateway-5.jpg gateway-5-150x150.jpg
-=> ../../../images/gateway-6.jpg gateway-6-150x150.jpg
-=> ../../../images/gateway-4.jpg gateway-4-150x150.jpg
+=> /images/gateway-5.jpg
+=> /images/gateway-6.jpg
+=> /images/gateway-4.jpg
 While this setup worked, the position on a sheltered balcony in a well-insulated Minergie building was not optimal. I went “LorWalking” (the walking-LoRa version of wardriving) to map the coverage and could reach the Kinderzoo area, but the northern part of Rapperswil did not really have coverage.
 
-=> ../../../images/lordriving-1.jpg lordriving-1-150x150.jpg
-=> ../../../images/lordriving-2.jpg lordriving-2-150x150.jpg
+=> /images/lordriving-1.jpg
+=> /images/lordriving-2.jpg
 So we knew that we needed a better location. Also, I knew that I wanted a better way to monitor our gateway.
 
 ### The iC880A Sensor Backplane
 The setup with the printed frame and the loose cables was not really optimal. A a better solution is a mounting backplane. There’s a simple backplane PCB available from Gonzalo, but I also wanted a way to monitor the temperature/humidity of the gateway inside the enclosure. And so, the idea of a simple backplane with an on-board temperature/humidity sensor was born. I originally estimated around 2-3 hours of work, but then one idea on how to improve the board followed another one, leading to dozens of hours of development work 🙂 The end result was this nice PCB, soldered in our reflow oven:
 
-=> ../../../images/IMG_8203.jpg IMG_8203-150x150.jpg
-=> ../../../images/IMG_8208.jpg IMG_8208-150x150.jpg
-=> ../../../images/IMG_8212.jpg IMG_8212-150x150.jpg
+=> /images/IMG_8203.jpg
+=> /images/IMG_8208.jpg
+=> /images/IMG_8212.jpg
 It features a step-down voltage regulator (input range 7-28V), a SHT21 temperature/humidity sensor, a 16-bit ADC to monitor input voltage, a connector for a 5V DC fan, protection circuit against voltage spikes and reverse polarity, and more. It is open source hardware and you can order it from our shop. If you have an idea on how to improve it, please send an e-mail or open an issue!
 
 ### The enclosure / PoE
@@ -40,27 +40,27 @@ Next, we needed a good permanent enclosure. I found a really nice one on aerial.
 
 To get both internet and power into the enclosure, I bought the TP-LinkTL-POE200 PoE-Kit. It can be configured to output either 5V, 9V or 12V. When doing some measurements it turned out that the 5V setting was unusable (when attaching the idle Raspberry Pi the voltage dropped down to 4.6V), but in combination with our backplane board and the 12V setting it works great.
 
-=> ../../../images/enclosure-1.jpg enclosure-1-150x150.jpg
-=> ../../../images/enclosure-2.jpg enclosure-2-150x150.jpg
-=> ../../../images/enclosure-3.jpg enclosure-3-150x150.jpg
-=> ../../../images/enclosure-4.jpg enclosure-4-150x150.jpg
-=> ../../../images/enclosure-5.jpg enclosure-5-150x150.jpg
+=> /images/enclosure-1.jpg
+=> /images/enclosure-2.jpg
+=> /images/enclosure-3.jpg
+=> /images/enclosure-4.jpg
+=> /images/enclosure-5.jpg
 ### The Location
 Since we wanted to cover Rapperswil-Jona with LoRaWAN, we were looking for a good place to mount the gateway, with both power and internet connection. Unfortunately we are not allowed to mount it on the roof of our hackerspace, but found a possibility to place it on top of the roof of the Kirche im Prisma.
 
-=> ../../../images/roof1.jpg roof1-150x150.jpg
-=> ../../../images/roof2-e1495054372978.jpg roof2-e1495054372978-150x150.jpg
-=> ../../../images/roof3.jpg roof3-150x150.jpg
-=> ../../../images/roof4.jpg roof4-150x150.jpg
-=> ../../../images/roof5.jpg roof5-150x150.jpg
-=> ../../../images/roof6.jpg roof6-150x150.jpg
+=> /images/roof1.jpg
+=> /images/roof2-e1495054372978.jpg
+=> /images/roof3.jpg
+=> /images/roof4.jpg
+=> /images/roof5.jpg
+=> /images/roof6.jpg
 Thanks to a reverse SSH tunnel, we always have the possibility to connect to the gateway via SSH for maintenance.
 
 ### Coverage Mapping
 Now that we had the gateway at our final location, I wanted to know how good the coverage is. This time “LorWalking” was not enough, so I switched to “LorBiking” 😉
 
-=> ../../../images/bike.jpg bike-150x150.jpg
-=> ../../../images/bike2.jpg bike2-150x150.jpg
+=> /images/bike.jpg
+=> /images/bike2.jpg
 After this and a few other mapping sessions with a spreading factor (SF) of 7, the coverage map now looks like this:
 
 I also got two reports from people testing with SF12 that reached the gateway from Girenbad (10km) and Bilten (14 km).
@@ -72,7 +72,7 @@ Since we have a SHT21 sensor on our backplane board, I wrote a collectd plugin t
 
 The data is sent to an InfluxDB instance on our server and visualized with Grafana:
 
-=> ../../../images/monitoring.png monitoring-675x324.png
+=> /images/monitoring.png
 Since a few versions Grafana also supports alerting, so I quickly implemented support for Threema to get “high temperature” and “high humidity” alerts directly to my phone.
 
 You can view the live dashboard on grafana.coredump.ch.

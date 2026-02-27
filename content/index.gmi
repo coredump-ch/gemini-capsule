@@ -24,14 +24,14 @@ In unserem Hackerspace bieten wir:
 
 * Eine Elektronik-Werkstatt mit Lötstationen, Entlötstation, SMD-Rework-Station, Reflow-Ofen, Labornetzteilen, Messgeräten (Multimeter, Oszilloskop, Strom-Messgeräte), Digitalmikroskop, Platinen-Ätzgerät, etc.
 => https://interna.coredump.ch/inventory/?category=electronics_lab Elektronik-Werkstatt
-=> blog/2018/01/neu-im-hackerspace-digital-mikroskop.gmi Digitalmikroskop
+=> /blog/2018/01/neu-im-hackerspace-digital-mikroskop.gmi Digitalmikroskop
 * Mehrere 3D-Drucker (Ultimaker 2+, Prusa I3, Elegoo Mars) mit diversen Druckmaterialien sowie je eine Kinect 1/2 zum 3D-Scannen von Objekten
 => https://interna.coredump.ch/inventory/?category=manufacturing 3D-Drucker
 * Laptop-Arbeitsplätze sowie diverse Computer und Drucker
 => https://interna.coredump.ch/inventory/?category=computers_network diverse Computer und Drucker
 * Beamer, damit man auch Vorträge halten kann
 * Eine Näh-Ecke mit Nähmaschine sowie ein Schneidplotter, welcher auch Stoff schneiden kann
-=> blog/2019/10/neue-nah-ecke.gmi Näh-Ecke mit Nähmaschine
+=> /blog/2019/10/neue-nah-ecke.gmi Näh-Ecke mit Nähmaschine
 * Eine Sofa-Sitzecke mit Kühlschrank, Mikrowelle, Beamer und Leinwand
 * Soundsystem mit MPD
 => https://www.musicpd.org/ MPD
@@ -53,34 +53,34 @@ Jeden Herbst führen wir für die Schulkinder von Rapperswil-Jona 1-2 Ferienpass
 => https://www.coredump.ch/tag/ferienpass/ 1-2 Ferienpass-Kurse durch
 Ab und zu gibt’s natürlich auch andere Vereins-Events, z.B. das Eröffnungsfest, eine LAN-Party für Nostalgiker oder ein Besuch in den Adventure Rooms des Technorama. Einige unserer Mitglieder organisieren auch Meetups, welche manchmal im Coredump stattfinden.
 
-=> blog/2018/09/ruckblick-eroffnungsfest.gmi das Eröffnungsfest
-=> blog/2019/10/age-of-empires-ii-lan.gmi LAN-Party für Nostalgiker
+=> /blog/2018/09/ruckblick-eroffnungsfest.gmi das Eröffnungsfest
+=> /blog/2019/10/age-of-empires-ii-lan.gmi LAN-Party für Nostalgiker
 => https://www.coredump.ch/event/escape-room-technorama/ Besuch in den Adventure Rooms des Technorama
 => https://www.meetup.com/Rust-Zurich/ Meetups
 All unsere Anlässe findest du im Eventkalender. Regelmässige News gibt’s im Blog.
 
 => https://www.coredump.ch/events/ im Eventkalender
-=> blog/index.gmi im Blog
+=> /blog/index.gmi im Blog
 ## Galerie
-=> images/DSCF3080.small_-675x380.jpg DSCF3080.small_-150x150.jpg
-=> images/DSCF3079.small_-675x380.jpg DSCF3079.small_-150x150.jpg
-=> images/DSCF3081.small_-675x380.jpg DSCF3081.small_-150x150.jpg
-=> images/header-675x270.jpg header-150x150.jpg
-=> images/DSCF3075.small_-675x380.jpg DSCF3075.small_-150x150.jpg
-=> images/DSCF3077.small_-675x380.jpg DSCF3077.small_-150x150.jpg
+=> /images/DSCF3080.small_-675x380.jpg
+=> /images/DSCF3079.small_-675x380.jpg
+=> /images/DSCF3081.small_-675x380.jpg
+=> /images/header-675x270.jpg
+=> /images/DSCF3075.small_-675x380.jpg
+=> /images/DSCF3077.small_-675x380.jpg
 ## Wo wir sind
 Unsere Räumlichkeiten befinden sich an der Eichwiesstrasse 4 in Jona. Der Raum befindet sich im UG und ist durch die Garage erreichbar.
 
 Weitere Informationen (Anreise, Parkmöglichkeiten, etc) findest du auf unserer Kontakt-Seite.
 
-=> kontakt.gmi auf unserer Kontakt-Seite
+=> /kontakt.gmi auf unserer Kontakt-Seite
 ## Besuch & Mitgliedschaft
 Selbstverständlich sind Besucher jederzeit willkommen. Am besten kommst du am Montagabend ab 20:30 Uhr vorbei. Den Öffnungsstatus siehst du auf dieser Website (am Computer oben rechts, in der mobilen Ansicht ganz unten).
 
 Wenn du schon einmal im Space warst und dir dieser gefällt, darfst du sehr gerne auch Vereinsmitglied werden. Alle Informationen dazu findest du auf unserer Mitgliedschafts-Seite.
 
-=> der-verein/mitgliedschaft.gmi Mitgliedschafts-Seite
+=> /der-verein/mitgliedschaft.gmi Mitgliedschafts-Seite
 ## Gönnerschaft & Sponsoring
 Falls du uns passiv unterstützen möchtest, freuen wir uns auch über private Gönner! Ebenso gibt es die Möglichkeit für Firmen, Sponsor unseres Vereins zu werden. Infos zu Gönnerschaften und Sponsorings gibt es auf dieser Unterseite.
 
-=> der-verein/gonner-und-sponsoren.gmi auf dieser Unterseite
+=> /der-verein/gonner-und-sponsoren.gmi auf dieser Unterseite

@@ -9,15 +9,15 @@ Obwohl wir bereits seit Herbst 2020 umgezogen sind, befinden sich auf unserer We
 Hier ein paar Fotos unseres Hacker- und Makerspaces an der Eichwiesstrasse.
 
 
-=> ../../../images/DSCF3080.small_.jpg DSCF3080.small_-675x380.jpg
-=> ../../../images/DSCF3079.small_.jpg DSCF3079.small_-675x380.jpg
-=> ../../../images/DSCF3081.small_.jpg DSCF3081.small_-675x380.jpg
-=> ../../../images/DSCF3083.small_.jpg DSCF3083.small_-675x380.jpg
-=> ../../../images/DSCF3073.small_.jpg DSCF3073.small_-675x380.jpg
-=> ../../../images/DSCF3074.small_.jpg DSCF3074.small_-675x380.jpg
-=> ../../../images/DSCF3075.small_.jpg DSCF3075.small_-675x380.jpg
-=> ../../../images/DSCF3076.small_.jpg DSCF3076.small_-675x380.jpg
-=> ../../../images/DSCF3077.small_.jpg DSCF3077.small_-675x380.jpg
+=> /images/DSCF3080.small_.jpg
+=> /images/DSCF3079.small_.jpg
+=> /images/DSCF3081.small_.jpg
+=> /images/DSCF3083.small_.jpg
+=> /images/DSCF3073.small_.jpg
+=> /images/DSCF3074.small_.jpg
+=> /images/DSCF3075.small_.jpg
+=> /images/DSCF3076.small_.jpg
+=> /images/DSCF3077.small_.jpg
 
 ---
 
