@@ -1,0 +1,28 @@
+# Der Hackerspace 2015
+
+Datum: 2015-05-25
+Autor: Danilo
+Kategorien: Hackerspace, einrichtung, geräte, hackerspace, möbel
+
+(Hinweis: Diese Bilder stammen noch aus unserem alten Vereinsraum. Inzwischen sind wir umgezogen. Neue Bilder folgen bald!)
+
+Seit unserem letzten Post mit Fotos aus dem Hackerspace sind schon bald 2 Jahre vergangen. Inzwischen hat sich auch einiges getan. Deshalb hier ein Update.
+
+### Bauteile, Bibliothek, Lager
+Wir haben ein paar Gestelle mit Material und Büchern. Sowie einen Arbeitstisch in der Mitte des Raumes.
+
+### Elektronik-Labor
+Hier haben wir unser kleines Elektronik-Labor mit Lötstation, Oszilloskop, Netzteil etc. Und links davon unsere 2D- und 3D-Drucker.
+
+### Computer-Labor
+Im anderen Teil des Raumes steht unser PC, der C64, die Sound-Anlage und eine Kinect 2.
+
+### Keller
+Im Keller haben wir unser Material-, Bier- und Mate-Lager.
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2015/05/25/der-hackerspace-2015/ Auf coredump.ch lesen

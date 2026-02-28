@@ -1,0 +1,33 @@
+# Rückblick 1. Repair Café Rapperswil-Jona
+
+Datum: 2024-02-26
+Autor: Danilo
+Kategorien: Events, Recycling / Reparaturen, repair cafe, reparatur
+
+Vor knapp eineinhab Jahren fand bei uns der Coredump Repair Day statt, damals noch als Coredump-Event. Am letzten Samstag war nun die erste Durchführung des offiziellen Repair Café Rapperswil-Jona, organisiert von einer bunt zusammengemischten Gruppe aus Freiwilligen aus Rapperswil-Jona und Umgebung, mit Unterstützung durch das Werk-Zeug-Haus, die Stadt Rapperswil-Jona, den Coredump und den Schweizerischen Konsumentenschutz.
+
+=> https://www.repair-cafe.ch/repaircafe/repair-cafe-rapperswil-jona/ Repair Café Rapperswil-Jona
+Die Haupt-Location war nicht bei uns, sondern auf dem Zeughaus-Areal, aber wir stellten den Coredump als Elektronik-Werkstatt zur Verfügung. Alle zu reparierenden Gegenstände wurden auf dem Zeughaus-Areal triagiert, das meiste wurde direkt dort repariert, aber alles was Elektronik betraf und nicht trivial zu reparieren war, wurde zu uns geschickt.
+
+Von 9 bis 15 Uhr konnten wir im Coredump 23 Reparaturversuche durchführen. Davon waren 5 erfolgreich, 6 teilweise erfolgreich und 12 nicht erfolgreich. (Bei der Komplexität und dem teilweise reparaturfeindlichem Design heutiger elektronischer Produkte ist diese Quote recht gut.) Reparieren konnten wir beispielsweise einen Bamix-Stabmixer (Kabel neu anlöten), einen Laptop (Lüfter ersetzen), einen Tintenstrahl-Drucker (Tinten-Ersatz und 15x Reinigungsprogramm durchführen um verstopfte Düsen zu reinigen), einen Staubsauger (Akku ersetzen) und eine Weihnachts-Kerzen-Beleuchtung (demontieren, gründlich reinigen, wieder zusammenschrauben).
+
+=> /images/threema-20240224-190032930.jpg
+=> /images/threema-20240224-190033204.jpg
+=> /images/threema-20240224-190033419.jpg
+=> /images/threema-20240224-190033647.jpg
+=> /images/threema-20240224-190033858.jpg
+=> /images/threema-20240224-190034091.jpg
+=> /images/threema-20240224-190034300.jpg
+=> /images/threema-20240224-190034537.jpg
+Aber nicht nur bei uns, auch im Zeughaus-Areal halfen Coredump-Mitglieder zusammen mit vielen anderen Freiwilligen bei Reparaturen mit, und reparierten beispielsweise Rucksack-Reissverschlüsse, CD-Player, Mixer oder ferngesteuerte Modell-Bagger.
+
+Der Tag war ziemlich intensiv, weil es einen riesigen Ansturm gab. Zeitenweise mussten an der Anmeldung sogar Personen abgewiesen werden, weil wir keine Reparatur-Kapazitäten mehr frei hatten. Zudem waren unsere Abläufe und die Organisation bei dieser ersten Durchführung noch nicht so eingespielt. Bei der nächsten Durchführung wird es bestimmt schon besser funktionieren.
+
+Insgesamt wurden 85 Gegenstände zur Reparatur vorbeigebracht und 36 davon konnten vor der Entsorgung gerettet werden! In ca. 15 Fällen konnten wir zusätzlich wertvolle Tipps zur Reparatur geben und einige Besucher werden wir mit den erforderlichen Ersatzteilen im April wieder begrüssen können. Die nächsten zwei Durchführungs-Termine für das Repair Café Rapperswil-Jona sind am 27. April und am 22. Juni, jeweils von 10 bis 15 Uhr.
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2024/02/26/rueckblick-1-repair-cafe-rapperswil-jona/ Auf coredump.ch lesen

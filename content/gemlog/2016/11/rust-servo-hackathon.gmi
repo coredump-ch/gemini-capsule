@@ -1,0 +1,34 @@
+# Rust / Servo Hackathon
+
+Datum: 2016-11-06
+Autor: Raphael Nestler
+Kategorien: Events, hackathon, rust, servo
+
+On Saturday we held a Rust / Servo hackathon in our hackerspace. We were eight hackers in total, while four were members of Coredump.
+
+Since most of the attendees where Rust beginners, we gave them a short introduction which quickly turned into an awesome discussion about C++, memory management, lifetimes and all kind of other stuff.
+
+We then went further and started to compile Servo on our laptops to get started. Sadly the two who were trying this on Windows couldn’t get Servo to build 🙁 But luckily Stefan prepared some cloud magic for us, using Jan‘s awesome Janitor project and Cloud 9. The idea behind the system is simple: Instead of spending your time setting up many devices running tied down operating systems, you just setup a cloud service which provides a browser based development environment.
+
+The super-awesome Servo team collected some easy issues for us on GitHub. This was a really nice way to get our feet wet in the Servo code base! So some of us grabbed an issues from there, while others tried to get to know Rust a bit better by implementing their own mini projects or reading the Rust Book.
+
+The time passed really quickly and we had a lot of fun not only coding, but also joking around and talking about strange topics like the production of cheese which involves an enzyme called Rennet extracted from calf stomachs.
+
+After a few hours of hacking, we got hungry and went to a local restaurant to have dinner together.
+
+With newly gathered energy we went back to the hackerspace to continue on our pull-requests:
+
+
+* https://github.com/servo/servo/pull/14083
+* https://github.com/servo/servo/issues/14069
+* https://github.com/servo/servo/issues/13734
+* https://github.com/servo/servo/pull/14087
+* https://github.com/servo/servo/pull/14082
+All in all it was an awesome experience and I think everybody enjoyed it, while also learning a lot. In the end we discussed the possibility of running a monthly or bi monthly Rust meetup in Rapperswil at our hackerspace. Would you be interested? Let us know in the comments or by sending an e-mail to vorstand@lists.coredump.ch.
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2016/11/06/rust-servo-hackathon/ Auf coredump.ch lesen

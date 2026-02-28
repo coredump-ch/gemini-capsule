@@ -1,0 +1,47 @@
+# Erste Versuche mit Reflow-Ofen
+
+Datum: 2016-12-12
+Autor: Urban
+Kategorien: Hackerspace, Hardware, einrichtung, hardware, löten, reflow
+
+Welcher Hobby-Elektroniker kennt es nicht: Man hat ein cooles PCB mit vielen SMD Bauteilen designt, welches nun bestückt werden soll. Doch ein Bestückungsservice ist teuer, und von Hand löten ist sehr aufwändig und dessen Resultat überzeugt häufig nicht wirklich. Daher haben sich ein paar Coredump Mitglieder entschlossen, einen Reflow-Ofen zu finanzieren um damit in Zukunft bequem und sauber PCBs bestücken zu können.
+
+## Reflow-Ofen
+Natürlich wäre uns ein professioneller Reflow-Ofen viel zu teuer gewesen, daher musste ein einfaches Hobby-Modell reichen. Wir haben uns für das Reflow-Kit V3 Basic von Beta Layout entschieden, welches aus einem handelsüblichen Pizza-Ofen und einem elektronischen Temperaturregler besteht.
+
+=> /images/kit.jpg kit
+Für knapp 330€ enthält das Kit alles, was man fürs Reflow-Löten benötigt:
+
+
+* Pizza-Ofen mit 1500W Heizleistung
+* Reflow-Controller mit konfigurierbarem Temperaturprofil
+* Lötpaste bleifrei
+* Leiterplattenhalter und Spachtel zum Auftragen der Lötpaste
+## Lötpaste Auftragen
+Das Kit enthält sogar ein Beispiel-PCB inklusive Stencil und Bauteilen, mit dem wir gleich den ersten Versuch starteten. Dank den ebenfalls mitgelieferten Leiterplattenhaltern und dem Spachtel war das Aufbringen der Lötpaste auf die Pads ein Kinderspiel und war schnell erledigt. Das Resultat kann sich sehen lassen (zumindest wenn man die schlechte Bildqualität ignoriert 😉 ).
+
+=> /images/Loetpaste.jpeg loetpaste
+## Bestücken
+Als nächstes werden alle Bauteile gemäss Bestückungsplan auf das PCB gelegt und ganz leicht angedrückt, damit sie an der Lötpaste festkleben. Hier braucht man wie beim Löten mit dem Lötkolben eine etwas ruhige Hand, damit es keine Sauerei mit der Lötpaste gibt. Glücklicherweise müssen die Bauteile aber nicht ganz exakt platziert werden, da später beim Lötvorgang die Bauteile durch die Oberflächenspannung des flüssigen Lötzinns automatisch schön zentriert und ausgerichtet werden.
+
+=> /images/Bestueckt-1.jpeg bestueckt
+## Lötvorgang
+Nun wird das bestückte PCB zusammen mit dem Temperaturfühler vom Reflow-Controller mittig auf den Gitterrost im Ofen gelegt. Wichtig ist jedoch, dass das PCB nicht direkt auf dem Gitterrost aufliegt, da sonst über die Gitterstäbe Wärme abfliessen kann und die Wärmeverteilung auf dem PCB nicht mehr homogen ist. Wir haben dazu einfach ein anderes PCB als Abstandshalter verwendet.
+
+=> /images/Ofen.jpg ofen
+Vor dem Starten des Lötvorgangs muss am Ofen die höchstmögliche Temperatur, Ober- und Unterhitze, und der Timer auf Maximum eingestellt werden. So läuft der Ofen auf Vollgas sobald er Strom hat, und der Reflow-Controller kann die Heizleistung durch Ein- und Ausschalten der Speisung des Ofens regulieren. Das Abfahren des vorgegebenen Temperaturprofils dauert dann ein paar Minuten, während denen man die Temperatur live auf dem Display des Controllers verfolgen kann. Ein Beeper signalisiert das Ende des Lötvorgangs, worauf man für ein schnelleres Abkühlen die Ofentür öffnen sollte. Und schon kann das Ergebnis betrachtet werden 😀
+
+=> /images/Geloetet.jpeg geloetet
+## Fazit
+Dieser erste Versuch funktionierte insgesamt sehr gut, einziges Manko waren zwei Lötstellen am Taster wo die Lötpaste nicht vollständig flüssig wurde und somit von Hand nachgelötet werden mussten. Alle anderen Bauteile wurden sehr schön ausgerichtet und gelötet. Der erfolgreiche Funktionstest bestätigte auch, dass alle Bauteile den Lötvorgang überlebt haben 🙂
+
+Während dem Lötvorgang konnte man auch sehr gut sehen, dass die bleihaltige Lötpaste, welche wir bei ein paar wenigen Pads verwendeten, schon bei deutlich tieferen Temperaturen flüssig wurde als die bleifreie Paste. Für die bleifreie Paste musste der Ofen mehrere Dutzend Sekunden mit voller Leistung heizen, bis sie bei etwas über 230°C flüssig wurde.
+
+Abschliessend kann man sagen, dass wir mit dem Ergebnis des ersten Versuches sehr zufrieden sind, und uns darauf freuen, unsere nächsten PCBs mit diesem Ofen löten zu können 😀
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2016/12/12/erste-versuche-mit-reflow-ofen/ Auf coredump.ch lesen

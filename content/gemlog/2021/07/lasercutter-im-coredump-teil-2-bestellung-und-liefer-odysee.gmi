@@ -1,0 +1,83 @@
+# Lasercutter im Coredump, Teil 2: Bestellung und Liefer-Odysee
+
+Datum: 2021-07-25
+Autor: Danilo
+Kategorien: Lasercutter, Makerspace, hackerspace, inventar, lasercutter, makerspace
+
+Wie in unserem letzten Blogpost beschrieben, haben wir verschiedene Lasercutter evaluiert. Zuerst haben wir uns überlegt, einen Ebay/Amazon-Billig-Laser zu kaufen. Hierzu gibt es teilweise gute Erfahrungsberichte auf YouTube, aber es ist etwas Glückssache, ob man Erfolg hat oder nicht. Auf dem empfehlenswerten YouTube-Channel von Russ (aka SarbarMultimedia) gibt es ein gutes Video, welches erklärt, auf was man sich einlässt, wenn man von Ebay / Amazon einen No-Name-Lasercutter kauft. Zusammengefasst: Man kriegt billige Mechanik mit Ausschuss-Komponenten, welche die Qualitätschecks des Herstellers nicht erfolgreich bestanden haben. Dazu kommt, dass man zwar von Deutschland aus auf Amazon einen Laser aus einem deutschen Lager kaufen kann, in der Schweiz gibt es solche Angebote aber nicht. Wenn wir einen Amazon-Laser gekauft hätten, wäre dieser von einem Lager in Osteuropa geliefert worden. Da man dabei als Kunde nicht den gleichen Rechtsschutz wie bei Händlern in der Schweiz oder in Deutschland geniesst, kann man in diesem Fall auch gleich direkt im Herstellerland China bestellen.
+
+### Finanzierung und Budget
+Bei der weiteren Recherche wurde ich auf die Chinesische Firma Gweike aufmerksam, welche eigene Laserschneider herstellt und (zumindest gemäss meinen Recherchen) einen guten Ruf geniesst. Auch mehrere Leute auf der hackerspaces.org-Mailingliste hatten gute Erfahrungen mit dieser Firma gemacht. Ihre Preise beginnen bei 1400 USD für einen 40W-Desktop-Laser und gehen bis zu zehntausenden oder sogar hunderttausenden Dollar für gigantische industrielle Lasermaschinen. Man hat es also nicht mit einem technisch inkompetenten Zwischenhändler zu tun, sondern direkt mit dem Hersteller.
+
+Via Alibaba habe ich die Firma kontaktiert und je eine Offerte für 3 verschiedene Modelle angefordert. Voraussetzung für den Kauf eines Lasers ist natürlich ein entsprechendes Budget und dessen Finanzierung, daher haben wir parallel ein internes Crowdfunding aufgesetzt. Erfreulicherweise kam so ganz ohne externe Sponsoren durch Beteiligung von 17 Einzelpersonen innert kurzer Zeit ein Budget von ca. 4500 CHF zustande (1000 CHF davon aus der Vereinskasse). Vielen Dank, ohne euch wäre das nicht möglich gewesen! (Schlussendlich war der benötigte Betrag sogar noch 800 CHF höher, aber auch dieser Fehlbetrag konnte durch unsere Mitglieder und Unterstützer gedeckt werden.)
+
+### Wahl des Lasers
+Für die Auswahl des Lasers hatten wir folgende Anforderungen:
+
+
+* Qualitativ gute Komponenten, kein Gebastel, keine Ausschusskomponenten
+* Arbeitsfläche von mindestens 40×60 cm
+* Ruida-Controller (damit man Lightburn als Steuer-Software verwenden kann)
+* Mindestens 60W effektiv nutzbare Leistung (also nicht Peak-Leistung)
+* Z-Achse mit Motorsteuerung
+* Autofokus (automatische Z-Achsen-Einstellung)
+* Air Assist (Druckluft aus dem Laserkopf, damit sich die Gase beim Schneiden nicht entzünden und die Linse nicht rasch durch Ablagerungen verunreinigt wird)
+* Red Dot (also ein sichtbarer roter Punkt, der anzeigt wo geschnitten wird)
+* Rotations-Einheit (damit man auch runde Objekte wie Gläser oder Flaschen gravieren kann)
+* Lüfter, Kühler, Luftkompressor
+Von Gweike erhielten wir folgende Offerten:
+
+=> /images/2021-02-23-001106_1452x189_scrot.png Tabellarische Auflistung der Offerte für vier verschiedene Laser-Modelle: Storm600, LG6040N, LC6090 und LG900N.
+Schlussendlich haben wir uns für das Modell LC6090 mit einer 80W-Laserröhre entschieden. Der Laser bietet folgendes:
+
+
+* Arbeitsfläche von 60×90 cm
+* 80W-CO2-Laserröhre von Reci (der Quasi-Standard in diesem Preissegment), damit lässt sich gemäss Hersteller Acryl bis 11 mm und Holz/MDF bis 8 mm schneiden
+* Motoren von Leadshine
+* Optik von Xuhong
+* Führungsschienen von Hiwin
+* Ruida 6442S-Controller
+* Wasserkühler (CW5000), Lüfter, Kompressor
+* Per Software ansteuerbare, motorisierte Z-Achse
+* Autofokus
+* Red Dot
+* Rotationseinheit
+Der Qualitätsunterschied zu den Billig-Geräten lässt sich übrigens bereits aus dem Gewicht abschätzen. Der LC6090 hat ein Versandgewicht von 350 kg. Typische Ebay-Angebote spezifizieren ein Gewicht von 60–80 kg.
+
+Inklusive Lieferung in die Schweiz (Incoterms CIF, d.h. ohne Hafen-, Zoll- und Liefergebühren am Zielort) betrugen die Kosten der Offerte 3860 USD. Den Betrag haben wir am 18. März zu unserer Absicherung via Alipay bezahlt, per Banküberweisung mit Transferwise.
+
+### Liefer-Odysee
+Nun wurde der Laser fertig zusammengebaut, gut verpackt und an den Hafen in Qingdao gebracht. Etwa zur selben Zeit ereignete sich in Ägypten ein Zwischenfall, der die Komplexität der weltweiten Lieferketten ins Bewusstsein der Öffentlichkeit rückte: Der Suezkanal wurde durch das Containerschiff Ever Given ganze sechs Tage lang blockiert, was den globalen Handel erheblich störte und Kosten in Milliardenhöhe verursachte. Wir haben täglich die neusten News dazu gelesen, in der Hoffnung, dass unser Lasercutter nicht ebenfalls im Roten Meer blockiert wird. Glücklicherweise konnte die Blockade noch vor Abfahrt “unseres” Containerschiffs behoben werden, so wähnten wir uns erstmals in Sicherheit. Wir können übrigens froh sein, dass wir den Betrag zu jenem Zeitpunkt bereits bezahlt hatten, denn während der Blockade schnellten die Lieferkosten für Seefracht teilweise um das Zehnfache oder noch mehr in die Höhe!
+
+Von uns hatte übrigens noch niemand Erfahrung mit Import von Gütern oder mit der Organisation von Seefracht. Begriffe wie “Incoterms”, “Bill of Lading”, “Telex Release” oder “Zollfreilager” waren für uns Fremdwörter. Es war aber ein spannender und lehrreicher Prozess, diese Lieferung zu organisieren!
+
+In Qingdao wurde die Kiste mit dem Laser in das Containerschiff CMA CGM Vela geladen. Gespannt verfolgten wir die über 40 Tage dauernde Fahrt durch den Indischen Ozean, durch den Suezkanal (phu!) und dann endlich durch’s Mittelmeer! Als Ziel-Hafen war Koper in Slowenien vorgesehen.
+
+=> /images/screenshot-20210516-181840.png Screenshot einer Schiffs-Tracking-Website, wo man den Schiffsverkehr durch das Mittelmeer sieht.
+Doch als das Schiff im Mittelmeer angekommen war, änderte sich plötzlich der Ziel-Hafen. Das Schiff steuerte zuerst Malta an, und nahm danach Kurs auf Spanien. Was war geschehen? Aufgrund des logistisch sehr komplizierten Kanal-Zwischenfalls und daraus resultierenden Verzögerungen mussten die Pläne einiger Schiffe geändert werden. Vermutlich wurde wichtige Fracht priorisiert, während weniger wichtigere Fracht (wie unser Laser) auf andere Schiffe umgeladen wurde. Nach Erhalt dieser Information gingen wir also davon aus, dass unser Laser nun in Malta stand und darauf wartete, mit einem anderen Schiff nach Slowenien zu fahren.
+
+=> /images/image-675x263.png Screenshot einer E-Mail mit folgendem Inhalt: Dear Valued Customer, Please be informed that we are currently facing lack of capacity as a consequence of the Suez Canal incident, which has led to several void sailings, delays and port congestions. Shipment under B/L XXXXXX has been exceptionally rerouted on alternative services via Singapore and Malta, where it will be connected on first available vessel to Koper. Situation remains exceptional, we are doing out utmost to deliver your cargo in shortest time. We apology for inconveniences caused. Thank you for your understanding and looking forward to our further cooperation.
+Zwei Wochen später hatten wir jedoch noch immer nichts von unserer Lieferung gehört. Langsam wurde mir unwohl, ist unsere Fracht verloren gegangen, oder waren wir gar Opfer eines Betrugsfalls? Ich sandte eine E-Mail an unsere Kontaktperson bei Gweike, die versprach, sofort Abklärungen zu treffen. Am nächsten Tag kam dann die Auflösung: Die Kiste wurde nicht erst in Malta, sondern bereits in Singapur ausgeladen. Dort wurde sie in ein anderes Containerschiff geladen. Dieses erlitt jedoch kurz später einen Motorenschaden und musste an Land gezogen werden. Die ganze Fracht musste in ein drittes Containerschiff umgeladen werden, was erhebliche Verzögerungen mit sich brachte. 🤦
+
+=> /images/2021-06-02-143937_830x708_scrot-675x576.png Screenshot einer E-Mail mit folgendem Inhalt: Subject: SERVICE PHOENICIAN / TRADE ASIA/ADRIATIC / CMA CGM RABELAIS – Main Engine damage - Tug boat assistance required To our Valued Customers, We regret to inform you that on 29th of May 2021, whilst CMA CGM RABELAIS was sailing 280 miles from Hong Kong roads between Shekou and Singapore, her main engine suffered a sudden stoppage. The cargo is safe, and no pollution or injuries were reported by the owners of the vessel. Unfortunately, the inspection revealed that the vessel is unable to continue with her voyage to destination and owners decided to hire a tug to bring her to Hong Kong for repairs. Tug is now on the way to the vessel, ETA tonight (31/05/2021) 20:00 Hrs LT and the estimated towage time is 2.5 days. CMA CGM is making sure your cargo is fully protected and will advise you as matter develops. CMA CGM apologize for this event, which is beyond its control, and will concentrate all efforts for serving our customers at best and limit the arrival time at destination at maximum. Sincerely, MED NAF Lines Management
+Anfangs Juli – vier Monate nach Bestellung – kam dann endlich die lang erwartete E-Mail des Brokers: Die Lieferung sollte bald in Zürich eintreffen! Doch zuerst mussten noch einige Rechnungen beglichen werden: Hafengebühren, Entladegebühren, Lagergebühren, Dokumentationsgebühren, Vorlageprovision, Posttaxen, Zollabfertigung, Übermittlungsgebühren, Mehrwertssteuer, Zoll, Handlinggebühren, Umschlagskosten, Lieferkosten… Die Rechnungen fielen höher aus als erwartet/befürchtet, wir mussten dem Hafen in Koper 544 CHF und dem Broker für Einfuhr, Verzollung und Lieferung zu uns 855 CHF bezahlen. Nach Begleichung dieser Rechnungen wurde der Laser dann endlich am 14. Juli von einem freundlichen Lastwagenchauffeur in unseren Makerspace gebracht.
+
+
+=> /images/image-f24eca64-a874-4865-9695-119c7768c1f61-scaled.jpg
+=> /images/image-384bcaad-3934-4921-bdd8-4b59574d7692-1.jpg
+### Gesamtkosten
+Hier die Aufschlüsselung der Gesamtkosten unserer Lasercutter-Anschaffung:
+
+### Rückblick
+Der ganze Bestellprozess war eine spannende und lehrreiche Erfahrung. Den ersten Kontakt mit Gweike hatte ich am 31. Januar. Bis wir den Laser wirklich bei uns hatten, vergingen 5 Monate. In dieser Zeit musste ich mir Wissen über Lasercutter, Handelskonditionen, Geldtransfers nach China, Seefracht, Zollabfertigung und vieles mehr aneignen. Glücklicherweise war ich darauf gefasst, dass der Prozess etwas komplizierter sein dürfte als eine Bestellung auf Galaxus, daher überraschten mich die Verzögerungen nicht. Ich schätze aber inzwischen die Einfachheit von internationalen Express-Kurieren umso mehr.
+
+Die Kommunikation mit Gweike per E-Mail war übrigens stets einwandfrei. Es wurde zwar aufgrund der vielen E-Mails schnell unübersichtlich (für Offerte, Klärung von Fragen und Bestellabwicklung haben wir dutzende E-Mails hin- und hergesandt), aber der Kontakt war immer extrem freundlich, zuvorkommend und kompetent. Die Kontaktperson konnte mir Fragen stets zufriedenstellend beantworten. Der Kommunikationsstil ist natürlich für Europäer etwas ungewohnt, aber es ist eben China Style, da wird der Kunde noch aktiv und mit blumigen Worten umworben. E-Mails waren häufig unterschrieben mit “we will wait for your reply all the time” und es wurde – wenn ich mal nach 3 Tagen noch nicht geantwortet hatte – schon mal ein Screenshot eines WhatsApp-Chats eines zufriedenen Kunden geschickt, mit dem Kommentar “hey, schau mal wie zufrieden dieser holländische Kunde mit uns war, willst du nun nicht auch bestellen?” 😂 Kurz nach unserer Bestellung wechselte zwar unerwartet die Ansprechperson (“Good day, this is Nicole from Gweike Laser, Ivy’s colleague. Ivy quit her job because she wants to study abroad”), aber auch die neue Ansprechsperson wirkte kompetent und konnte alle Fragen stets rasch klären. Wir wünschen Ivy alles Gute beim Ausland-Studium 🤓
+
+Das war’s zum Bestellprozess. Falls du selber überlegst, einen Lasercutter zu kaufen und Fragen hast, darfst du gerne einen Kommentar hinterlassen oder eine E-Mail senden. Mehr zur Inbetriebnahme des Lasers folgt im nächsten Blogpost dieser dreiteiligen Serie!
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2021/07/25/lasercutter-im-coredump-teil-2-bestellung-und-liefer-odysee/ Auf coredump.ch lesen

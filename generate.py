@@ -96,11 +96,11 @@ def fetch_blog_posts_from_rss(feed_url="https://www.coredump.ch/feed/"):
         elif len(parts) >= 1:
             slug = parts[-1]
 
-        # Build the gemini content path: blog/YYYY/MM/slug.gmi
+        # Build the gemini content path: gemlog/YYYY/MM/slug.gmi
         if year and month and slug:
-            gmi_path = f"blog/{year}/{month}/{slug}.gmi"
+            gmi_path = f"gemlog/{year}/{month}/{slug}.gmi"
         else:
-            gmi_path = f"blog/{slug}.gmi"
+            gmi_path = f"gemlog/{slug}.gmi"
 
         posts.append(
             {
@@ -189,9 +189,9 @@ def convert_blog_post_to_gemini(post, pages_map):
     gmi_lines.append("")
 
     # Navigation links back
-    depth = len(target_filename.split("/"))  # blog/YYYY/MM/slug.gmi -> 4 parts
+    depth = len(target_filename.split("/"))  # gemlog/YYYY/MM/slug.gmi -> 4 parts
     back_prefix = "../" * (depth - 1)
-    gmi_lines.append(f"=> /blog/index.gmi Zurück zum Blog")
+    gmi_lines.append(f"=> /gemlog/index.gmi Zurück zum Gemlog")
     gmi_lines.append(f"=> /index.gmi Zurück zur Startseite")
     gmi_lines.append(f"=> {url} Auf coredump.ch lesen")
 
@@ -374,35 +374,14 @@ def generate_gemlog_index(posts):
         date = post["date"]
         title = post["title"]
         gmi_path = post["gmi_path"]
-        # Path relative to blog/index.gmi -> blog/YYYY/MM/slug.gmi
+        # Path relative to gemlog/index.gmi -> gemlog/YYYY/MM/slug.gmi
         # so relative link is YYYY/MM/slug.gmi
-        rel_path = "/".join(gmi_path.split("/")[1:])  # strip "blog/" prefix
+        rel_path = "/".join(gmi_path.split("/")[1:])  # strip "gemlog/" prefix
         gmi_lines.append(f"=> {rel_path} {date} - {title}")
 
     gmi_lines.append("")
     gmi_lines.append("=> /index.gmi Zurück zur Startseite")
     gmi_lines.append("=> https://www.coredump.ch/blog/ Blog auf coredump.ch")
-
-    return "\n".join(gmi_lines)
-
-
-def generate_blog_redirect(posts):
-    """Generate a simplified blog.gmi that links to the gemlog index."""
-    gmi_lines = []
-    gmi_lines.append("# Blog – Coredump")
-    gmi_lines.append("")
-    gmi_lines.append("=> /blog/index.gmi Zum Gemlog (abonnierbar)")
-    gmi_lines.append("")
-    gmi_lines.append("## Neueste Beitrage")
-    gmi_lines.append("")
-
-    for post in posts[:5]:
-        date = post["date"]
-        title = post["title"]
-        gmi_lines.append(f"=> /{post['gmi_path']} {date} - {title}")
-
-    gmi_lines.append("")
-    gmi_lines.append("=> /blog/index.gmi Alle Beiträge anzeigen")
 
     return "\n".join(gmi_lines)
 
@@ -531,7 +510,7 @@ def main():
 
     # Build pages_map: includes static pages + all blog posts
     pages_map = dict(static_pages)
-    pages_map["https://www.coredump.ch/blog/"] = "blog/index.gmi"
+    pages_map["https://www.coredump.ch/blog/"] = "gemlog/index.gmi"
     for post in posts:
         pages_map[post["url"]] = post["gmi_path"]
 
@@ -548,20 +527,13 @@ def main():
         except Exception as e:
             print(f"Error converting {url}: {e}")
 
-    # --- Generate blog redirect page ---
-    print("Generating blog.gmi redirect page...")
-    blog_redirect = generate_blog_redirect(posts)
-    with open("content/blog.gmi", "w") as f:
-        f.write(blog_redirect)
-    print("Successfully generated content/blog.gmi")
-
     # --- Generate gemlog index ---
-    print("Generating blog/index.gmi (subscribable gemlog)...")
-    os.makedirs("content/blog", exist_ok=True)
+    print("Generating gemlog/index.gmi (subscribable gemlog)...")
+    os.makedirs("content/gemlog", exist_ok=True)
     gemlog_index = generate_gemlog_index(posts)
-    with open("content/blog/index.gmi", "w") as f:
+    with open("content/gemlog/index.gmi", "w") as f:
         f.write(gemlog_index)
-    print("Successfully generated content/blog/index.gmi")
+    print("Successfully generated content/gemlog/index.gmi")
 
     # --- Generate individual blog post pages ---
     print(f"Generating {len(posts)} individual blog post pages...")
