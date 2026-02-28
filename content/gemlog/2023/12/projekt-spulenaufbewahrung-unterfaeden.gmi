@@ -1,0 +1,31 @@
+# Projekt: Spulenaufbewahrung Unterfäden
+
+Datum: 2023-12-26
+Autor: Jessica
+Kategorien: Lasercutter, Projekte
+
+Seit längerem bin ich (Jessy) auf der Suche nach einer guten Aufbewahrung für meine Nähmaschinen-Unterfäden im Nähtreff, bei dem ich mithelfe. Vorher war es ein ziemliches Chaos, bei dem man schnell den Überblick verlor.
+
+=> /images/7-675x380.jpg
+Die erste Idee war, vertikale Stifte zu nutzen, auf welche die Spulen gesteckt werden. Das Problem dabei: Man erkennt dann die Farbe nicht mehr, die aufgespult ist.
+
+Nach längerer Überlegung und Diskussionen mit verschiedenen Leuten in unserem Hackerspace fanden wir dann eine Lösung: Eine Halterung, auf welcher die Spulen seitlich stehen, damit man die Farben erkennen kann und den Überblick darüber behält.
+
+Da der Lasercutter schneller und exakter ist, als 3D-Druck oder Handarbeit, war das für mich die beste Option, um die Halterung herzustellen.
+
+=> /images/2.jpg
+=> /images/3.jpg
+Nun musste ich die drei Schichten noch zusammenkleben.
+
+In den Ecken bekam die untere Halterung noch vier Dübel verpasst. Die Obere bekam auf der Unterseite vergrösserte Löcher. So kann man die Obere auf die Untere stellen, um die Spulen platzsparend zu lagern.
+
+Und so macht Aufräumen auch wieder mehr Spass!
+
+=> /images/5.jpg
+=> /images/6.jpg
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2023/12/26/projekt-spulenaufbewahrung-unterfaeden/ Auf coredump.ch lesen

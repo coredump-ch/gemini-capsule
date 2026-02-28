@@ -1,0 +1,28 @@
+# Coredump Lightning Talks @ HSR
+
+Datum: 2016-09-26
+Autor: Raphael Nestler
+Kategorien: Events, hsr, lightning talks
+
+Heute veranstalteten wir an der HSR eine Session mit Lightning Talks. Wir nutzten die Gelegenheit unseren Hackerspace vorzustellen.
+
+Hier findet ihr einige Fotos sowie die Präsentationsfolien.
+
+### Fotos
+### Slides & Links
+
+* Rust in 5 minutes
+* LibrePCB – Next Gen PCB Design
+* Seriously Secure WebRTC
+* Vorstellung Wifi Modul ESP8266-E12
+* Bitcoin in 5min: Warum ist Bitcoin relevant?
+* About the Coredump FlameBot
+* 3D Photogrammetrie am Beispiel des Schloss Rappi
+* State of the gopher – why I don’t like Go
+* Open\HSR
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2016/09/26/coredump-lightning-talks-hsr/ Auf coredump.ch lesen

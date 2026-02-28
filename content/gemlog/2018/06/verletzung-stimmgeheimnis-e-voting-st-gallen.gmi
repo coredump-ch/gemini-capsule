@@ -1,0 +1,103 @@
+# Verletzung Stimmgeheimnis E-Voting SG
+
+Datum: 2018-06-16
+Autor: Danilo
+Kategorien: Digitalpolitik / Gesellschaft, Hacks, e-voting, hacks, politik, sicherheit
+
+Am vergangenen Mittwoch hat der St. Galler Kantonsrat das revidierte Gesetz über Wahlen und Abstimmungen genehmigt und damit die gesetzliche Grundlage für E-Voting geschaffen.
+
+Wir vom Verein Coredump haben uns schon viel mit dem Thema E-Voting befasst und eine Stellungnahme dazu geschrieben. Neben uns haben auch viele weitere Personen und Organisationen dazu Stellung genommen und Sicherheitsbedenken geäussert. Dem Kantonsrat ist dies bewusst, auch sie legen Wert auf die Sicherheit. Ein Antrag der SVP-Fraktion, deshalb die gesetzliche Grundlage für E-Voting zu streichen, wurde jedoch leider mit 70 zu 42 Stimmen abgelehnt. Es gilt: Digitalisierung um der Digitalisierung willen. Hingegen wurde ein Antrag der FDP-Fraktion nach einer passionierten Rede mit 66 zu 42 Stimmen angenommen.
+
+Dieser Antrag ist interessant, denn er beinhaltet folgende Änderungen:
+
+
+* Die Nachvollziehbarkeit wurde präzisiert. Der erste Gesetzesentwurf enthielt nicht, für wen die Stimmabgabe und Ergebnisermittlung nachvollziehbar sein muss. Vielleicht nur für die Experten? Neu gilt: Die Nachvollziehbarkeit gilt für die Stimmberechtigten! Ein wichtiger Unterschied. Wir erachten die Nachvollziehbarkeit bei E-Voting für die Stimmberechtigten aktuell als nicht ausreichend gegeben.
+* Neu ist nicht nur die “Vertrauenswürdigkeit der ermittelten Ergebnisse” vorgeschrieben, sondern auch “der Schutz von Stimmgeheimnis und Personendaten der Stimmberechtigten”.
+* Beim Schutz der Vertrauenswürdigkeit und des Stimmgeheimnisses musste vorher die Sicherheit nur “hinreichend” gewährleistet sein. Neu wurde das Wort “hinreichend” gestrichen. Der Schutz muss nicht mehr nur einigermassen gewährleistet sein, sondern er muss gewährleistet sein.
+Um diese zwei letzten Punkte des Änderungsantrags dreht sich dieser Blogpost.
+
+(Die CVP-GLP Fraktion sowie die SP-Grüne Fraktion haben übrigens gegen den Antrag gestimmt, mit der Begründung, der Antrag sei eine “verbale Kulissenschieberei” und “gänzlich unnötig”. Ganz so wichtig scheint die Sicherheit doch nicht zu sein, man will schliesslich Fortschritt!)
+
+### E-Voting im Browser
+Bei der Sicherheit von E-Voting, bzw. bei der Sicherheit von Kommunikationssystemen, gibt es immer zwei Aspekte: Die Sicherheit der Kernsoftware und die Sicherheit des Gesamtsystems.
+
+Die Sicherheit des Kernsystems besteht aus Kryptografie, aus Algorithmen, aus Spezifikationen. Viele intelligente Personen haben sich Gedanken gemacht, wie man die Garantien der Stimmabgabe auf elektronische Systeme übertragen kann. Das Ergebnis ist spannend. Ob es so sicher ist, wie angenommen, wissen wir zum aktuellen Zeitpunkt noch nicht.
+
+Der zweite Aspekt ist die Sicherheit des Gesamtsystems. Dies beginnt bei der abstimmenden Person und endet damit, dass die Stimme abgegeben wurde, dass diese korrekt gezählt wurde, dass das Stimmgeheimnis gewahrt wurde und dass der Prozess für die stimmberechtigte Person nachvollziehbar ist.
+
+Die Sicherheit des Kernsystems kann man als “akademische Sicherheit” bezeichnen, die Sicherheit des Gesamtsystems als “real-world Sicherheit”. Letztere Sicherheit muss sich in der echten Welt bewähren, eine Welt in der es Trojaner gibt, eine Welt in der man sich nicht auf die Sicherheit der eigenen Hardware verlassen kann, eine Welt in der die Stimmbürger die Anweisungen nicht exakt befolgen und in der das Überprüfen des Browser-Zertifikats “zu mühsam” ist.
+
+Das vom Kanton St. Gallen eingesetzte E-Voting System CHVote des Kantons Genf muss zwei Aspekte erfüllen: Es muss sicher sein und es muss praktikabel sein. Wenn es unsicher ist, wird es nicht benutzt. Wenn es zu umständlich ist, wird es ebenfalls nicht benutzt. Das Problem: Sicherheit und Bedienbarkeit sind in den meisten Fällen Gegensätze.
+
+Dieser Konflikt zwischen Sicherheit und Bedienbarkeit führt zu der Kompromisslösung, dass das E-Voting im Webbrowser umgesetzt wurde. Der Bürger oder die Bürgerin öffnet bequem die E-Voting-Webseite und gibt die Stimme ab. Der Webbrowser ist jedoch ein Programm, welches unvertrauten Code aus dem Internet herunterlädt und ausführt. Das ist ein fundamentales Sicherheitsrisiko.
+
+Da sich anfangs Juni in Rapperswil die Gelegenheit zur Stimmabgabe über E-Voting geboten hat, haben wir uns das System genauer angeschaut.
+
+### E-Voting und Browser-Erweiterungen
+Ein Webbrowser ist ein häufig genutztes Tool. Viele Leute erweitern dieses Tool mit nützlichen Zusatzfunktionen indem sie Browser-Erweiterungen installieren. Eine solche Erweiterung kann gewisse Berechtigungen vom Computersystem anfordern. Eine der am häufigsten benötigten (und auch gewährten) Berechtigungen ist der “Zugriff auf den Webseiten-Inhalt aller besuchten Seiten”. Dies kann ganz legitime Gründe haben, beispielsweise muss ein Passwort-Manager auf den Seiteninhalt zugreifen können um automatisch die Login-Formulare ausfüllen zu können. Oder eine Erweiterung zur Verbesserung der Lesbarkeit bei Sehbeeinträchtigungen muss die Schriftfarbe und -grösse des Webseiteninhalts anpassen können. Doch was, wenn sich die Funktionalität nicht nur darauf beschränkt? Was, wenn eine Browser-Erweiterung auch Zugriff auf das Abstimmungsverhalten hat?
+
+Fakt ist: Jedes installierte Browser-Plugin mit Zugriff auf den Seiteninhalt hat Zugriff auf das Abstimmungsverhalten und kann dieses Aufzeichnen. Um dies zu demonstrieren, haben wir eine solche Browser-Erweiterung für den weit verbreiteten Browser Firefox entwickelt. Benötigter Zeitaufwand: Eine halbe Stunde für den ersten Prototypen und nochmals etwa 1.5 Stunden für die Detail-Arbeit. Interessantes Detail: Der Angriff funktioniert genau so gut in einem anonymen Browserfenster.
+
+### Demo
+Um die Funktionsweise zu demonstrieren, haben wir ein kleines Video erstellt. Im darauf folgenden Text werden wir die Techniken weiter erläutern.
+
+(Falls die Texte im Video etwas zu schnell verschwinden, kann das Video mit einem Klick pausiert werden.)
+
+### Wie es funktioniert
+Die Erweiterung fügt automatisch auf jeder Webseite ein kleines Stück JavaScript-Programmcode ein. Dieser prüft, ob man sich auf https://www.evote-ch.ch/sg/ befindet. Falls ja, wird die Erweiterung aktiv (im Demo-Video durch den roten Balken oben an der Seite gezeigt) und greift auf den Seiteninhalt zu. Die Erweiterung wartet, bis die Stimmrechtsausweis-Nummer, die Stimme sowie das Geburtsdatum eingegeben wurden. Sobald dies der Fall ist, werden diese Daten, ohne dass der Benutzer etwas davon mitkriegt, im Speicher der Erweiterung hinterlegt. Dagegen hilft auch das Löschen der Cookies und des Browser-Caches nichts, wie es von den Sicherheitshinweisen des E-Votings empfohlen wird.
+
+Nun hat man die Stimmergebnisse, jedoch weiss ein Angreifer deshalb noch lange nicht, wer sich hinter dieser Stimmabgabe verbirgt. Die Zuordnung der Stimmrechtsausweisnummer zu einer Person ist ja nicht öffentlich. Man muss diese Stimme deshalb mit anderen Daten verknüpfen. Das ist jedoch ganz einfach: Man sammelt nicht nur auf der E-Voting-Seite Daten, sondern auch auf anderen besuchten Seiten, wie zum Beispiel auf Facebook.
+
+Unsere Beispielerweiterung merkt sich beim Besuch von Facebook den Namen der eingeloggten Person und speichert diesen ebenfalls ab. Facebook ist nur ein willkürliches Beispiel. Ebenso könnte man auf Gmail die E-Mail-Adresse aufzeichnen, oder beim Kommentieren auf Blick.ch den eingegebenen Namen und die E-Mail-Adresse. Noch viele weitere persönliche Merkmale wären denkbar. Man kann davon ausgehen, dass die abstimmende Person die selbe Person ist, die auch auf Facebook und Gmail eingeloggt ist.
+
+Sobald nun die abgegebene Stimme mit dem Facebook-Namen und der E-Mail-Adresse verknüpft und so de-anonymisiert wurde, könnte die Browser-Erweiterung diese Informationen getarnt an einen Server senden, wo die Daten gesammelt, aggregiert, ausgewertet und möglicherweise verkauft werden. Unsere Demo-Erweiterung tut dies natürlich nicht, stattdessen werden die Informationen in der sogenannten Entwickler-Konsole ausgegeben, um zu demonstrieren, dass die Verknüpfung der Daten wirklich möglich ist.
+
+Den Quellcode der Erweiterung kann man sich unter https://github.com/coredump-ch/chvote-spy ansehen und ausprobieren.
+
+### Verbreitung
+Nun sagen vielleicht einige Leute, “das ist ein Konzept im Versuchs-Labor, die Leute installieren ja nicht absichtlich Schadsoftware”. Natürlich müsste so ein Angriff ganz anders ablaufen, als dass man den Leuten direkt eine Erweiterung mit Schadcode sendet.
+
+Man könnte beispielsweise ein nützliche Browser-Erweiterung entwickeln (ganz ohne Schadcode), und dieser in der Schweiz zu Popularität verhelfen. Beispielsweise könnte man für die politisch interessierte Bevölkerung eine Erweiterung entwickeln, welche bei Zeitungsartikeln automatisch Namen von Politikern erkennt und dazu Interessenbindungen von lobbywatch.ch einblendet. Man könnte auch eine Erweiterung für weniger politisch interessierte Personen entwickeln, z.B. eine Fussball-WM-Erweiterung, welche im Browser immer die aktuellen WM-Spiele und Punkte-Entwicklung anzeigt. Diese Erweiterung müsste für die primäre Funktionalität ganz legitim und legal auf alle Webseiteninhalte zugreifen.
+
+Dann kann man sich ruhig ein paar Monate oder sogar Jahre Zeit lassen, bis die Erweiterung von tausenden Personen installiert wurde. Der Verbreitung kann man natürlich auch etwas nachhelfen, etwa durch Werbung auf Social Media, durch Presseberichte oder mithilfe von bezahlter Online-Werbung auf Google und Facebook. Sobald die Erweiterung mal installiert ist, wird sie wohl kaum jemand wieder deinstallieren; wenn man sie nicht mehr benötigt, vergisst man sie einfach.
+
+Sobald eine Abstimmung ansteht, kann man nun getarnten Programmcode in die Erweiterung einbauen. Dieser Code wird mithilfe der automatischen Update-Funktion des Browsers ganz von alleine auf allen Endgeräten installiert, ohne dass das jemandem auffällt. Sobald die Abstimmung vorbei ist, würde man natürlich den Schadcode wieder mit einem zweiten Update entfernen, um die Entdeckungs-Wahrscheinlichkeiten zu reduzieren.
+
+Diese Vorgehensweise ist natürlich nur eine Möglichkeit. Mithilfe von Viren oder Trojanern könnte man Schadcode natürlich auch direkt bei den Benutzern installieren, ohne dass sie manuell eine Erweiterung herunterladen müssen. Geeignete Sicherheitslücken dafür tauchen regelmässig auf, und in einer Zeit in der ein Grossteil der verbreiteten Smartphones nichtmal mehr Betriebssytem-Updates erhalten, werden diese Sicherheitslücken häufig auch gar nie geschlossen.
+
+### Reaktion der Verantwortlichen
+Was sagen die Verantwortlichen dazu?
+
+Wir haben dieses Konzept natürlich vorgängig an die Zuständigen für das E-Voting des Kantons St. Gallen gesendet. Diese erachten das Szenario jedoch für irrelevant und/oder unwahrscheinlich:
+
+“Indem sich Internetnutzerinnen und -nutzer vor einem Befall mit Schadsoftware schützen, können sie das Risiko einer Verletzung ihrer Privatsphäre tief halten. Im konkreten Fall könnten sich die Benutzer dadurch schützen, dass sie Browser-Addons nur dann installieren, wenn sie die Quelle für vertrauenswürdig halten. Es liegt in der Verantwortung der Stimmberechtigten, zur elektronischen Stimmabgabe eine Plattform zu verwenden, der sie vertrauen und mit der sie auch andere Geschäftsvorgänge, die ihre Privatsphäre berühren, vornehmen würden.”
+
+Hier noch ein Auszug aus dem Bericht des Bundesrats zu Vote Électronique aus dem Jahr 2013:
+
+“[…] Versuche, das Stimmgeheimnis auf der Benutzerplattform zu brechen, scheitern also nur auf Benutzerplattformen, die genügend geschützt und nicht von Schadsoftware befallen sind. Dieser Zugang mag auf den ersten Blick erstaunen, da die handelsüblichen Computer der Stimmberechtigten bekanntlich als unsicher einzustufen sind. Allerdings wird davon ausgegangen, dass systematische und daher aufwändige Attacken auf die Plattformen der Stimmenden, die darauf abzielen vorzeitige Ergebnisse zu ermitteln, unwahrscheinlich sind. Dasselbe gilt für Attacken, die darauf abzielen, festzustellen, wer wie gestimmt hat. Hinsichtlich solcher Attacken gegen das Stimmgeheimnis liegt es ausserdem vielmehr im Ermessen der einzelnen Stimmberechtigten, ob sie ihre Plattform als genügend vertrauenswürdig einstufen.”
+
+Wenn man bei E-Voting-Sicherheit von der Sicherheit des Kernsystems spricht, ist dies vollkommen korrekt. Wenn es jedoch um Real-World Sicherheit geht, dann ist Schadsoftware weit verbreitet und der Anspruch an sichere Endgeräte illusorisch. Hier ein Beispiel aus dem Jahr 2015, aus dem Jahr 2016 und aus dem Jahr 2017. Interessant vor allem am 2016er-Beispiel: Besucher der Webseite 20min.ch wurden automatisch infiziert. Hier bringt der Hinweis, bei der Installation von Browser-Erweiterung Vorsicht walten zu lassen, wenig.
+
+Der Bundesrat und die Verantwortlichen vertreten also den Standpunkt, dass solche Attacken möglich, aber unwahrscheinlich sind. Zudem sei der Benutzer selber verantwortlich für die Sicherheit seines Systems.
+
+Um diesen Problemen vorzubeugen, will man nun die “Awareness bei der Bevölkerung steigern”. Wie dies in den Augen des Bundesrats aussieht, zeigt dieses vor wenigen Tagen veröffentlichte Video des Bundesrats: https://www.youtube.com/watch?v=qTzZXI-z7b8 Das Fazit des Videos kurz zusammengefasst: “E-Voting ist sicher und unbedenklich. Personen, die sagen, dass es unsicher sei, nerven nur.”
+
+### Wie weiter?
+Das Problem mit den Browsererweiterungen lässt sich nicht einfach so lösen. Es ist ein fundamentales Problem. Eine Möglichkeit das Problem zu entschärfen wäre, eine eigenständige Software zur Abgabe der Stimme zu entwickeln, welche heruntergeladen werden muss. Die Software müsste kryptografisch signiert sein. Ein Schritt zur Überprüfung dieser Signatur müsste zwingend sein. Zudem könnte man kryptografische Hardware mit PIN-Eingabe verwenden, um die Stimme zu signieren, ohne dass Schadsoftware einen Einfluss auf diesen Prozess hat.
+
+All dies wäre jedoch teuer und würde die Anzahl der E-Voting-Stimmabgaben reduzieren, da der Prozess viel mühsamer ist als briefliche Stimmabgabe. Damit wäre der Erfolg des E-Voting-Projektes gefährdet. Offensichtlich wird hier die Bedienbarkeit höher gewichtet als die Sicherheit. Schliesslich ist die Schweiz ein fortschrittliches Land und muss bei der Digitalisierung der Demokratie ganz vorne mit dabei sein, sonst halten andere Länder uns Papier-Abstimmende für rückständig.
+
+Um nochmal zur Einleitung dieses Blogposts zurückzugreifen: Das am Mittwoch verabschiedeten St. Galler Gesetz über Wahlen und Abstimmungen enthält in Artikel 62 Absatz 1 b folgende Formulierung:
+
+“b) [Die Stimme kann elektronisch abgegeben werden, wenn] die Sicherheit der Stimmabgabe und die Ergebnisermittlung sowie deren Nachvollziehbarkeit für die Stimmberechtigten, die Vertrauenswürdigkeit der ermittelten Ergebnisse sowie der Schutz von Stimmgeheimnis und Personendaten der Stimmberechtigten durch angemessene Massnahmen gewährleistet sind.”
+
+In unseren Augen ist derzeit weder die Nachvollziehbarkeit dieses komplexen Systems für den Stimmbürger noch die Wahrung des Stimmgeheimnisses gewährleistet.
+
+Kontakt: vorstand@lists.coredump.ch
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2018/06/17/verletzung-stimmgeheimnis-e-voting-st-gallen/ Auf coredump.ch lesen

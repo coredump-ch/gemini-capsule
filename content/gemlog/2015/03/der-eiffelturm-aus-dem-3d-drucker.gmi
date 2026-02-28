@@ -1,0 +1,17 @@
+# Der Eiffelturm aus dem 3D-Drucker
+
+Datum: 2015-03-21
+Autor: Danilo
+Kategorien: 3D Druck, 3d printing, ultimaker
+
+Als Belohnung für eine Unterstützerin der Wemakeit-Aktion haben wir den Eiffelturm in 24cm Höhe (CC BY-SA LeFabShop) gedruckt. Der Turm wird in mehreren Einzelteilen gedruckt und dann zusammengeklebt. Das Resultat sieht grossartig aus:
+
+=> /images/eiffel_outside.jpg
+=> /images/eiffel_window.jpg
+=> /images/eiffel_stone.jpg
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2015/03/21/der-eiffelturm-aus-dem-3d-drucker/ Auf coredump.ch lesen

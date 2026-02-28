@@ -1,0 +1,41 @@
+# 3D-Drucker bei der Kulturnacht 2025
+
+Datum: 2025-11-01
+Autor: Peter
+Kategorien: 3D Druck, Bildung, Events, 3d-druck, event, kulturnacht, prusa, rapperswil-jona
+
+War der Abend schön!
+
+Der Coredump war anlässlich der diesjährigen Kulturnacht vor Ort in der Stadtbibliothek, um unseren 3D-Drucker vorzustellen. Diese Aktion hat grosse Begeisterung bei Klein und Gross ausgelöst. Wir wurden bereits letztes Jahr angefragt, ob er etwas mit dem Motto “verbunden” beisteuern kann. Natürlich können wir das! (Mit einer einem Jahr Verzögerung.)
+
+### Design Buchzeichen
+Um etwas passendes für die Stadtbibliothek zu entwickeln, haben wir ein Buchzeichen entwickelt und hergestellt. Mit dem 3D-Drucker ist Rapid Prototyping möglich und wurde auch bei diesem Projekt eingesetzt. Meine Kriterien für ein Lesezeichen sind folgende: Es soll möglichst flach sein, um das Buch nicht unnötig aufzuspannen. Das Lesezeichen soll zum Mitnehmen in das Buch ganz hineingeschoben werden können, ohne dass das Buchzeichen beschädigt wird. Das Buchzeichen soll schnell produziert werden können, um die Kosten niedrig zu halten. Die online verfügbaren Modelle haben nicht meinen Kriterien entsprochen. Daher war es am einfachsten, ein eigenes Design von Grund auf zu konstruieren.
+
+=> /images/MG_0859-675x450.jpg
+Rapperswil hat in seinem Wappen eine Rose, die Rose des Buchzeichens wurde online gefunden und angepasst. Das Design des Buchzeichens ist eher 2-dimensional, von dem her habe ich Inkscape für die Konstruktion benutzt. Die Logos und Schriften der Stadt konnten einfach als SVG genutzt werden. Um die dreidimensionale Farbänderung zu erreichen, wurden die eingebauten Features von Prusa Slicer verwendet. (Unser 3D-Drucker hat mehrere Druckköpfe und kann daher mehrfarbig drucken.)
+
+=> /images/MG_0849-675x450.jpg
+Der 3D-Druck hat zwei Schichten: In der ersten Schicht wird der Farbwechsel gemacht und die Schrift sowie die Rose betont. Die zweite Schicht ist solid, um die erste Schicht zu stabilisieren. Das Material PETG wurde gewählt, da es gute Druckeigenschaften hat und weniger spröde ist als PLA.
+
+### Erlebnisse von der Kulturnacht
+Die Stadtbibliothek zählte am Ende des Abends 200 Besucher/-innen. Jeder Druck dauerte rund 8 Minuten, daher war es nötig, die Buchzeichen im Voraus zu produzieren. In den Wochen vor der Kulturnacht haben wir 120 Buchzeichen gedruckt. Weitere 24 wurden im Verlauf des Abends unter Beobachtung der Besucher gedruckt. Am Ende der Kulturnacht war nur noch eine Handvoll übrig.
+
+=> /images/IMG_1081-1-675x483.jpg
+Der Drucker fällt zwischen den ganzen Bücher gut auf. Viele Anschauungsbeispiele – oder eher Anfassbeispiele – sind ein guter Startpunkt für Gespräche. Viele Besucher sind an diesem Abend das erste Mal mit dem Thema 3D-Druck in Kontakt gekommen, dementsprechend gab es viele Fragen. Das Coredump-Team hat mit Freuden alle Fragen beantwortet.
+
+=> /images/IMG_1087-PeterKuhn-675x449.jpg
+Eine Besucherfrage: „Kann der Drucker auch für praktische Dinge genutzt werden?“ Die Antwort auf diese Frage ist ganz klar: Ja! Der Drucker stellt nicht nur schöne Dinge her, sondern auch nützliche Gegenstände. Auf unserem Showtisch befand sich ein Haufen Spielereien, sodass es uns kaum möglich war, Beispiele aus dem Alltag zu zeigen. Die meisten praktischen Objekte, die wir gedruckt haben, sind bereits im Einsatz und nicht mehr in unserer Vorführsammlung. Ausserdem wirken viele dieser nützlichen Teile auf den ersten Blick eher unspektakulär.
+
+Der Transport des XL-Druckers ist nicht einfach, denn so eine Maschine ist gross, schwer und empfindlich. So musste die Maschine gut gesichert transportiert werden. Auf der Rückfahrt durfte er als Beifahrer auf dem Sitz mitfahren.
+
+=> /images/Screenshot-from-2025-10-14-01-55-18-675x501.png
+Besonders möchten wir uns bei Daniela und allen anderen Mitarbeiterinnen und Mitarbeitern der Stadtbibliothek für die tolle Zusammenarbeit bedanken.
+
+Ebenfalls möchte ich (Peter) mich bei Philipp, Finn und Wolfgang bedanken, die dabei waren, und zu einem schönen Erlebnis beigetragen haben.
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2025/11/01/3d-drucker-bei-der-kulturnacht-2025/ Auf coredump.ch lesen

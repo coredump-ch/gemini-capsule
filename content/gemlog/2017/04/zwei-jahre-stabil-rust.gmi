@@ -1,0 +1,39 @@
+# Zwei Jahre stabil – Rust Jubiläum
+
+Datum: 2017-04-25
+Autor: Stefan Schindler
+Kategorien: Bildung, Events, events, meetup, mozilla, rust
+
+English Version below.
+
+Vor zwei Jahren wurde die Programmiersprache Rust stabil. Mit der Version 1.0 setzten die Entwickler damals den Grundstein für Geschwindigkeit, Stabilität und Sicherheit vereint in einem offenen Produkt.
+
+Um dieser Errungenschaft gebührend Rechnung zu tragen feiern wir am 15. Mai in Zürich die zwei Jährige Erfolgsgeschichte.
+
+Wir werden uns in zwei Workshop Gruppen aufteilen:
+
+
+* Eine Gruppe für Einsteiger mit einer kurzen Einführung in die Sprache und das Ökosystem am Anfang.
+* Die andere wird mit Argument-Verarbeitung und Netzwerk-Kommunikation starten.
+Bringt eure Laptops mit und hackt was das Zeug hält!
+
+Um den Abend etwas planen zu können wäre es super, wenn ihr euch möglichst früh anmelden könntet. Lasst uns wissen, falls ihr etwas zu essen (z.B. Kuchen) bringen möchtet und wie viel Erfahrung ihr bereits mit Rust habt.
+
+### English version:
+Two years ago, the Rust 1.0 release marked the beginning of Rust as a mature language. Let’s meet and celebrate this anniversary at Liip in Zurich on May 15th!
+
+We will split up into two workshop groups:
+
+
+* One for beginners with a short introduction into the language and the ecosystem in the beginning.
+* Another one for where we will take a look at argument parsing and network communication.
+Feel free to bring your laptop to hack on a project or find others to help with yours. After that everyone is welcome to stay around and eat pizza or cake.
+
+To plan this a little ahead, please RSVP early and let us know if you would like to bring something to eat and how much experience with Rust you already have.
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2017/04/25/zwei-jahre-stabil-rust/ Auf coredump.ch lesen

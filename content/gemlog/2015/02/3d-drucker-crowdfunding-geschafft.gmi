@@ -1,0 +1,57 @@
+# 3D Drucker Crowdfunding: Geschafft!
+
+Datum: 2015-02-28
+Autor: Danilo
+Kategorien: 3D Druck, Projekte, 3d printing, crowdfunding, ultimaker
+
+Yeah! Dank tatkräftiger Unterstützung von 32 Unterstützerinnen und Unterstützern haben wir unsere Crowdfunding-Aktion für die Beschaffung eines 3D-Druckers erfolgreich abgeschlossen!
+
+### Rückblick
+Kurzer Rückblick: Beginnend am 10. Januar haben wir während 30 Tagen auf Wemakeit Unterstützer gesucht, um einen Ultimaker für unseren Hackerspace kaufen zu können. Innerhalb von 5 Tagen haben wir das Mindestziel von 1’600 CHF erreicht, zum Schluss der Kampagne sind wir sogar bei 3’430 CHF angelangt! Unsere Erwartungen wurden damit klar übertroffen.
+
+Als Resultat konnten wir den letzten Tagen folgende Produkte bestellen:
+
+
+* Ein Ultimaker 2
+* Ein Filastruder zum Herstellen von eigenem Filament aus Pellets oder alten Plastikobjekten
+* Eine Kinect 2.0 und eine ReconstructMe Lizenz für 3D-Scanning Experimente
+Sowohl der Ultimaker 2 wie auch der Filastruder haben aktuell eine Lieferfrist von mehreren Wochen, deshalb könnte es noch einige Zeit dauern bis wir mit der Herstellung der Belohnungen beginnen können.
+
+### Danke!
+Vielen Dank an unsere drei Silber Sponsoren:
+
+
+* alike Sam Steiner
+=> /images/logo-alike-trans.png alike Sam Steiner
+* nxf.ch westermann
+=> /images/Logo-nxf_large.png nxf.ch westermann
+* das-g
+Ein grosses Dankeschön gebührt auch folgenden Personen, welche den erfolgreichen Abschluss der Kampagne gemeinsam möglich gemacht haben:
+
+
+* Tuxle
+* @tpreusse
+* AdiDoes
+* Ruth
+* Corsin Camichel
+* Daniel Zwirner
+* Sergio
+* Birkenstock Bicycles
+* Restaurant Mundartbeiz
+* Tobias Zehnder
+* Fabian Keller
+* rettichschnidi
+* Dieter Roduner
+* roger
+* tannerli
+* Jonas
+* Heiko Linke
+* …und 14 weitere Personen!
+(Da wir noch nicht von allen Unterstützern die entsprechenden Angaben erhalten haben, wird diese Liste laufend ergänzt.)
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2015/02/28/3d-drucker-crowdfunding-geschafft/ Auf coredump.ch lesen

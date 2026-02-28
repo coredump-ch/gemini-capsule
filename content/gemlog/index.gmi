@@ -1,0 +1,80 @@
+# Coredump Gemlog
+## Hacker- und Makerspace in Rapperswil-Jona
+
+Willkommen beim Coredump Blog im Gemini-Format.
+Dieser Gemlog kann von Gemini-Clients wie Lagrange abonniert werden.
+
+=> 2025/12/glasfaser-workshop.gmi 2025-12-30 - Glasfaser-Workshop
+=> 2025/11/king-of-the-desert-vi-finals-streamingost.gmi 2025-11-29 - King of the Desert VI Finals Streaming@OST
+=> 2025/11/3d-drucker-bei-der-kulturnacht-2025.gmi 2025-11-01 - 3D-Drucker bei der Kulturnacht 2025
+=> 2025/09/kernspeicher.gmi 2025-09-29 - Kernspeicher
+=> 2024/02/rueckblick-1-repair-cafe-rapperswil-jona.gmi 2024-02-26 - Rückblick 1. Repair Café Rapperswil-Jona
+=> 2024/01/projekt-seifenhalter.gmi 2024-01-03 - Projekt: Seifenhalter
+=> 2023/12/projekt-spulenaufbewahrung-unterfaeden.gmi 2023-12-26 - Projekt: Spulenaufbewahrung Unterfäden
+=> 2023/08/verbesserungstag-2023.gmi 2023-08-02 - Verbesserungstag 2023
+=> 2022/10/red-bull-wololo-legacy-2022-finals.gmi 2022-10-25 - Red Bull Wololo: Legacy 2022 Finals
+=> 2022/10/rueckblick-repair-day.gmi 2022-10-15 - Rückblick Repair Day
+=> 2022/10/coredump-repair-day-2022.gmi 2022-10-07 - Coredump Repair Day 2022
+=> 2022/01/hacker-und-makerspace-2022.gmi 2022-01-31 - Hacker- und Makerspace 2022
+=> 2021/11/king-of-the-desert-4-quarterfinals.gmi 2021-11-29 - King of the Desert 4 Quarterfinals
+=> 2021/07/lasercutter-im-coredump-teil-2-bestellung-und-liefer-odysee.gmi 2021-07-25 - Lasercutter im Coredump, Teil 2: Bestellung und Liefer-Odysee
+=> 2021/07/lasercutter-im-coredump-teil-1-intro.gmi 2021-07-15 - Lasercutter im Coredump, Teil 1: Intro
+=> 2020/10/ferienpass-2020.gmi 2020-10-15 - Ferienpass 2020
+=> 2020/10/king-of-the-desert-3-finals.gmi 2020-10-06 - King of the Desert 3 Finals
+=> 2020/08/ultimaker-2-repair.gmi 2020-08-24 - Ultimaker 2+ Repair
+=> 2020/08/red-bull-wololo-ii-finals.gmi 2020-08-18 - Red Bull Wololo II Finals
+=> 2020/01/lan-party-ruckblick.gmi 2020-01-12 - LAN-Party Rückblick
+=> 2019/12/lan-party-anno-2005.gmi 2019-12-22 - LAN-Party Anno 2005
+=> 2019/10/neue-nah-ecke.gmi 2019-10-19 - Neue Näh-Ecke
+=> 2019/10/age-of-empires-ii-lan.gmi 2019-10-14 - Age of Empires II LAN
+=> 2019/07/hackerspace-2019.gmi 2019-07-06 - Hackerspace 2019
+=> 2019/04/sponsor-vorstellung-zuehlke.gmi 2019-04-22 - Sponsor-Vorstellung: Zühlke
+=> 2018/12/ferienpass-2018.gmi 2018-12-31 - Ferienpass 2018
+=> 2018/09/ruckblick-eroffnungsfest.gmi 2018-09-17 - Rückblick Eröffnungsfest
+=> 2018/07/einladung-zum-eroffnungsfest-am-sa-8-august.gmi 2018-07-19 - Einladung zum Eröffnungsfest am Sa 18.8.
+=> 2018/06/verletzung-stimmgeheimnis-e-voting-st-gallen.gmi 2018-06-16 - Verletzung Stimmgeheimnis E-Voting SG
+=> 2018/04/neue-sitzecke-im-coredump.gmi 2018-04-25 - Neue Sitzecke im Coredump
+=> 2018/03/e-voting-in-rapperswil-jona.gmi 2018-03-02 - E-Voting in Rapperswil-Jona
+=> 2018/01/einzug-im-neuen-raum.gmi 2018-01-22 - Einzug im neuen Raum
+=> 2018/01/wand-bau-im-neuen-hackerspace.gmi 2018-01-19 - Wand-Bau im neuen Hackerspace
+=> 2018/01/neu-im-hackerspace-digital-mikroskop.gmi 2018-01-03 - Neu im Hackerspace: Digital-Mikroskop
+=> 2017/11/rapperswil-jona-kriegt-einen-makerspace.gmi 2017-11-05 - Rapperswil-Jona kriegt einen Makerspace!
+=> 2017/08/stickstoffglace-am-stadtfest.gmi 2017-08-17 - Stickstoffglace am Stadtfest
+=> 2017/08/zeteco-2017-ruckblick.gmi 2017-08-15 - ZeTeCo 2017 – Rückblick
+=> 2017/08/rustfest-eu-konferenz-30-september.gmi 2017-08-14 - RustFest.eu Konferenz 30. September
+=> 2017/07/understanding-the-tokio-reactor-core.gmi 2017-07-05 - Understanding the Tokio Reactor Core
+=> 2017/05/our-ttn-gateway-in-rapperswil-is-live.gmi 2017-05-17 - Our TTN Gateway in Rapperswil is Live!
+=> 2017/04/lorawan-868mhz-antenna-test-part-2.gmi 2017-04-30 - LoRaWAN 868MHz Antenna Test (Part 2/2)
+=> 2017/04/zwei-jahre-stabil-rust.gmi 2017-04-25 - Zwei Jahre stabil – Rust Jubiläum
+=> 2017/04/lorawan-868mhz-antenna-test-part-1.gmi 2017-04-13 - LoRaWAN 868MHz Antenna Test (Part 1/2)
+=> 2017/04/meine-tour-de-hackerspace.gmi 2017-04-10 - Meine “Tour de Hackerspace”
+=> 2017/01/rust-january-meetup.gmi 2017-01-21 - Rust January Meetup
+=> 2016/12/erste-versuche-mit-reflow-ofen.gmi 2016-12-12 - Erste Versuche mit Reflow-Ofen
+=> 2016/11/rust-servo-hackathon.gmi 2016-11-06 - Rust / Servo Hackathon
+=> 2016/11/ferienpass-2016.gmi 2016-11-01 - Ferienpass 2016
+=> 2016/10/coredump-vorstellung-hsr.gmi 2016-10-05 - Coredump Vorstellung @ HSR
+=> 2016/09/coredump-lightning-talks-hsr.gmi 2016-09-26 - Coredump Lightning Talks @ HSR
+=> 2016/06/fairphone-1-power-button-reparatur.gmi 2016-06-27 - Fairphone 1 Power-Button-Reparatur
+=> 2016/06/wir-sind-umgezogen.gmi 2016-06-06 - Wir sind umgezogen!
+=> 2016/05/ruckblick-fruhlingsfest.gmi 2016-05-16 - Rückblick Frühlingsfest
+=> 2016/04/coredump-am-fruhlingsfest.gmi 2016-04-27 - Coredump am Frühlingsfest
+=> 2016/04/news-2016.gmi 2016-04-07 - News 2016
+=> 2015/10/artikel-in-der-zurichsee-zeitung.gmi 2015-10-21 - Artikel in der Zürichsee-Zeitung
+=> 2015/10/photogrammetrie-evaluation.gmi 2015-10-14 - 3D-Rekonstruktion Schloss Rapperswil und Photogrammetrie-Software-Evaluation
+=> 2015/10/untervereinsvorstellung-hsr.gmi 2015-10-01 - Untervereinsvorstellung HSR
+=> 2015/05/der-hackerspace-2015.gmi 2015-05-25 - Der Hackerspace 2015
+=> 2015/03/der-eiffelturm-aus-dem-3d-drucker.gmi 2015-03-21 - Der Eiffelturm aus dem 3D-Drucker
+=> 2015/02/3d-drucker-crowdfunding-geschafft.gmi 2015-02-28 - 3D Drucker Crowdfunding: Geschafft!
+=> 2015/01/ein-3d-drucker-fur-rapperswil-jona.gmi 2015-01-10 - Ein 3D-Drucker für Rapperswil-Jona!
+=> 2014/11/ferienpass-im-hackerspace.gmi 2014-11-10 - Ferienpass im Hackerspace
+=> 2014/11/der-c64-nackt.gmi 2014-11-03 - Der C64 Nackt
+=> 2014/03/linedump-at-hsr.gmi 2014-03-31 - Linedump at HSR
+=> 2014/01/diy-canon-ir-fernausloser.gmi 2014-01-04 - DIY Canon IR Fernauslöser
+=> 2013/11/fotos-aus-dem-hackerspace.gmi 2013-11-19 - Fotos aus dem Hackerspace
+=> 2013/11/coredump-wallpapers.gmi 2013-11-08 - Wallpapers
+=> 2013/10/unsere-sponsoren.gmi 2013-10-20 - Unsere Sponsoren
+=> 2013/10/der-hackerspace.gmi 2013-10-12 - Der Hackerspace
+=> 2013/10/ein-hackerspace-fuer-rapperswil.gmi 2013-10-11 - Ein Hackerspace für Rapperswil!
+
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/blog/ Blog auf coredump.ch

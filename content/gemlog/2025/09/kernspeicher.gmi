@@ -1,0 +1,34 @@
+# Kernspeicher
+
+Datum: 2025-09-29
+Autor: Peter
+Kategorien: Bildung
+
+Seit diesem Sommer hängt bei uns im Coredump ein richtiger Kernspeicher an der Wand. Eine Technologie, die indirekt für unseren Vereinsnamen verantwortlich ist. (Herzlichen Dank Markus für das geschätzte Geschenk!)
+
+=> /images/image.png
+Der Kernspeicher ist eine unglaublich unintuitive Technologie, um ein wenig Information zu speichern, aber er ist um Welten besser als Papier-Lochkarten oder Kathodenstrahlröhren. Um nicht-destruktiv zu lesen, muss man raten, schreiben, zuhören, schreiben, zuhören (oder einfach nur schreiben und zuhören, falls man korrekt geraten hatte).
+
+Kernspeicher wurde zwischen 1955 und 1975 eingesetzt, bis die Halbleiterindustrie endlich RAM und nochmals 10 Jahre später Flash-EEPROM herstellen konnte.
+
+Mit der Kernspeicher-Technologie hat es die NASA auf den Mond geschafft, und schau an, wo wir heute sind. Hier ist eine moderne microSD-Karte, die 3665038933-Mal mehr Informationen halten kann als der Kernspeicher…
+
+=> /images/sandisk-1-edited.webp
+…und trotzdem eiern heute ein paar Mondsonden beim Landen herum, wie tote Fliegen im Vakuum. Sogar der QR-Code, den wir neben dem Kernspeicher aufgehängt haben, enthält mehr Daten als auf dem ganzen Kernspeicher zu speichern sind. Vielleicht ist Fortschritt anders zu messen als nur mit einer grossen Zahl.
+
+Jeder Ferritkern kann ein einziges Bit speichern. Hier lade ich dich ein, alle Kerne in diesem Speicher zu zählen. Das Problem, dass man die gespeicherte Information nicht mit blossem Auge lesen kann, konnte durch den Kernspeicher und alle neumodischen Speichertechnologien nicht mehr gelöst werden.
+
+Wir haben uns entschieden, den Kernspeicher als Kunstwerk zweckzuentfremden, weil niemand Lust hatte, die gebrochenen Kupferfäden von Hand neu einzufädeln. Das war damals bei der Herstellung mühsam und ist heute nicht besser. Für jeden, der denkt er hätte ruhige Hände, gibt es daneben ein Ferritkern und Draht, der vier mal durch den Kern gefädelt werden sollte.
+
+Der Rahmen ist aus 5 mm Polycarbonat gebastelt. Jeder, der sich über die Verwendung von zu kleinem Rohmaterial aufregt, darf gerne einen neuen Rahmen herstellen 😉
+Ein Core Dump ist mehr als nur ein Fehlerprotokoll. Er öffnet ein Fenster in das Leben und besonders das unzeitige Sterben der Programme. Im Makerspace Coredump nutzen wir solche raffinierte Techniken wie kaputt machen und Überbleibsen anschauen, um Projekte zu verstehen, zu reparieren und weiterzuentwickeln. Jeder Core Dump ist eine Chance, zu lernen, besonders dieser hier.
+
+(Headerbild: CC BY-SA Bubba73 (Jud McCranie))
+
+=> /https://commons.wikimedia.org/wiki/File:Magnetic-core_memory_close-up.JPG CC BY-SA Bubba73 (Jud McCranie)
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2025/09/29/kernspeicher/ Auf coredump.ch lesen

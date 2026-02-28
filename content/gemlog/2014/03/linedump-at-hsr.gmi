@@ -1,0 +1,96 @@
+# Linedump at HSR
+
+Datum: 2014-03-31
+Autor: Danilo
+Kategorien: Projekte, bar, drucker, hsr, installation, lx300, medienkunst, projekte
+
+Im Februar fand an der Hochschule für Technik in Rapperswil die Welcome Back Bar statt. Wir waren mit unserem LX300+ Nadeldrucker und ca. 500 Blatt Endlospapier mit dabei.
+
+Nadeldrucker sind vermutlich heutzutage nicht mehr jedem bekannt. Um Wikipedia zu zitieren: “Ein Nadeldrucker ist ein Computerdrucker, der beim Druckvorgang eine Reihe einzeln angesteuerter Nadeln auf ein Farbband schlägt und dadurch die andere Seite des Farbbands jeweils punktuell mit dem Papier in Kontakt bringt. Ein gedrucktes Zeichen besteht jeweils aus einer Vielzahl solcher Farbpunkte.”
+
+Unser Modell, der Epson LX300+, wird (in einer neueren Version) bis heute noch verkauft. Das Beste an dem Gerät ist, dass man keinen komplizierten Druckertreiber benötigt; man kann einfach CP850-codierten Text über die Serielle Schnittstelle senden und der Drucker druckt. Im einfachsten Fall schickt man Text direkt aus dem Terminal an das Serial-Device:
+
+```
+echo "Hello World!" > /dev/ttyS0
+```
+
+### Code
+In Python sieht das Ganze folgendermassen aus:
+
+```
+from serial import Serial
+
+# Create connection
+ser = Serial(port='/dev/ttyS0', baudrate=19200)
+
+# Write text to printer
+text = 'Hello World!'
+ser.write(text.encode('cp850', 'replace'))
+```
+
+Um sicher zu gehen dass der Drucker sich im Korrekten Modus befindet, sollte man ihn in den ersten 10 Sekunden nach dem Einschalten initialisieren:
+
+```
+# Initialize printer
+esc = chr(27)
+init = esc + b'@'
+select = chr(17)
+ser.write(init + select)
+```
+
+Erste Tests:
+
+Ein einfaches Python-Modul mit diesem Code findet sich auf Github.
+
+### Die Idee
+Um den Nadeldrucker an der Bar zu einem “Gruppenerlebnis” zu machen, stellten wir ihn auf einen Tisch und schrieben eine kleine Webapp, die es ermöglichte via Smartphone einen beliebigen Text an den Drucker zu senden.
+
+Als Webframework kam Flask zum Einsatz. Nachfolgend der Code, um die Formulareingabe zu verarbeiten:
+
+```
+from flask import Flask, render_template, request, redirect
+import lx300
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/print', methods=['POST'])
+def print():
+    text = request.form['text']
+    app.printer.write(text)
+    return redirect('/')
+
+if __name__ == '__main__':
+    app.debug = True
+    app.printer = lx300.LX300()
+    app.run()
+```
+
+### Unser Setup
+Als Server für die Webapp und für die Drucker-Ansteuerung nutzten wir ein Raspberry Pi. Da wir keinen HDMI-fähigen Monitor zur Hand hatten, mussten wir auf einen alten Psion als Serial-Console ausweichen. Das funktionierte nicht schlecht, aber der Fakt dass man auf dem Ding kein Ctrl-C eingeben kann, erwies sich mehrmals als Falle, zB wenn man den Webserver nicht in den Hintergrund forkt und ihn somit nicht mehr stoppen kann…
+
+### Gallerie
+Und so hat das Ganze ausgesehen:
+
+=> /images/2014-02-20-18.47.13.jpg
+=> /images/2014-02-20-21.26.04.jpg
+=> /images/2014-02-20-22.40.47.jpg
+=> /images/2014-02-20-21.04.45.jpg
+=> /images/2014-02-20-20.06.58.jpg
+=> /images/2014-02-20-21.04.41.jpg
+### Fazit
+Der Drucker erfreute sich recht grosser Beliebtheit. Es dauerte nicht lange bis neben Testkommentaren und Grüssen von der Toilette auch ASCII Art ausgedruckt wurde (allerdings nicht immer ganz jugendfrei). Auch ein Prüfungsreglement der Landschaftsarchitekten hats auf das Papier geschafft…
+
+Auch einen wüsten Papierstau gabs, als jemand auf die glorreiche Idee kam, das Ende der Papierrolle wieder am Drucker einzuführen…
+
+Das Ziel – kreatives Chaos mit alter Technik – wurde also erreicht 🙂
+
+
+---
+
+=> /gemlog/index.gmi Zurück zum Gemlog
+=> /index.gmi Zurück zur Startseite
+=> https://www.coredump.ch/2014/03/31/linedump-at-hsr/ Auf coredump.ch lesen
