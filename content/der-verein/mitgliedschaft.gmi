@@ -8,6 +8,6 @@ Als Mitglieder in unserem Verein ist jeder willkommen, der sich für kreativen U
 Die Mitgliederbeiträge werden benötigt um die Kosten für den Raum und die Einrichtung zu decken. Es gibt verschiedene Mitgliedschafts-Pakete:
 
 ## Gönnerschaft / Sponsoring
-Falls du kein Aktivmitglied werden möchtest, aber uns trotzdem unterstützen möchtest, könnte eine Gönnerschaft oder ein Sponsoring interessant für dich sein: https://www.coredump.ch/der-verein/gonner-und-sponsoren/
+Falls du kein Aktivmitglied werden möchtest, aber uns trotzdem unterstützen möchtest, könnte eine Gönnerschaft oder ein Sponsoring interessant für dich sein:
 
-=> /der-verein/gonner-und-sponsoren.gmi https://www.coredump.ch/der-verein/gonner-und-sponsoren/
+=> /der-verein/gonner-und-sponsoren.gmi

@@ -422,8 +422,19 @@ def convert_to_gemini(url, target_filename, pages_map):
                 # Handle <br> tags within paragraphs
                 for br in element.find_all("br"):
                     br.replace_with("\n")
-                # Clean each line individually to preserve line breaks
-                lines = element.get_text().split("\n")
+                # Build paragraph text, skipping inline <a> whose text is itself a URL
+                parts = []
+                for node in element.children:
+                    node_name = getattr(node, "name", None)
+                    if node_name == "a":
+                        a_text = node.get_text()
+                        if not a_text.startswith(("http://", "https://")):
+                            parts.append(a_text)
+                    elif node_name:
+                        parts.append(node.get_text())
+                    else:
+                        parts.append(str(node))
+                lines = "".join(parts).split("\n")
                 for line in lines:
                     cleaned = clean_text(line)
                     if cleaned:
@@ -477,8 +488,11 @@ def convert_to_gemini(url, target_filename, pages_map):
                                 link_target = "/" + page_filename
                                 break
 
-                        if text:
+                        # If the link text is itself a URL, omit it to avoid redundancy
+                        if text and not text.startswith(("http://", "https://")):
                             gmi_lines.append(f"=> {link_target} {text}")
+                        else:
+                            gmi_lines.append(f"=> {link_target}")
 
     # Fallback if no specific content found
     if len(gmi_lines) <= 2:
