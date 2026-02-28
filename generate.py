@@ -2,7 +2,6 @@ import os
 import re
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime
 from email.utils import parsedate_to_datetime
 
 import requests
@@ -189,10 +188,8 @@ def convert_blog_post_to_gemini(post, pages_map):
     gmi_lines.append("")
 
     # Navigation links back
-    depth = len(target_filename.split("/"))  # gemlog/YYYY/MM/slug.gmi -> 4 parts
-    back_prefix = "../" * (depth - 1)
-    gmi_lines.append(f"=> /gemlog/index.gmi Zurück zum Gemlog")
-    gmi_lines.append(f"=> /index.gmi Zurück zur Startseite")
+    gmi_lines.append("=> /gemlog/index.gmi Zurück zum Gemlog")
+    gmi_lines.append("=> /index.gmi Zurück zur Startseite")
     gmi_lines.append(f"=> {url} Auf coredump.ch lesen")
 
     return "\n".join(gmi_lines)
